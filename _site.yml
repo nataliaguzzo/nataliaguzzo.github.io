@@ -10,5 +10,7 @@ output:
   html_document:
       theme: flatly
       highligh: tango
+      include:
+          after_body: footer.html
 output_dir: "."
   
