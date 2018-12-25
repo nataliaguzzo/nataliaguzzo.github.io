@@ -1,37 +1,9 @@
 ## Welcome!
 
-You can use the [editor on GitHub](https://github.com/nataliaguzzo/nataliaguzzo.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am a Postdoctoral Researcher in the Department of Linguistics at McGill University. I am affiliated to the Second Language Acquisition Group, and I am part of the project ‘Phonological effects on grammatical representation and processing’ (PIs: Heather Goad and Lydia White). My PhD is from Universidade Federal do Rio Grande do Sul (UFRGS, Brazil).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My research programme investigates issues at the phonology-syntax interface, such as (i) the ways in which the application of phonological processes is constrained by morphosyntactic structure, (ii) how prosodic boundaries are phonetically manifested, and (iii) how prosodic constituency can vary. I have explored these issues from the perspective of linguistic theory, language variation and contact, and second language (L2) acquisition. My research focuses primarily on Romance languages.
 
-### Markdown
+My dissertation argues for a reconciliation between recursion in the prosodic hierarchy and the existence of a prosodic domain between the phonological word and the phonological phrase (the Composite Group; Vogel, 2009), based on evidence from clitic structures and compounds in Brazilian Portuguese.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nataliaguzzo/nataliaguzzo.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You can email me at [natalia.brambattiguzzo@mcgill.ca](mailto: natalia.brambattiguzzo@mcgill.ca).
