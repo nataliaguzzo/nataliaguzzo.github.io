@@ -15,10 +15,6 @@ My dissertation argues for a reconciliation between recursion in the prosodic hi
 
 You can email me at natalia.brambattiguzzo@mcgill.ca.
 
-```{r}
 
-mean(c(5, 10, 15))
-
-```
 
 </div>
