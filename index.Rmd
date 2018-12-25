@@ -3,9 +3,22 @@ title: "Welcome"
 output: html_document
 ---
 
+<style>
+
+figure {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 20px;
+    margin-right: 0px;
+    float: right;
+}
+
+</style>
+
 <div align = "justify">
 
-I am a Postdoctoral Researcher in the Department of Linguistics at McGill University. I am affiliated to the Second Language Acquisition Group, and I am part of the project ‘Phonological effects on grammatical representation and processing’ (PIs: Heather Goad and Lydia White). My PhD is from Universidade Federal do Rio Grande do Sul (UFRGS, Brazil).
+<figure><img src = "photo.jpg" width = "170px"></figure>I am a Postdoctoral Researcher in the Department of Linguistics at McGill University. I am affiliated to the Second Language Acquisition Group, and I am part of the project ‘Phonological effects on grammatical representation and processing’ (PIs: Heather Goad and Lydia White). My PhD is from Universidade Federal do Rio Grande do Sul (UFRGS, Brazil).
 
 My research programme investigates issues at the phonology-syntax interface, such as (i) the ways in which the application of phonological processes is constrained by morphosyntactic structure, (ii) how prosodic boundaries are phonetically manifested, and (iii) how prosodic constituency can vary. I have explored these issues from the perspective of linguistic theory, language variation and contact, and second language (L2) acquisition. My research focuses primarily on Romance languages.
 
