@@ -12,7 +12,7 @@ My full CV is [**here**](https://www.dropbox.com/s/fsrcr9odbwob8g6/cv.pdf?raw=1)
 
 
 
-## Education
+### Education
 
 <div align = "justify">
 
@@ -32,8 +32,11 @@ My full CV is [**here**](https://www.dropbox.com/s/fsrcr9odbwob8g6/cv.pdf?raw=1)
 - Licenciatura em Letras (Portuguese/English languages and literature)
     * Universidade de Caxias do Sul (2004 – 2008)
 
+</div>
 
-# Recent papers
+### Recent papers
+
+<div align = "justify">
 
 - Guzzo, Natália Brambatti. 2018. The prosodic representation of composite structures in Brazilian Portuguese. Journal of Linguistics 54(4): 683–720. [paper]
 
@@ -59,7 +62,7 @@ My full CV is [**here**](https://www.dropbox.com/s/fsrcr9odbwob8g6/cv.pdf?raw=1)
 
 ---
 
-## Recent and upcoming conference presentations
+### Recent and upcoming conference presentations
 
 <div align = "justify">
 
