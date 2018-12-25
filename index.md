@@ -6,4 +6,4 @@ My research programme investigates issues at the phonology-syntax interface, suc
 
 My dissertation argues for a reconciliation between recursion in the prosodic hierarchy and the existence of a prosodic domain between the phonological word and the phonological phrase (the Composite Group; Vogel, 2009), based on evidence from clitic structures and compounds in Brazilian Portuguese.
 
-You can email me at [natalia.brambattiguzzo@mcgill.ca](mailto: natalia.brambattiguzzo@mcgill.ca).
+You can email me at natalia.brambattiguzzo@mcgill.ca. 
