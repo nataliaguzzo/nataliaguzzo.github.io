@@ -1,7 +1,5 @@
 ---
 title: "Welcome"
-author: ""
-date: ""
 output: html_document
 ---
 
