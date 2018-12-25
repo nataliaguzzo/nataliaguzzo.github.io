@@ -6,4 +6,9 @@ navbar:
       href: index.html
     - text: "Research"
       href: research.html
+output:
+  html_document:
+      theme: readable
+      highligh: tango
+output_dir: "."
   

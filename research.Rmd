@@ -1,7 +1,5 @@
 ---
 title: "CV & Research"
-author: ""
-date: ""
 output: html_document
 ---
 
