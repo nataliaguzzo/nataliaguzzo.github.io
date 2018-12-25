@@ -1,0 +1,24 @@
+---
+title: "Welcome"
+author: ""
+date: ""
+output: html_document
+---
+
+<div align = "justify">
+
+I am a Postdoctoral Researcher in the Department of Linguistics at McGill University. I am affiliated to the Second Language Acquisition Group, and I am part of the project ‘Phonological effects on grammatical representation and processing’ (PIs: Heather Goad and Lydia White). My PhD is from Universidade Federal do Rio Grande do Sul (UFRGS, Brazil).
+
+My research programme investigates issues at the phonology-syntax interface, such as (i) the ways in which the application of phonological processes is constrained by morphosyntactic structure, (ii) how prosodic boundaries are phonetically manifested, and (iii) how prosodic constituency can vary. I have explored these issues from the perspective of linguistic theory, language variation and contact, and second language (L2) acquisition. My research focuses primarily on Romance languages.
+
+My dissertation argues for a reconciliation between recursion in the prosodic hierarchy and the existence of a prosodic domain between the phonological word and the phonological phrase (the Composite Group; Vogel, 2009), based on evidence from clitic structures and compounds in Brazilian Portuguese.
+
+You can email me at natalia.brambattiguzzo@mcgill.ca.
+
+```{r}
+
+mean(c(5, 10, 15))
+
+```
+
+</div>

@@ -1,0 +1,9 @@
+name: "Natália Brambatti Guzzo"
+navbar:
+  title: "Natália Brambatti GUZZO"
+  left: 
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+  
