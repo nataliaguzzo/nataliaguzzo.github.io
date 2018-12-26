@@ -14,7 +14,7 @@ My full CV is [**here**](https://www.dropbox.com/s/fsrcr9odbwob8g6/cv.pdf?raw=1)
 
 ### Education
 
-<div align = "justify">
+<!-- <div align = "justify"> -->
 
 - PhD in Linguistics (Letras – Language Studies, Linguistic Theory and Analysis)
     * Universidade Federal do Rio Grande do Sul (2011 – 2015)
@@ -32,11 +32,11 @@ My full CV is [**here**](https://www.dropbox.com/s/fsrcr9odbwob8g6/cv.pdf?raw=1)
 - Licenciatura em Letras (Portuguese/English languages and literature)
     * Universidade de Caxias do Sul (2004 – 2008)
 
-</div>
+<!-- </div> -->
 
 ### Recent papers
 
-<div align = "justify">
+<!-- <div align = "justify"> -->
 
 - Guzzo, Natália Brambatti. 2018. The prosodic representation of composite structures in Brazilian Portuguese. Journal of Linguistics 54(4): 683–720. [paper]
 
@@ -58,13 +58,13 @@ My full CV is [**here**](https://www.dropbox.com/s/fsrcr9odbwob8g6/cv.pdf?raw=1)
 
 - Garcia, Guilherme D. and Natália Brambatti Guzzo. 2017. The acquisition of English stress by Québec francophones. In Mehmet Yavas, Margaret Kehoe and Walcir Cardoso (Eds.) Romance-Germanic Bilingual Phonology, pp. 200–221. Sheffield: Equinox.
 
-</div>
+<!-- </div> -->
 
 ---
 
 ### Recent and upcoming conference presentations
 
-<div align = "justify">
+<!-- <div align = "justify"> -->
 
 - Goad, Heather, Lydia White, Guilherme D. Garcia, Natália Brambatti Guzzo, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. 2018. Effects of prosody on L2 interpretation of Italian pronouns. Second Language Research Forum (SLRF), Université du Québec à Montréal, Montreal, Canada, Oct 26-28. [talk]
 
@@ -102,4 +102,4 @@ My full CV is [**here**](https://www.dropbox.com/s/fsrcr9odbwob8g6/cv.pdf?raw=1)
 
 *(See older papers and presentations in my CV.)*
 
-</div>
+<!-- </div> -->

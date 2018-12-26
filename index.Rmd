@@ -16,7 +16,7 @@ figure {
 
 </style>
 
-<div align = "justify">
+<!-- <div align = "justify"> -->
 
 <figure><img src = "photo.jpg" width = "170px"></figure>I am a Postdoctoral Researcher in the Department of Linguistics at McGill University. I am affiliated to the Second Language Acquisition Group, and I am part of the project ‘Phonological effects on grammatical representation and processing’ (PIs: Heather Goad and Lydia White). My PhD is from Universidade Federal do Rio Grande do Sul (UFRGS, Brazil).
 
@@ -28,4 +28,4 @@ You can email me at natalia.brambattiguzzo@mcgill.ca.
 
 
 
-</div>
+<!-- </div> -->
