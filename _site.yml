@@ -4,13 +4,18 @@ navbar:
   left: 
     - text: "Home"
       href: index.html
-    - text: "Research"
-      href: research.html
+    - text: "CV"
+      href: CV.html
+    - text: "Publications"
+      href: publications.html
+  
 output:
   html_document:
       theme: flatly
-      highligh: tango
+      css: styles.css
+      highlight: tango
       include:
+          in_header: header.html
           after_body: footer.html
 output_dir: "."
   

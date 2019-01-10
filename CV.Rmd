@@ -1,0 +1,51 @@
+---
+title: "CV"
+output: html_document
+---
+
+<br>
+
+<div align = "right">
+
+My full CV is [**here**](https://www.dropbox.com/s/fsrcr9odbwob8g6/cv.pdf?raw=1).
+
+</div>
+
+
+
+### Education
+
+<!-- <div align = "justify"> -->
+
+- PhD in Linguistics (Letras – Language Studies, Linguistic Theory and Analysis)
+    * Universidade Federal do Rio Grande do Sul (2011 – 2015)
+
+- Graduate Research Trainee
+    * McGill University (2014)
+
+- Visiting researcher
+    * University of Delaware (2013)
+
+- MA in Language, Culture and Regionality
+    * Universidade de Caxias do Sul (2008 – 2010)
+
+- Licenciatura em Letras (Portuguese/English languages and literature)
+    * Universidade de Caxias do Sul (2004 – 2008)
+
+<!-- </div> -->
+
+### Employment
+
+- 2018 - 2019: Postdoctoral Researcher
+    * Department of Linguistics, McGill University
+
+- 2018 (Fall): Lecturer
+    * Department of Linguistics, McGill University
+  
+- 2015-2017: Postdoctoral Research Assistant
+    * Department of Linguistics, McGill University
+
+- 2017 (Fall): Chargée de cours (lecturer)
+    * Départment de linguistique, Université du Québec à Montréal
+
+
