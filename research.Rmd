@@ -1,0 +1,90 @@
+---
+title: "Research"
+output: html_document
+---
+
+<br>
+
+### Ongoing projects
+
+<!-- <div align = "justify"> -->
+
+#### *1. Bilingual acquisition of stress patterns (2018 -- )*
+
+In collaboration with Heather Goad, I am examining whether children acquiring two languages with distinct representations for word-level stress (such as French and English) are able to differentiate between the two language systems. We hypothesize that, in this case, two patterns might be observed: prosodic transfer and prosodic structure blend (one of the systems is imposed on top of the other one).
+
+<br>
+
+#### *2. Prosodic representations in a situation of language contact (2018 -- )*
+
+I am investigating how language contact affects speakers' prosodic representation through an examination of contact between Brazilian Portuguese (BP) and Veneto in a region of southern Brazil known as the Italian Immigration Area (IIA). At the moment, I am examining the phonological behaviour of diminutive constructions in IIA-BP -- they variably exhibit vowel raising, which is disallowed in standard Brazilian Portuguese. I hypothesize that transfer of prosodic structure from Veneto is what allows the application of raising in such constructions in IIA-BP.
+
+*Output:*
+
+- **Guzzo, Natália Brambatti**. (2018). Language contact determines prosodic representation and variation. 92nd Annual Meeting of the Linguistic Society of America (LSA), Salt Lake City (UT), USA, Jan 4-8. [[poster](materials/lsa2018.pdf)]
+
+<br>
+
+#### *3. Indirect evidence for prosodic constituency (2016 -- )*
+
+In collaboration with Heather Goad and Guilherme D. Garcia, I am investigating whether prosodic constituents can be identified based on indirect phonological evidence. We are focusing on word-internal constituency in Québec French (QF), a language for which the existence of foot structure is disputed, since it lacks the typical acoustic signatures of stress. We are testing whether foot structure in QF can be identified on the basis of weakening segmental processes such as variable high vowel deletion. Our hypothesis is that, if deletion is sensitive to rhythm, it should be preferred on weak positions within the (iambic) foot. We are currently testing native speakers' and L2 learners' preferences with regard to patterns of high vowel deletion in real and nonce QF words.
+
+*Output:*
+
+- **Guzzo, Natália Brambatti**, Heather Goad and Guilherme D. Garcia. 2018. What motivates high vowel deletion in Québec French: Foot structure or tonal profile? *Proceedings of the 92nd Annual Meeting of the Linguistic Society of America*. [[paper](https://doi.org/10.3765/plsa.v3i1.4306)]
+
+- Garcia, Guilherme D., Heather Goad and **Natália Brambatti Guzzo**. 2017. Footing is not always about stress: Formalizing variable high vowel deletion in Québec French. *Proceedings of 2016 Annual Meeting on Phonology (AMP)*. [[paper](http://dx.doi.org/10.3765/amp.v4i0.3991)]
+
+- Garcia, Guilherme D., Heather Goad and **Natália Brambatti Guzzo**. 2017. L2 acquisition of high vowel deletion in Québec French. *Proceedings of the 41st Boston University Conference on Language Development (BUCLD)*. [[paper](http://www.lingref.com/bucld/41/BUCLD41-22.pdf)]
+
+<br>
+
+#### *4. Effects of prosody on sentence interpretation (2016 -- )*
+
+In both joint and single-authored research, I am investigating how prosodic cues (such as pauses, changes in pitch, stress, and constituent size) impact native speakers' and learners' interpretations of ambiguous sentences. I have so far worked on ambiguous sentences involving depictive predicates in Brazilian Portuguese, relative clauses in English, and anaphoric pronouns in Italian.
+
+*Output:*
+
+- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. submitted. Parsing ambiguous relative clauses in L2 English.
+
+- **Guzzo, Natália Brambatti** and Heather Goad. 2017. Overriding default interpretations through prosody: Depictive predicates in Brazilian Portuguese. *Proceedings of the 91st Annual Meeting of the Linguistic Society of America*. [[paper](http://dx.doi.org/10.3765/plsa.v2i0.4077)]
+
+- White, Lydia, Heather Goad, Jiajia Su, Liz Smeets, Marzieh Mortazavinia, Guilherme D. Garcia and **Natália Brambatti Guzzo**. 2017. Prosodic effects on pronoun interpretation in Italian. *Proceedings of the 41st Boston University Conference on Language Development (BUCLD)*. [[paper](http://www.lingref.com/bucld/41/BUCLD41-60.pdf)]
+
+
+*Related work:*
+
+- Slabakova, Roumyana, Lydia White and **Natália Brambatti Guzzo**. 2017. Pronoun interpretation in the second language: Effects of computational complexity. *Frontiers in Psychology* 8: 1–12. [[paper](https://doi.org/10.3389/fpsyg.2017.01236)]
+
+
+<!-- </div> -->
+<br>
+
+---
+
+### Past projects
+
+In research stemming from my dissertation, I examined how clitics and compounds in Brazilian Portuguese (BP) are mapped into prosodic domains. The phonological behaviour of certain clitics and compounds in BP supports two assumptions about prosodic structure which had previously been considered as mutually exclusive: (a) the idea that there is a specific prosodic domain for the representation of composite structures (the composite group; Vogel, 2009), and (b) the idea that prosodic domains can be recursive (e.g., Inkelas, 1990; Selkirk, 1996).  
+
+
+*Output:*
+
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. submitted. Phonological variation and prosodic representation. 
+
+- **Guzzo, Natália Brambatti**. 2018. The prosodic representation of composite structures in Brazilian Portuguese. *Journal of Linguistics* 54(4): 683–720. [[paper](http://dx.doi.org/10.1017/S0022226718000099)]
+
+- **Guzzo, Natália Brambatti**. 2017. Recursion in Brazilian Portuguese complex compounds. In Ruth Lopes, Juanito Ornelas de Avelar and Sonia Cyrino (Eds.) *Romance Languages and Linguistic Theory 12. Selected papers from the 45th Linguistic Symposium on Romance Languages (LSRL)*, pp. 97–110. Amsterdam: John Benjamins. [[link](https://benjamins.com/catalog/rllt.12)]
+
+<!-- <div align = "justify"> -->
+
+<br>
+
+---
+
+### Other projects
+
+See my CV for publications related to other research projects.
+
+<br>
+
+<!-- </div> -->
