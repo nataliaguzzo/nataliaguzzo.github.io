@@ -8,6 +8,8 @@ navbar:
       href: CV.html
     - text: "Publications"
       href: publications.html
+    - text: "Research"
+      href: research.html
   
 output:
   html_document:

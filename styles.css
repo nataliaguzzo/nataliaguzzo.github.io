@@ -3,3 +3,8 @@ body{
   
   font-size: 13pt;
 }
+
+
+a:link {
+  color: #0F8727;
+}

@@ -11,7 +11,7 @@ output: html_document
 
 #### *1. Bilingual acquisition of stress patterns (2018 -- )*
 
-In collaboration with Heather Goad, I am examining whether children acquiring two languages with distinct representations for word-level stress (such as French and English) are able to differentiate between the two language systems. We hypothesize that, in this case, two patterns might be observed: prosodic transfer and prosodic structure blend (one of the systems is imposed on top of the other one).
+In collaboration with <a href="http://people.linguistics.mcgill.ca/~heather.goad/" target="_blank">Heather Goad</a> (McGill), I am examining whether children acquiring two languages with distinct representations for word-level stress (such as French and English) are able to differentiate between the two systems. We hypothesize that, in this case, two patterns might be observed: prosodic transfer and prosodic structure blend (one of the systems is imposed on top of the other one).
 
 <br>
 
@@ -27,7 +27,7 @@ I am investigating how language contact affects speakers' prosodic representatio
 
 #### *3. Indirect evidence for prosodic constituency (2016 -- )*
 
-In collaboration with Heather Goad and Guilherme D. Garcia, I am investigating whether prosodic constituents can be identified based on indirect phonological evidence. We are focusing on word-internal constituency in Québec French (QF), a language for which the existence of foot structure is disputed, since it lacks the typical acoustic signatures of stress. We are testing whether foot structure in QF can be identified on the basis of weakening segmental processes such as variable high vowel deletion. Our hypothesis is that, if deletion is sensitive to rhythm, it should be preferred on weak positions within the (iambic) foot. We are currently testing native speakers' and L2 learners' preferences with regard to patterns of high vowel deletion in real and nonce QF words.
+In collaboration with Heather Goad and <a href="https://guilhermegarcia.github.io" target="_blank">Guilherme D. Garcia</a> (Ball State), I am investigating whether prosodic constituents can be identified based on indirect phonological evidence. We are focusing on word-internal constituency in Québec French (QF), a language for which the existence of foot structure is disputed, since it lacks the typical acoustic signatures of stress. We are testing whether foot structure in QF can be identified on the basis of weakening segmental processes such as variable high vowel deletion. Our hypothesis is that, if deletion is sensitive to rhythm, it should be preferred on weak positions within the (iambic) foot. We are currently testing native speakers' and L2 learners' preferences with regard to patterns of high vowel deletion in real and nonce QF words.
 
 *Output:*
 
@@ -83,7 +83,7 @@ In research stemming from my dissertation, I examined how clitics and compounds 
 
 ### Other projects
 
-See my CV for publications related to other research projects.
+See [my CV](https://www.dropbox.com/s/fsrcr9odbwob8g6/cv.pdf?raw=1) for publications related to other research projects.
 
 <br>
 
