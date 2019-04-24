@@ -22,7 +22,7 @@ figure {
 
 My research programme investigates issues at the phonology-syntax interface, such as (i) the ways in which the application of phonological processes is constrained by prosodic structure, (ii) the acquisition of prosodic structures, and (iii) how bilingualism, language contact and language variation affect speakers' prosodic representations. My research focuses particularly on Romance languages.
 
-This Summer (2019) I'll be teaching LING210 -- Introduction to Speech Science at McGill.
+This Summer (2019), I'll be teaching LING210 -- Introduction to Speech Science at McGill.
 
 You can email me at natalia.brambattiguzzo@mcgill.ca.
 
