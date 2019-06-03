@@ -9,6 +9,8 @@ output: html_document
 
 <!-- <div align = "justify"> -->
 
+- **Guzzo, Natália Brambatti**. 2019. Native and non-native patterns in conflict: Lexicon vs. grammar in loanword adaptation in Brazilian Portuguese. *Supplemental Proceedings of the Annual Meeting on Phonology (AMP) 2018*. [[paper](https://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/4488)]
+
 - **Guzzo, Natália Brambatti**. 2018. The prosodic representation of composite structures in Brazilian Portuguese. *Journal of Linguistics* 54(4): 683–720. [[paper](http://dx.doi.org/10.1017/S0022226718000099)]
 
 - **Guzzo, Natália Brambatti**, Heather Goad and Guilherme D. Garcia. 2018. What motivates high vowel deletion in Québec French: Foot structure or tonal profile? *Proceedings of the 92nd Annual Meeting of the Linguistic Society of America*. [[paper](https://doi.org/10.3765/plsa.v3i1.4306)]
