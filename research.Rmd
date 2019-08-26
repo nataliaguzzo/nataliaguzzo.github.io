@@ -11,7 +11,7 @@ output: html_document
 
 #### *1. Bilingual acquisition of stress patterns (2018 -- )*
 
-In collaboration with <a href="http://people.linguistics.mcgill.ca/~heather.goad/" target="_blank">Heather Goad</a> (McGill), I am examining whether children acquiring two languages with distinct representations for word-level stress (such as French and English) are able to differentiate between the two systems. We hypothesize that, in this case, two patterns might be observed: prosodic transfer and prosodic structure blend (one of the systems is imposed on top of the other one).
+In collaboration with <a href="http://people.linguistics.mcgill.ca/~heather.goad/" target="_blank">Heather Goad</a> (McGill), I examine whether children acquiring two languages with distinct representations for word-level stress (such as French and English) are able to differentiate between the two systems. We hypothesize that, in this case, two patterns might be observed: prosodic transfer and prosodic structure blend (one of the systems is imposed on top of the other one).
 
 <br>
 
