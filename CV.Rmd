@@ -7,7 +7,7 @@ output: html_document
 
 <div align = "right">
 
-My full CV is [**here**]https://www.dropbox.com/s/bkchn5dr7te8hmb/cv.pdf?raw=1).
+My full CV is [**here**](https://www.dropbox.com/s/bkchn5dr7te8hmb/cv.pdf?raw=1).
 
 </div>
 
