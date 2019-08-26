@@ -17,9 +17,11 @@ In collaboration with <a href="http://people.linguistics.mcgill.ca/~heather.goad
 
 #### *2. Prosodic representations in a situation of language contact (2018 -- )*
 
-I am investigating how language contact affects speakers' prosodic representation through an examination of contact between Brazilian Portuguese (BP) and Veneto in a region of southern Brazil known as the Italian Immigration Area (IIA). At the moment, I am examining the phonological behaviour of diminutive constructions in IIA-BP -- they variably exhibit vowel raising, which is disallowed in standard Brazilian Portuguese. I hypothesize that transfer of prosodic structure from Veneto is what allows the application of raising in such constructions in IIA-BP.
+I investigate how language contact affects speakers' prosodic representations. Specifically, I examine prosodic representations in Portuguese-Veneto contact in a region of southern Brazil known as the Italian Immigration Area (IIA). 
 
 *Output:*
+
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact*. 
 
 - **Guzzo, Natália Brambatti**. (2018). Language contact determines prosodic representation and variation. 92nd Annual Meeting of the Linguistic Society of America (LSA), Salt Lake City (UT), USA, Jan 4-8. [[poster](materials/lsa2018.pdf)]
 
@@ -27,7 +29,7 @@ I am investigating how language contact affects speakers' prosodic representatio
 
 #### *3. Indirect evidence for prosodic constituency (2016 -- )*
 
-In collaboration with Heather Goad and <a href="https://guilhermegarcia.github.io" target="_blank">Guilherme D. Garcia</a> (Ball State), I am investigating whether prosodic constituents can be identified based on indirect phonological evidence. We are focusing on word-internal constituency in Québec French (QF), a language for which the existence of foot structure is disputed, since it lacks the typical acoustic signatures of stress. We are testing whether foot structure in QF can be identified on the basis of weakening segmental processes such as variable high vowel deletion. Our hypothesis is that, if deletion is sensitive to rhythm, it should be preferred on weak positions within the (iambic) foot. We are currently testing native speakers' and L2 learners' preferences with regard to patterns of high vowel deletion in real and nonce QF words.
+In collaboration with Heather Goad and <a href="https://guilhermegarcia.github.io" target="_blank">Guilherme D. Garcia</a> (Ball State), I am investigating whether prosodic constituents can be identified based on indirect phonological evidence. We focus on word-internal constituency in Québec French (QF), a language for which the existence of foot structure is disputed, since it lacks the typical acoustic signatures of stress. We are testing whether foot structure in QF can be identified on the basis of weakening segmental processes such as variable high vowel deletion. Our hypothesis is that, if deletion is sensitive to rhythm, it should be preferred on weak positions within the (iambic) foot. We are currently testing native speakers' and L2 learners' preferences with regard to patterns of high vowel deletion in real and nonce QF words.
 
 *Output:*
 
@@ -41,7 +43,7 @@ In collaboration with Heather Goad and <a href="https://guilhermegarcia.github.i
 
 #### *4. Effects of prosody on sentence interpretation (2016 -- )*
 
-In both joint and single-authored research, I am investigating how prosodic cues (such as pauses, changes in pitch, stress, and constituent size) impact native speakers' and learners' interpretations of ambiguous sentences. I have so far worked on ambiguous sentences involving depictive predicates in Brazilian Portuguese, relative clauses in English, and anaphoric pronouns in Italian.
+In both joint and single-authored research, I investigate how prosodic cues (such as pauses, changes in pitch, stress, and constituent size) impact native speakers' and learners' interpretations of ambiguous sentences. I have so far worked on ambiguous sentences involving depictive predicates in Brazilian Portuguese, relative clauses in English, and anaphoric pronouns in Italian.
 
 *Output:*
 
@@ -68,8 +70,6 @@ In research stemming from my dissertation, I examined how clitics and compounds 
 
 
 *Output:*
-
-- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted  Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact*. 
 
 - **Guzzo, Natália Brambatti**. 2018. The prosodic representation of composite structures in Brazilian Portuguese. *Journal of Linguistics* 54(4): 683–720. [[paper](http://dx.doi.org/10.1017/S0022226718000099)]
 
