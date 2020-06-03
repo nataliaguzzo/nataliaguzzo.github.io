@@ -9,6 +9,10 @@ output: html_document
 
 <!-- <div align = "justify"> -->
 
+- **Guzzo, Natália Brambatti**, Heather Goad and Megan Deegan. to appear. Phonological systems in conflict: The acquisition of stress in bilingual French-English. *Proceedings of the 55th Annual Meeting of the Chicago Linguistic Society (CLS 55)*. 
+
+- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. accepted. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition*.
+
 - **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact*.
 
 - **Guzzo, Natália Brambatti**. 2019. Native and non-native patterns in conflict: Lexicon vs. grammar in loanword adaptation in Brazilian Portuguese. *Supplemental Proceedings of the Annual Meeting on Phonology (AMP) 2018*. [[paper](https://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/4488)]
