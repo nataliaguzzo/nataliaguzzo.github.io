@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  3 JUN 2020 16:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  12 JUN 2020 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -735,27 +735,27 @@ Underfull \hbox (badness 1112) in paragraph at lines 831--832
  []
 
 
-Overfull \hbox (10.05829pt too wide) in paragraph at lines 898--902
+Overfull \hbox (10.05829pt too wide) in paragraph at lines 899--903
 [][] 
  []
 
 
-Overfull \hbox (10.05829pt too wide) in paragraph at lines 903--907
+Overfull \hbox (10.05829pt too wide) in paragraph at lines 904--908
 [][] 
  []
 
 
-Overfull \hbox (10.05829pt too wide) in paragraph at lines 908--912
+Overfull \hbox (10.05829pt too wide) in paragraph at lines 909--913
 [][] 
  []
 
 [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1002.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1003.
  [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1002.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1003.
  (/Users/nbguzzo/Dropbox/nataliaguzzo.github.io/cv/.texpadtmp/guzzo-cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1002.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1002.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1003.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1003.
 Package rerunfilecheck Info: File `guzzo-cv.out' has not changed.
 (rerunfilecheck)             Checksum: .
  ) 
