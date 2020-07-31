@@ -11,6 +11,7 @@ output: html_document
 
 <br>
 
+
 #### *The acquisition of prosodic structure*
 
 I examine the development of prosodic structure in monolingual and bilingual acquisition. I have investigated the acquisition of complex segments (i.e., affricates) relative to the acquisition of branching onsets in Québec French, where affricates are in complementary distribution with coronal stops. For languages where affricates are contrastive, it has been shown that affricates are acquired before branching onsets (e.g., Spanish and German; Lleó and Prinz 1997). I hypothesize that, in the case of Québec French, the constraints regulating the distribution of affricates are more onerous for children, resulting in affricates being acquired after branching onsets.
