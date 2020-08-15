@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -20,7 +20,7 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<meta name = "description" content = "I'm a Postdoctoral Researcher in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
+<meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
 
   
 <meta name = "keywords" content = "linguistics, linguist, phonology, phonology-syntax, syntax-phonology, phonologist, portuguese, brazilian portuguese, language acquisition, vowels, language contact, bilingualism, veneto, language variation, clitics, compounds, linguística, fonologia, fonóloga, português, português brasileiro, fonologia-sintaxe, sintaxe-fonologia, vêneto, talian, variação linguística, aquisição da linguagem, bilinguismo, contato linguístico, clíticos, compostos, aquisição de segunda língua, natália guzzo, guzzo, natália brambatti"/>
@@ -73,7 +73,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -222,6 +221,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -233,18 +233,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -320,13 +308,16 @@ figure {
 </figure>
 <p>I am a linguist working primarily on phonology and its interfaces. I am affiliated with the Language Acquisition Group at McGill University, and I am part of the project ‘Phonological effects on grammatical representation and processing’ (PIs: Heather Goad and Lydia White). My PhD is from Universidade Federal do Rio Grande do Sul (UFRGS, Brazil).</p>
 <p>My research programme investigates issues at the phonology-syntax interface, such as (i) the ways in which the application of phonological processes is constrained by prosodic structure, (ii) the acquisition of prosodic structures, and (iii) how bilingualism, language contact and language variation affect speakers’ prosodic representations. My research focuses particularly on Romance languages.</p>
-<p>This term (Winter 2020), I’m teaching LING350 – Linguistic Aspects of Bilingualism and LING355 – Language Acquisition at McGill.</p>
+<p>This term (Fall 2020), I’ll be teaching LING330 – <em>Phonetics</em> at McGill.</p>
 <p>You can email me at <a href="mailto:natalia.brambattiguzzo@mcgill.ca" class="email">natalia.brambattiguzzo@mcgill.ca</a>.</p>
-<!-- </div> -->
+<p><br></p>
+<div align="right">
+<p><font color = "gray">Last updated: August 2020</font></p>
+</div>
 
 <p align = "center">
 <br>
-Copyright &copy; 2019 Natália Brambatti Guzzo
+Copyright &copy; 2020 Natália Brambatti Guzzo
 </p>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -355,6 +346,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

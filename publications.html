@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -20,7 +20,7 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<meta name = "description" content = "I'm a Postdoctoral Researcher in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
+<meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
 
   
 <meta name = "keywords" content = "linguistics, linguist, phonology, phonology-syntax, syntax-phonology, phonologist, portuguese, brazilian portuguese, language acquisition, vowels, language contact, bilingualism, veneto, language variation, clitics, compounds, linguística, fonologia, fonóloga, português, português brasileiro, fonologia-sintaxe, sintaxe-fonologia, vêneto, talian, variação linguística, aquisição da linguagem, bilinguismo, contato linguístico, clíticos, compostos, aquisição de segunda língua, natália guzzo, guzzo, natália brambatti"/>
@@ -73,7 +73,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -222,6 +221,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -233,18 +233,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -308,8 +296,8 @@ $(document).ready(function () {
 <!-- <div align = "justify"> -->
 <ul>
 <li><p><strong>Guzzo, Natália Brambatti</strong>, Heather Goad and Megan Deegan. to appear. Phonological systems in conflict: The acquisition of stress in bilingual French-English. <em>Proceedings of the 55th Annual Meeting of the Chicago Linguistic Society (CLS 55)</em>.</p></li>
-<li><p>Goad, Heather, <strong>Natália Brambatti Guzzo</strong> and Lydia White. accepted. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. <em>Studies in Second Language Acquisition</em>.</p></li>
-<li><p><strong>Guzzo, Natália Brambatti</strong> and Guilherme D. Garcia. accepted. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. <em>Journal of Language Contact</em>.</p></li>
+<li><p>Goad, Heather, <strong>Natália Brambatti Guzzo</strong> and Lydia White. accepted. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. <em>Studies in Second Language Acquisition</em>. [<a href="https://ling.auf.net/lingbuzz/005244">paper</a>]</p></li>
+<li><p><strong>Guzzo, Natália Brambatti</strong> and Guilherme D. Garcia. accepted. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. <em>Journal of Language Contact</em>. [<a href="https://ling.auf.net/lingbuzz/004726">paper</a>]</p></li>
 <li><p><strong>Guzzo, Natália Brambatti</strong>. 2019. Native and non-native patterns in conflict: Lexicon vs. grammar in loanword adaptation in Brazilian Portuguese. <em>Supplemental Proceedings of the Annual Meeting on Phonology (AMP) 2018</em>. [<a href="https://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/4488">paper</a>]</p></li>
 <li><p><strong>Guzzo, Natália Brambatti</strong>. 2018. The prosodic representation of composite structures in Brazilian Portuguese. <em>Journal of Linguistics</em> 54(4): 683–720. [<a href="http://dx.doi.org/10.1017/S0022226718000099">paper</a>]</p></li>
 <li><p><strong>Guzzo, Natália Brambatti</strong>, Heather Goad and Guilherme D. Garcia. 2018. What motivates high vowel deletion in Québec French: Foot structure or tonal profile? <em>Proceedings of the 92nd Annual Meeting of the Linguistic Society of America</em>. [<a href="https://doi.org/10.3765/plsa.v3i1.4306">paper</a>]</p></li>
@@ -353,7 +341,7 @@ $(document).ready(function () {
 
 <p align = "center">
 <br>
-Copyright &copy; 2019 Natália Brambatti Guzzo
+Copyright &copy; 2020 Natália Brambatti Guzzo
 </p>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -382,6 +370,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
