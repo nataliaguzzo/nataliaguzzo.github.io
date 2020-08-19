@@ -58,16 +58,11 @@ In both joint and single-authored research, I investigate how prosodic cues (suc
 
 *Output:*
 
-- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. submitted. Parsing ambiguous relative clauses in L2 English.
+- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. accepted. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition*.
 
 - **Guzzo, Natália Brambatti** and Heather Goad. 2017. Overriding default interpretations through prosody: Depictive predicates in Brazilian Portuguese. *Proceedings of the 91st Annual Meeting of the Linguistic Society of America*. [[paper](http://dx.doi.org/10.3765/plsa.v2i0.4077)]
 
 - White, Lydia, Heather Goad, Jiajia Su, Liz Smeets, Marzieh Mortazavinia, Guilherme D. Garcia and **Natália Brambatti Guzzo**. 2017. Prosodic effects on pronoun interpretation in Italian. *Proceedings of the 41st Boston University Conference on Language Development (BUCLD)*. [[paper](http://www.lingref.com/bucld/41/BUCLD41-60.pdf)]
-
-
-*Related work:*
-
-- Slabakova, Roumyana, Lydia White and **Natália Brambatti Guzzo**. 2017. Pronoun interpretation in the second language: Effects of computational complexity. *Frontiers in Psychology* 8: 1–12. [[paper](https://doi.org/10.3389/fpsyg.2017.01236)]
 
 
 <!-- </div> -->
@@ -86,6 +81,19 @@ In research stemming from my dissertation, I examine how clitics and compounds i
 - **Guzzo, Natália Brambatti**. 2017. Recursion in Brazilian Portuguese complex compounds. In Ruth Lopes, Juanito Ornelas de Avelar and Sonia Cyrino (Eds.) *Romance Languages and Linguistic Theory 12. Selected papers from the 45th Linguistic Symposium on Romance Languages (LSRL)*, pp. 97–110. Amsterdam: John Benjamins. [[link](https://benjamins.com/catalog/rllt.12)]
 
 <!-- <div align = "justify"> -->
+
+<br>
+
+
+#### *L2 acquisition of syntax*
+
+I have also investigated some topics in L2 syntax. 
+
+*Output:*
+
+- Slabakova, Roumyana, Lydia White and **Natália Brambatti Guzzo**. 2017. Pronoun interpretation in the second language: Effects of computational complexity. *Frontiers in Psychology* 8: 1–12. [[paper](https://doi.org/10.3389/fpsyg.2017.01236)]
+
+- Xia, Vera Yunxiao, Lydia White and **Natália Brambatti Guzzo**. accepted. Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. *Second Language Research*.
 
 <br>
 

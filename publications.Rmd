@@ -11,6 +11,8 @@ output: html_document
 
 - **Guzzo, Natália Brambatti**, Heather Goad and Megan Deegan. to appear. Phonological systems in conflict: The acquisition of stress in bilingual French-English. *Proceedings of the 55th Annual Meeting of the Chicago Linguistic Society (CLS 55)*. 
 
+- Xia, Vera Yunxiao, Lydia White and **Natália Brambatti Guzzo**. accepted. Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. *Second Language Research*.
+
 - Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. accepted. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition*. [[paper](https://ling.auf.net/lingbuzz/005244)]
 
 - **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact*. [[paper](https://ling.auf.net/lingbuzz/004726)]
