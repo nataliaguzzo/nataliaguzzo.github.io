@@ -9,6 +9,7 @@ output: html_document
 
 <!-- <div align = "justify"> -->
 
+
 - **Guzzo, Natália Brambatti**, Heather Goad and Megan Deegan. to appear. Phonological systems in conflict: The acquisition of stress in bilingual French-English. *Proceedings of the 55th Annual Meeting of the Chicago Linguistic Society (CLS 55)*. 
 
 - Xia, Vera Yunxiao, Lydia White and **Natália Brambatti Guzzo**. accepted. Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. *Second Language Research*.
