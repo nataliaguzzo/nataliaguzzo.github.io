@@ -11,15 +11,25 @@
 
 
 
-<title>CV</title>
+<title>Talian</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
 <meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
 
   
@@ -288,63 +298,87 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">CV</h1>
+<h1 class="title toc-ignore">Talian</h1>
 
 </div>
 
 
-<p><br></p>
-<div align="right">
-<p>My full CV is <a href="https://nataliaguzzo.github.io/cv/guzzo-cv.pdf"><strong>here</strong></a>.</p>
+<style>
+.image {
+  border-radius: 50%;
+  <!-- margin: 0.5rem; -->
+  min-width: 50%;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.curve { 
+    width: 35%;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin: 1.5rem;
+    margin-right:1rem;
+    shape-outside:circle(50%);
+    -webkit-clip-path: circle(50%);
+}
+
+<!-- .container { -->
+<!--   position: relative; -->
+<!--   width: 100%; -->
+<!-- } -->
+
+<!-- .middle { -->
+<!--   transition: .5s ease; -->
+<!--   opacity: 0; -->
+<!--   position: absolute; -->
+<!--   top: 50%; -->
+<!--   left: 50%; -->
+<!--   transform: translate(-50%, -50%); -->
+<!--   -ms-transform: translate(-50%, -50%) -->
+<!-- } -->
+
+<!-- .container:hover .image { -->
+<!--   opacity: 0.3; -->
+<!-- } -->
+
+<!-- .container:hover .middle { -->
+<!--   opacity: 1; -->
+<!-- } -->
+
+<!-- .text { -->
+<!--   <!-- background-color: white; --> -->
+<!--   color: white; -->
+<!--   text-color: white; -->
+<!--   font-size: 16px; -->
+<!--   padding: 6px 6px; -->
+<!-- } -->
+</style>
+<div align="justify">
+<p><code>Under construction.</code> Project by: <strong>Natália B. Guzzo</strong> and <a href="https://guilhermegarcia.github.io" target = "_blank"><strong>Guilherme D. Garcia</strong></a></p>
+<div class="curve">
+<img src = "talian/photos/AP/house3.jpg" class = "image" alt = "Antônio Prado, Rio Grande do Sul">
 </div>
-<div id="education" class="section level3">
-<h3>Education</h3>
-<!-- <div align = "justify"> -->
+<p>In the 19th century, Italian immigrants moved to North and South America. In Brazil, they first immigrated to the southeastern region, and subsequently to the southern region—especially to the southernmost state in the country, <a href = "https://en.wikipedia.org/wiki/Rio_Grande_do_Sul" target = "_blank">Rio Grande do Sul</a>. Many of these immigrants were speakers of <a href = "https://en.wikipedia.org/wiki/Venetian_language" target = "_blank">Veneto</a>, a Romance language spoken in northern Italy. As time went by, a dialect of Veneto, <em>Brazilian Veneto</em>, developed in the area(s) where the immigrants settled—we refer to this dialect as <em>Talian</em>. In total, there are approximately 500,000 speakers of Talian in Brazil—with varying degrees of proficiency.</p>
+<p>We are currently working on a written corpus of Talian, which will be made available here in the near future. Our project focuses on the Talian spoken in the <em>Italian Immigration Area</em> (IIA), the area of Rio Grande do Sul where Italian immigrants first settled. The picture shows a historic house in the IIA town of <a href = "https://en.wikipedia.org/wiki/Antônio_Prado" target = "_blank"><strong>Antônio Prado</strong></a>, where we can find numerous speakers of Talian.</p>
+<hr />
+<h3 id="the-italian-immigration-area-in-brazil">The Italian Immigration Area in Brazil</h3>
+<p>The towns and cities in red have Talian as their co-official language, alongside (Brazilian) Portuguese. The gray circle is an approximation representing the Italian Immigration Area in the state of Rio Grande do Sul.</p>
+<div align="center">
+<div id="htmlwidget-272da1d4b28d2d7536ab" style="width:100%;height:600px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-272da1d4b28d2d7536ab">{"x":{"options":{"minZoom":5,"maxZoom":10,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.Mapnik",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircles","args":[-28.95,-51.54,55000,null,null,{"interactive":true,"className":"","stroke":true,"color":"Black","weight":5,"opacity":0.5,"fill":true,"fillColor":"Black","fillOpacity":0.2},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]},{"method":"addCircleMarkers","args":[[-28.8567806,-29.1654014,-28.5865661,-29.1684796,-28.8807515,-29.030129,-28.5417413,-29.5196814,-26.9027688,-29.0283514,-28.9884663,-28.5966772,-28.7120266],[-51.2801355,-51.5197627,-52.2031474,-51.1793861,-51.6987798,-51.1833349,-51.6910921,-53.5804505,-52.9071258,-51.3075981,-51.4086514,-51.7851426,-51.9343269],[9.55810574328497,11.6532872274174,7.8336002236611,13.5080012179127,7.86172707782398,10.2085796864975,7.36897040219479,7.55485852104068,8.36053938137086,7.84893372636407,8.18423477409482,8.90340751993226,9.77007043909578],null,null,{"interactive":true,"className":"","stroke":false,"color":"FireBrick","weight":5,"opacity":0.5,"fill":true,"fillColor":"FireBrick","fillOpacity":0.5},null,null,null,null,["Antônio Prado, Rio Grande do Sul (Pop:  14,159)","Bento Gonçalves, Rio Grande do Sul (Pop: 115,069)","Camargo, Rio Grande do Sul (Pop:   2,524)","Caxias do Sul, Rio Grande do Sul (Pop: 735,276)","Fagundes Varela, Rio Grande do Sul (Pop:   2,596)","Flores da Cunha, Rio Grande do Sul (Pop:  27,135)","Guabiju, Rio Grande do Sul (Pop:   1,586)","Ivorá, Rio Grande do Sul (Pop:   1,910)","Nova Erechim, Santa Catarina (Pop:   4,275)","Nova Pádua, Rio Grande do Sul (Pop:   2,563)","Nova Roma do Sul, Rio Grande do Sul (Pop:   3,584)","Paraí, Rio Grande do Sul (Pop:   7,357)","Serafina Corrêa, Rio Grande do Sul (Pop:  17,502)"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-29.5196814,-26.9027688],"lng":[-53.5804505,-51.1793861]},"setView":[[-28.9,-51.542461],6,[]]},"evals":[],"jsHooks":[]}</script>
+<hr />
+</div>
+<h3 id="references">References</h3>
 <ul>
-<li>PhD in Linguistics (Letras – Language Studies, Linguistic Theory and Analysis)
-<ul>
-<li>Universidade Federal do Rio Grande do Sul (2011 – 2015)</li>
-</ul></li>
-<li>Graduate Research Trainee
-<ul>
-<li>McGill University (2014)</li>
-</ul></li>
-<li>Visiting researcher
-<ul>
-<li>University of Delaware (2013)</li>
-</ul></li>
-<li>MA in Language, Culture and Regionality
-<ul>
-<li>Universidade de Caxias do Sul (2008 – 2010)</li>
-</ul></li>
-<li>Licenciatura em Letras (Portuguese/English languages and literature)
-<ul>
-<li>Universidade de Caxias do Sul (2004 – 2008)</li>
-</ul></li>
+<li>TBA</li>
 </ul>
-<!-- </div> -->
 </div>
-<div id="employment" class="section level3">
-<h3>Employment</h3>
-<ul>
-<li>2018-present: Lecturer
-<ul>
-<li>Department of Linguistics, McGill University</li>
-</ul></li>
-<li>2018-2019: Postdoctoral Researcher
-<ul>
-<li>Department of Linguistics, McGill University</li>
-</ul></li>
-<li>2015-2017: Postdoctoral Research Assistant
-<ul>
-<li>Department of Linguistics, McGill University</li>
-</ul></li>
-<li>2017 (Fall): Chargée de cours (lecturer)
-<ul>
-<li>Départment de linguistique, Université du Québec à Montréal</li>
-</ul></li>
-</ul>
-</div>
+<hr />
 
 <p align = "center">
 <br>

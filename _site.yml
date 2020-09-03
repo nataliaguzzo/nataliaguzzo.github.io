@@ -10,6 +10,8 @@ navbar:
       href: publications.html
     - text: "Research"
       href: research.html
+    - text: "Talian"
+      href: talian.html
   
 output:
   html_document:
