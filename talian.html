@@ -15,11 +15,12 @@
 
 <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
@@ -30,12 +31,24 @@
 <script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
 <script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
 <script src="site_libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
-<meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<html lang = "en">
+<html lang = "pt">
+
+<meta name = "description" content = "I'm an Assistant Professor in the Department of English at Ball State University. My research focuses on phonology, phonetics, and second language acquisition. I use data science to examine linguistic questions."/>
 
   
-<meta name = "keywords" content = "linguistics, linguist, phonology, phonology-syntax, syntax-phonology, phonologist, portuguese, brazilian portuguese, language acquisition, vowels, language contact, bilingualism, veneto, language variation, clitics, compounds, linguística, fonologia, fonóloga, português, português brasileiro, fonologia-sintaxe, sintaxe-fonologia, vêneto, talian, variação linguística, aquisição da linguagem, bilinguismo, contato linguístico, clíticos, compostos, aquisição de segunda língua, natália guzzo, guzzo, natália brambatti"/>
+<meta name = "keywords" content = "language, research, acquisition, linguistics, linguist, phonology, phonologist, portuguese, brazilian portuguese, second language acquisition, quantitative data analysis, computational linguistics, r tutorial for linguists, ggplot2, vowels, latex, latex for linguists, praat scripts, linguística, fonologia, fonólogo, português, português brasileiro, vogais, análise quantitativa de dados, aquisição de segunda língua, tutorial em r, guilherme duarte garcia, guilherme garcia, guilherme d. garcia"/>
   
 <meta name = "robots" content = "index, follow"/>
+<link rel="stylesheet" href="academicons-1.8.6/css/academicons.min.css"/>
+<script src="https://kit.fontawesome.com/5d636b0c66.js" crossorigin="anonymous"></script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
 
 
@@ -102,33 +115,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 60px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -267,28 +280,39 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Natália Brambatti GUZZO</a>
+      <a class="navbar-brand" href="index.html">GUILHERME D. GARCIA</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="CV.html">CV</a>
-</li>
-<li>
-  <a href="publications.html">Publications</a>
-</li>
-<li>
-  <a href="research.html">Research</a>
-</li>
-<li>
-  <a href="talian.html">Talian</a>
-</li>
+        
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    
+  </a>
+</li>
+<li>
+  <a href="research.html">Research &amp; CV</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="contact.html">
+    <span class="fa fa-envelope"></span>
+     
+    
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -359,7 +383,7 @@ $(document).ready(function () {
 <!-- } -->
 </style>
 <div align="justify">
-<p><code>Under construction.</code> Project by: <strong>Natália B. Guzzo</strong> and <a href="https://guilhermegarcia.github.io" target = "_blank"><strong>Guilherme D. Garcia</strong></a></p>
+<p><code>Under construction.</code> Project by: <a href = "https://nataliaguzzo.github.io" target = "_blank"><strong>Natália B. Guzzo</strong></a> and <a href="https://guilhermegarcia.github.io" target = "_blank"><strong>Guilherme D. Garcia</strong></a></p>
 <div class="curve">
 <img src = "talian/photos/AP/house3.jpg" class = "image" alt = "Antônio Prado, Rio Grande do Sul">
 </div>
@@ -369,8 +393,8 @@ $(document).ready(function () {
 <h3 id="the-italian-immigration-area-in-brazil">The Italian Immigration Area in Brazil</h3>
 <p>The towns and cities in red have Talian as their co-official language, alongside (Brazilian) Portuguese. The gray circle is an approximation representing the Italian Immigration Area in the state of Rio Grande do Sul.</p>
 <div align="center">
-<div id="htmlwidget-272da1d4b28d2d7536ab" style="width:100%;height:600px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-272da1d4b28d2d7536ab">{"x":{"options":{"minZoom":5,"maxZoom":10,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.Mapnik",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircles","args":[-28.95,-51.54,55000,null,null,{"interactive":true,"className":"","stroke":true,"color":"Black","weight":5,"opacity":0.5,"fill":true,"fillColor":"Black","fillOpacity":0.2},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]},{"method":"addCircleMarkers","args":[[-28.8567806,-29.1654014,-28.5865661,-29.1684796,-28.8807515,-29.030129,-28.5417413,-29.5196814,-26.9027688,-29.0283514,-28.9884663,-28.5966772,-28.7120266],[-51.2801355,-51.5197627,-52.2031474,-51.1793861,-51.6987798,-51.1833349,-51.6910921,-53.5804505,-52.9071258,-51.3075981,-51.4086514,-51.7851426,-51.9343269],[9.55810574328497,11.6532872274174,7.8336002236611,13.5080012179127,7.86172707782398,10.2085796864975,7.36897040219479,7.55485852104068,8.36053938137086,7.84893372636407,8.18423477409482,8.90340751993226,9.77007043909578],null,null,{"interactive":true,"className":"","stroke":false,"color":"FireBrick","weight":5,"opacity":0.5,"fill":true,"fillColor":"FireBrick","fillOpacity":0.5},null,null,null,null,["Antônio Prado, Rio Grande do Sul (Pop:  14,159)","Bento Gonçalves, Rio Grande do Sul (Pop: 115,069)","Camargo, Rio Grande do Sul (Pop:   2,524)","Caxias do Sul, Rio Grande do Sul (Pop: 735,276)","Fagundes Varela, Rio Grande do Sul (Pop:   2,596)","Flores da Cunha, Rio Grande do Sul (Pop:  27,135)","Guabiju, Rio Grande do Sul (Pop:   1,586)","Ivorá, Rio Grande do Sul (Pop:   1,910)","Nova Erechim, Santa Catarina (Pop:   4,275)","Nova Pádua, Rio Grande do Sul (Pop:   2,563)","Nova Roma do Sul, Rio Grande do Sul (Pop:   3,584)","Paraí, Rio Grande do Sul (Pop:   7,357)","Serafina Corrêa, Rio Grande do Sul (Pop:  17,502)"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-29.5196814,-26.9027688],"lng":[-53.5804505,-51.1793861]},"setView":[[-28.9,-51.542461],6,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-246fd8f3211b1e5f83c7" style="width:80%;height:600px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-246fd8f3211b1e5f83c7">{"x":{"options":{"minZoom":5,"maxZoom":10,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.Mapnik",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircles","args":[-28.95,-51.54,55000,null,null,{"interactive":true,"className":"","stroke":true,"color":"Black","weight":5,"opacity":0.5,"fill":true,"fillColor":"Black","fillOpacity":0.2},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]},{"method":"addCircleMarkers","args":[[-28.8567806,-29.1654014,-28.5865661,-29.1684796,-28.8807515,-29.030129,-28.5417413,-29.5196814,-26.9027688,-29.0283514,-28.9884663,-28.5966772,-28.7120266],[-51.2801355,-51.5197627,-52.2031474,-51.1793861,-51.6987798,-51.1833349,-51.6910921,-53.5804505,-52.9071258,-51.3075981,-51.4086514,-51.7851426,-51.9343269],[9.55810574328497,11.6532872274174,7.8336002236611,13.5080012179127,7.86172707782398,10.2085796864975,7.36897040219479,7.55485852104068,8.36053938137086,7.84893372636407,8.18423477409482,8.90340751993226,9.77007043909578],null,null,{"interactive":true,"className":"","stroke":false,"color":"FireBrick","weight":5,"opacity":0.5,"fill":true,"fillColor":"FireBrick","fillOpacity":0.5},null,null,null,null,["Antônio Prado, Rio Grande do Sul (Pop:  14,159)","Bento Gonçalves, Rio Grande do Sul (Pop: 115,069)","Camargo, Rio Grande do Sul (Pop:   2,524)","Caxias do Sul, Rio Grande do Sul (Pop: 735,276)","Fagundes Varela, Rio Grande do Sul (Pop:   2,596)","Flores da Cunha, Rio Grande do Sul (Pop:  27,135)","Guabiju, Rio Grande do Sul (Pop:   1,586)","Ivorá, Rio Grande do Sul (Pop:   1,910)","Nova Erechim, Santa Catarina (Pop:   4,275)","Nova Pádua, Rio Grande do Sul (Pop:   2,563)","Nova Roma do Sul, Rio Grande do Sul (Pop:   3,584)","Paraí, Rio Grande do Sul (Pop:   7,357)","Serafina Corrêa, Rio Grande do Sul (Pop:  17,502)"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-29.5196814,-26.9027688],"lng":[-53.5804505,-51.1793861]},"setView":[[-28.9,-51.542461],6,[]]},"evals":[],"jsHooks":[]}</script>
 <hr />
 </div>
 <h3 id="references">References</h3>
@@ -382,17 +406,19 @@ $(document).ready(function () {
 
 <p align = "center">
 <br>
-Copyright &copy; 2020 Natália Brambatti Guzzo
+Copyright &copy; 2020 Guilherme Duarte Garcia
 </p>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131403771-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-131403771-1');
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92998845-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
 
 
