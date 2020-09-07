@@ -1,5 +1,10 @@
 ---
-title: Talian
+title: "Talian"
+bibliography: talian/ref_talian.bib
+csl: talian/apa.csl
+output:
+  html_document:
+    df_print: paged
 ---
 
 
@@ -119,10 +124,51 @@ leaflet(data = iia, width = "80%", height = 600,
 
 </div>
 
+### Our Talian Corpus
+
+Our corpus consists of internet texts from the IIA as well as excerpts from books written in Talian. Text processing is being done in R [@r_language], and optical character recognition (OCR) is being carried out using Google's <a href = "https://github.com/tesseract-ocr/tesseract/" target = "_blank">**Tesseract**</a> [@tesseract]. As a starting point, we used trained data from Italian in Tesseract, and later checked for potential mismatches. We are currently developing the first version of the corpus, which we plan to make available during the fall of 2020---see below.
+
+#### Stage 1: Fall 2020
+
+- Data collection, OCR, tokenization
+    - `22,747 words (in progress)`
+    - `1,678 sentences (in progress)`
+- Initial coding
+- Make initial version available
+
+#### Stage 2: Spring 2021
+
+- Tagging (part of speech)
+- Phonetic transcription
+- Syllabification
+
+---
+
+### Corpus sample
+
+
+```{r kable, echo = FALSE, warning=FALSE, message=FALSE}
+library(kableExtra)
+library(knitr)
+require(tidyverse)
+
+load("/Users/nataliaguzzo/Dropbox/Talian corpus/corpus/talian.RData")
+
+kable(talian %>% slice(1:5) %>% select(sentence, word, frequency, logFrequency, author, year), 
+      row.names = FALSE, digits = 3) %>% 
+    kable_styling(full_width = F)
+
+```
+<br>
+
+As can be seen from the sample above, the corpus follows a `tidy data` approach [@wickham2014tidy]. As a result, little if any data wrangling is needed to analyze the data.
+
+
+---
 
 ### References
 
-- TBA
+<div id="refs"></div>
 
 </div>
 

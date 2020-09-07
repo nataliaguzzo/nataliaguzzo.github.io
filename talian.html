@@ -15,12 +15,13 @@
 
 <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
@@ -31,24 +32,14 @@
 <script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
 <script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
 <script src="site_libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<html lang = "en">
-<html lang = "pt">
-
-<meta name = "description" content = "I'm an Assistant Professor in the Department of English at Ball State University. My research focuses on phonology, phonetics, and second language acquisition. I use data science to examine linguistic questions."/>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
 
   
-<meta name = "keywords" content = "language, research, acquisition, linguistics, linguist, phonology, phonologist, portuguese, brazilian portuguese, second language acquisition, quantitative data analysis, computational linguistics, r tutorial for linguists, ggplot2, vowels, latex, latex for linguists, praat scripts, linguística, fonologia, fonólogo, português, português brasileiro, vogais, análise quantitativa de dados, aquisição de segunda língua, tutorial em r, guilherme duarte garcia, guilherme garcia, guilherme d. garcia"/>
+<meta name = "keywords" content = "linguistics, linguist, phonology, phonology-syntax, syntax-phonology, phonologist, portuguese, brazilian portuguese, language acquisition, vowels, language contact, bilingualism, veneto, language variation, clitics, compounds, linguística, fonologia, fonóloga, português, português brasileiro, fonologia-sintaxe, sintaxe-fonologia, vêneto, talian, variação linguística, aquisição da linguagem, bilinguismo, contato linguístico, clíticos, compostos, aquisição de segunda língua, natália guzzo, guzzo, natália brambatti"/>
   
 <meta name = "robots" content = "index, follow"/>
-<link rel="stylesheet" href="academicons-1.8.6/css/academicons.min.css"/>
-<script src="https://kit.fontawesome.com/5d636b0c66.js" crossorigin="anonymous"></script>
-
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
 
 
 
@@ -115,33 +106,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .dropdown-submenu {
   position: relative;
@@ -280,39 +271,28 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">GUILHERME D. GARCIA</a>
+      <a class="navbar-brand" href="index.html">Natália Brambatti GUZZO</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="CV.html">CV</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="talian.html">Talian</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    
-  </a>
-</li>
-<li>
-  <a href="research.html">Research &amp; CV</a>
-</li>
-<li>
-  <a href="teaching.html">Teaching</a>
-</li>
-<li>
-  <a href="resources.html">Resources</a>
-</li>
-<li>
-  <a href="about.html">About</a>
-</li>
-<li>
-  <a href="contact.html">
-    <span class="fa fa-envelope"></span>
-     
-    
-  </a>
-</li>
+        
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -382,7 +362,9 @@ $(document).ready(function () {
 <!--   padding: 6px 6px; -->
 <!-- } -->
 </style>
-<div align="justify">
+<div align = "justify">
+
+
 <p><code>Under construction.</code> Project by: <a href = "https://nataliaguzzo.github.io" target = "_blank"><strong>Natália B. Guzzo</strong></a> and <a href="https://guilhermegarcia.github.io" target = "_blank"><strong>Guilherme D. Garcia</strong></a></p>
 <div class="curve">
 <img src = "talian/photos/AP/house3.jpg" class = "image" alt = "Antônio Prado, Rio Grande do Sul">
@@ -390,35 +372,202 @@ $(document).ready(function () {
 <p>In the 19th century, Italian immigrants moved to North and South America. In Brazil, they first immigrated to the southeastern region, and subsequently to the southern region—especially to the southernmost state in the country, <a href = "https://en.wikipedia.org/wiki/Rio_Grande_do_Sul" target = "_blank">Rio Grande do Sul</a>. Many of these immigrants were speakers of <a href = "https://en.wikipedia.org/wiki/Venetian_language" target = "_blank">Veneto</a>, a Romance language spoken in northern Italy. As time went by, a dialect of Veneto, <em>Brazilian Veneto</em>, developed in the area(s) where the immigrants settled—we refer to this dialect as <em>Talian</em>. In total, there are approximately 500,000 speakers of Talian in Brazil—with varying degrees of proficiency.</p>
 <p>We are currently working on a written corpus of Talian, which will be made available here in the near future. Our project focuses on the Talian spoken in the <em>Italian Immigration Area</em> (IIA), the area of Rio Grande do Sul where Italian immigrants first settled. The picture shows a historic house in the IIA town of <a href = "https://en.wikipedia.org/wiki/Antônio_Prado" target = "_blank"><strong>Antônio Prado</strong></a>, where we can find numerous speakers of Talian.</p>
 <hr />
-<h3 id="the-italian-immigration-area-in-brazil">The Italian Immigration Area in Brazil</h3>
+<div id="the-italian-immigration-area-in-brazil" class="section level3">
+<h3>The Italian Immigration Area in Brazil</h3>
 <p>The towns and cities in red have Talian as their co-official language, alongside (Brazilian) Portuguese. The gray circle is an approximation representing the Italian Immigration Area in the state of Rio Grande do Sul.</p>
 <div align="center">
-<div id="htmlwidget-246fd8f3211b1e5f83c7" style="width:80%;height:600px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-246fd8f3211b1e5f83c7">{"x":{"options":{"minZoom":5,"maxZoom":10,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.Mapnik",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircles","args":[-28.95,-51.54,55000,null,null,{"interactive":true,"className":"","stroke":true,"color":"Black","weight":5,"opacity":0.5,"fill":true,"fillColor":"Black","fillOpacity":0.2},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]},{"method":"addCircleMarkers","args":[[-28.8567806,-29.1654014,-28.5865661,-29.1684796,-28.8807515,-29.030129,-28.5417413,-29.5196814,-26.9027688,-29.0283514,-28.9884663,-28.5966772,-28.7120266],[-51.2801355,-51.5197627,-52.2031474,-51.1793861,-51.6987798,-51.1833349,-51.6910921,-53.5804505,-52.9071258,-51.3075981,-51.4086514,-51.7851426,-51.9343269],[9.55810574328497,11.6532872274174,7.8336002236611,13.5080012179127,7.86172707782398,10.2085796864975,7.36897040219479,7.55485852104068,8.36053938137086,7.84893372636407,8.18423477409482,8.90340751993226,9.77007043909578],null,null,{"interactive":true,"className":"","stroke":false,"color":"FireBrick","weight":5,"opacity":0.5,"fill":true,"fillColor":"FireBrick","fillOpacity":0.5},null,null,null,null,["Antônio Prado, Rio Grande do Sul (Pop:  14,159)","Bento Gonçalves, Rio Grande do Sul (Pop: 115,069)","Camargo, Rio Grande do Sul (Pop:   2,524)","Caxias do Sul, Rio Grande do Sul (Pop: 735,276)","Fagundes Varela, Rio Grande do Sul (Pop:   2,596)","Flores da Cunha, Rio Grande do Sul (Pop:  27,135)","Guabiju, Rio Grande do Sul (Pop:   1,586)","Ivorá, Rio Grande do Sul (Pop:   1,910)","Nova Erechim, Santa Catarina (Pop:   4,275)","Nova Pádua, Rio Grande do Sul (Pop:   2,563)","Nova Roma do Sul, Rio Grande do Sul (Pop:   3,584)","Paraí, Rio Grande do Sul (Pop:   7,357)","Serafina Corrêa, Rio Grande do Sul (Pop:  17,502)"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-29.5196814,-26.9027688],"lng":[-53.5804505,-51.1793861]},"setView":[[-28.9,-51.542461],6,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-c05842fcbd155b4ae71c" style="width:80%;height:600px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c05842fcbd155b4ae71c">{"x":{"options":{"minZoom":5,"maxZoom":10,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.Mapnik",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircles","args":[-28.95,-51.54,55000,null,null,{"interactive":true,"className":"","stroke":true,"color":"Black","weight":5,"opacity":0.5,"fill":true,"fillColor":"Black","fillOpacity":0.2},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]},{"method":"addCircleMarkers","args":[[-28.8567806,-29.1654014,-28.5865661,-29.1684796,-28.8807515,-29.030129,-28.5417413,-29.5196814,-26.9027688,-29.0283514,-28.9884663,-28.5966772,-28.7120266],[-51.2801355,-51.5197627,-52.2031474,-51.1793861,-51.6987798,-51.1833349,-51.6910921,-53.5804505,-52.9071258,-51.3075981,-51.4086514,-51.7851426,-51.9343269],[9.55810574328497,11.6532872274174,7.8336002236611,13.5080012179127,7.86172707782398,10.2085796864975,7.36897040219479,7.55485852104068,8.36053938137086,7.84893372636407,8.18423477409482,8.90340751993226,9.77007043909578],null,null,{"interactive":true,"className":"","stroke":false,"color":"FireBrick","weight":5,"opacity":0.5,"fill":true,"fillColor":"FireBrick","fillOpacity":0.5},null,null,null,null,["Antônio Prado, Rio Grande do Sul (Pop:  14,159)","Bento Gonçalves, Rio Grande do Sul (Pop: 115,069)","Camargo, Rio Grande do Sul (Pop:   2,524)","Caxias do Sul, Rio Grande do Sul (Pop: 735,276)","Fagundes Varela, Rio Grande do Sul (Pop:   2,596)","Flores da Cunha, Rio Grande do Sul (Pop:  27,135)","Guabiju, Rio Grande do Sul (Pop:   1,586)","Ivorá, Rio Grande do Sul (Pop:   1,910)","Nova Erechim, Santa Catarina (Pop:   4,275)","Nova Pádua, Rio Grande do Sul (Pop:   2,563)","Nova Roma do Sul, Rio Grande do Sul (Pop:   3,584)","Paraí, Rio Grande do Sul (Pop:   7,357)","Serafina Corrêa, Rio Grande do Sul (Pop:  17,502)"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-29.5196814,-26.9027688],"lng":[-53.5804505,-51.1793861]},"setView":[[-28.9,-51.542461],6,[]]},"evals":[],"jsHooks":[]}</script>
 <hr />
 </div>
-<h3 id="references">References</h3>
+</div>
+<div id="our-talian-corpus" class="section level3">
+<h3>Our Talian Corpus</h3>
+<p>Our corpus consists of internet texts from the IIA as well as excerpts from books written in Talian. Text processing is being done in R <span class="citation">(R Core Team, 2020)</span>, and optical character recognition (OCR) is being carried out using Google’s <a href = "https://github.com/tesseract-ocr/tesseract/" target = "_blank"><strong>Tesseract</strong></a> <span class="citation">(Smith, 2007)</span>. As a starting point, we used trained data from Italian in Tesseract, and later checked for potential mismatches. We are currently developing the first version of the corpus, which we plan to make available during the fall of 2020—see below.</p>
+<div id="stage-1-fall-2020" class="section level4">
+<h4>Stage 1: Fall 2020</h4>
 <ul>
-<li>TBA</li>
+<li>Data collection, OCR, tokenization
+<ul>
+<li><code>22,747 words (in progress)</code></li>
+<li><code>1,678 sentences (in progress)</code></li>
+</ul></li>
+<li>Initial coding</li>
+<li>Make initial version available</li>
 </ul>
 </div>
+<div id="stage-2-spring-2021" class="section level4">
+<h4>Stage 2: Spring 2021</h4>
+<ul>
+<li>Tagging (part of speech)</li>
+<li>Phonetic transcription</li>
+<li>Syllabification</li>
+</ul>
 <hr />
+</div>
+</div>
+<div id="corpus-sample" class="section level3">
+<h3>Corpus sample</h3>
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+sentence
+</th>
+<th style="text-align:left;">
+word
+</th>
+<th style="text-align:right;">
+frequency
+</th>
+<th style="text-align:right;">
+logFrequency
+</th>
+<th style="text-align:left;">
+author
+</th>
+<th style="text-align:left;">
+year
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Nanetto va cognosser Val Véneta.
+</td>
+<td style="text-align:left;">
+nanetto
+</td>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:right;">
+3.850
+</td>
+<td style="text-align:left;">
+baldissera
+</td>
+<td style="text-align:left;">
+2003
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nanetto va cognosser Val Véneta.
+</td>
+<td style="text-align:left;">
+va
+</td>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:right;">
+3.135
+</td>
+<td style="text-align:left;">
+baldissera
+</td>
+<td style="text-align:left;">
+2003
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nanetto va cognosser Val Véneta.
+</td>
+<td style="text-align:left;">
+cognosser
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0.693
+</td>
+<td style="text-align:left;">
+baldissera
+</td>
+<td style="text-align:left;">
+2003
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nanetto va cognosser Val Véneta.
+</td>
+<td style="text-align:left;">
+val
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+2.890
+</td>
+<td style="text-align:left;">
+baldissera
+</td>
+<td style="text-align:left;">
+2003
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nanetto va cognosser Val Véneta.
+</td>
+<td style="text-align:left;">
+véneta
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+2.833
+</td>
+<td style="text-align:left;">
+baldissera
+</td>
+<td style="text-align:left;">
+2003
+</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>As can be seen from the sample above, the corpus follows a <code>tidy data</code> approach <span class="citation">(Wickham &amp; others, 2014)</span>. As a result, little if any data wrangling is needed to analyze the data.</p>
+<hr />
+</div>
+<div id="references" class="section level3">
+<h3>References</h3>
+<div id="refs">
+<div id="ref-r_language">
+<p>R Core Team. (2020). <em>R: A language and environment for statistical computing</em>. Vienna, Austria: R Foundation for Statistical Computing.</p>
+</div>
+<div id="ref-tesseract">
+<p>Smith, R. (2007). An overview of the tesseract OCR engine. <em>Ninth international conference on document analysis and recognition (ICDAR 2007)</em>, <em>2</em>, 629–633.</p>
+</div>
+<div id="ref-wickham2014tidy">
+<p>Wickham, H., &amp; others. (2014). Tidy data. <em>Journal of Statistical Software</em>, <em>59</em>(10), 1–23.</p>
+</div>
+</div>
+</div>
+<hr />
+</div>
 
 <p align = "center">
 <br>
-Copyright &copy; 2020 Guilherme Duarte Garcia
+Copyright &copy; 2020 Natália Brambatti Guzzo
 </p>
 
-
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131403771-1"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-92998845-1', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-131403771-1');
 </script>
 
 
