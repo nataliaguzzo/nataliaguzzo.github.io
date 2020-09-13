@@ -1,0 +1,43 @@
+---
+title: "Talian Corpus"
+---
+
+<style>
+.image {
+  border-radius: 50%;
+  min-width: 50%;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.curve { 
+	width: 35%;
+	max-width: 100%;
+	height: auto;
+	float: right;
+	margin: 1.5rem;
+	margin-right:1rem;
+	shape-outside:circle(50%);
+	-webkit-clip-path: circle(50%);
+}
+
+</style>
+
+
+Thank you for your interest in our corpus!
+
+---
+
+<div align = "justify">
+
+- Download <a href = "https://www.dropbox.com/s/7e1zqx1jvvhyt4c/talian.RData?dl=1">**`RData`**</a> version
+- Download <a href = "https://www.dropbox.com/s/9gqzlk94tsr25xp/talian.csv?dl=1">**`csv`**</a> version
+
+</div>
+
+---
+

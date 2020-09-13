@@ -2,13 +2,16 @@
 title: "Talian corpus"
 ---
 
-Please, complete the form below to proceed.
+Project by: <a href = "https://nataliaguzzo.github.io" target = "_blank">**Natália B. Guzzo**</a> and <a href="https://guilhermegarcia.github.io" target = "_blank">**Guilherme D. Garcia**</a>. Please, complete the form below to proceed.
 
 ---
 
-<div align = "center">
+<div align = "justify">
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-HY_D_JR1nvJlDVRzdayYTyFwJ0y8qplaMWBgqMWKU9GEmQ/viewform?embedded=true" width="640" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<!-- modify this form HTML and place wherever you want your form -->
+
+<div id="ff-compose"></div>
+<script async defer src="https://formfacade.com/include/114049531788298717046/form/1FAIpQLSd-HY_D_JR1nvJlDVRzdayYTyFwJ0y8qplaMWBgqMWKU9GEmQ/classic.js?div=ff-compose"></script>
 
 </div>
 

@@ -131,7 +131,7 @@ Our corpus consists of internet texts from the IIA as well as excerpts from book
 #### Stage 1: Fall 2020
 
 - Data collection, OCR, tokenization
-    - `22,747 words (in progress)`
+    - `21,574 words (in progress)`
     - `1,678 sentences (in progress)`
 - Initial coding
 - Make initial version available
@@ -152,7 +152,7 @@ library(kableExtra)
 library(knitr)
 require(tidyverse)
 
-load("/Users/nataliaguzzo/Dropbox/Talian corpus/corpus/talian.RData")
+load("talian/corpus/talian.RData")
 
 kable(talian %>% slice(1:5) %>% select(sentence, word, frequency, logFrequency, author, year), 
       row.names = FALSE, digits = 3) %>% 
@@ -163,6 +163,12 @@ kable(talian %>% slice(1:5) %>% select(sentence, word, frequency, logFrequency, 
 
 As can be seen from the sample above, the corpus follows a `tidy data` approach [@wickham2014tidy]. As a result, little if any data wrangling is needed to analyze the data.
 
+
+---
+
+### <i class="fas fa-cloud-download-alt"></i>&emsp;Download corpus
+
+To access the corpus, click <a href = "https://guilhermegarcia.github.io/talian_form.html" target ="_blank">**here**</a>
 
 ---
 
