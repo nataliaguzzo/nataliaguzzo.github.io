@@ -95,7 +95,7 @@ library(tidyverse)
 iia = read_csv("talian/IIA_map.csv")
 
 leaflet(data = iia, width = "80%", height = 600, 
-        options = leafletOptions(minZoom = 5, maxZoom = 10, zoomControl = TRUE)) %>% 
+        options = leafletOptions(minZoom = 3, maxZoom = 10, zoomControl = TRUE)) %>% 
     addProviderTiles("OpenStreetMap.Mapnik") %>%
     addCircles(lat = -28.95, lng = -51.54, 
                radius = 55000, color = "Black") %>% 
