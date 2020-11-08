@@ -81,7 +81,7 @@ We are currently working on a written corpus of Talian, which will be made avail
 
 
 
-### The Italian Immigration Area in Brazil
+<h3>The Italian Immigration Area in Brazil</h3>
 
 The towns and cities in red have Talian as their co-official language, alongside (Brazilian) Portuguese. The gray circle is an approximation representing the Italian Immigration Area in the state of Rio Grande do Sul.
 
@@ -124,55 +124,65 @@ leaflet(data = iia, width = "80%", height = 600,
 
 </div>
 
-### Our Talian Corpus
-
-Our corpus consists of internet texts from the IIA as well as excerpts from books written in Talian. Text processing is being done in R [@r_language], and optical character recognition (OCR) is being carried out using Google's <a href = "https://github.com/tesseract-ocr/tesseract/" target = "_blank">**Tesseract**</a> [@tesseract]. As a starting point, we used trained data from Italian in Tesseract, and later checked for potential mismatches. We are currently developing the first version of the corpus, which we plan to make available during the fall of 2020---see below.
-
-#### Stage 1: Fall 2020
-
-- Data collection, OCR, tokenization
-    - `21,574 words (in progress)`
-    - `1,678 sentences (in progress)`
-- Initial coding
-- Make initial version available
-
-#### Stage 2: Spring 2021
-
-- Tagging (part of speech)
-- Phonetic transcription
-- Syllabification
-
----
-
-### Corpus sample
+<h3>Our Talian Corpus</h3>
 
 
-```{r kable, echo = FALSE, warning=FALSE, message=FALSE}
+
+```{r echo = FALSE, warning=FALSE, message=FALSE}
 library(kableExtra)
 library(knitr)
 require(tidyverse)
 
-load("talian/corpus/talian.RData")
+load(url("http://guilhermegarcia.github.io/talian/corpus/talian.RData"))
 
-kable(talian %>% slice(1:5) %>% select(sentence, word, frequency, logFrequency, author, year), 
-      row.names = FALSE, digits = 3) %>% 
+```
+
+Our corpus consists of internet texts from the IIA as well as excerpts from books written in Talian. Text processing is being done in R [@r_language], and optical character recognition (OCR) is being carried out using Google's <a href = "https://github.com/tesseract-ocr/tesseract/" target = "_blank">**Tesseract**</a> [@tesseract]. As a starting point, we used trained data from Italian in Tesseract, and later checked for potential mismatches.
+
+<h4>Stage 1: Fall 2020</h4>
+
+- Data collection, OCR, tokenization
+    - ``r formatC(nrow(Talian), big.mark = ",")` words (in progress)`
+    - ``r formatC(length(levels(Talian$sentence)), big.mark = ",")` sentences (in progress)`
+- Initial coding
+- Make initial version available
+
+<h4>Stage 2: Spring 2021</h4>
+
+- Phonetic transcription
+- Syllabification
+- Tagging (part of speech)
+
+<font color = "gray">*Last updated: `r format(Sys.Date(), "%B %d, %Y")`*</font>
+
+---
+
+<h3>What the corpus looks like</h3>
+
+The corpus currently has `r ncol(Talian)` variables/columns. In the table below, you can see a subset of such variables.
+
+```{r kable, echo = FALSE, warning=FALSE, message=FALSE}
+set.seed(5)
+kable(Talian %>% slice(1:10) %>% 
+          select(sentence, wd, sLength, freq, logFreq, author, year, sylls, IPA, nSyll),
+      row.names = FALSE, digits = 3) %>%
     kable_styling(full_width = F)
 
 ```
 <br>
 
-As can be seen from the sample above, the corpus follows a `tidy data` approach [@wickham2014tidy]. As a result, little if any data wrangling is needed to analyze the data.
+The corpus follows a `tidy data` approach [@wickham2014tidy], so little (if any) data wrangling is needed to analyze the data.
 
 
 ---
 
-### <i class="fas fa-cloud-download-alt"></i>&emsp;Download corpus
+<h3><i class="fas fa-cloud-download-alt"></i>&emsp;Download corpus</h3>
 
-To access the corpus, click <a href = "https://guilhermegarcia.github.io/talian_form.html" target ="_blank">**here**</a>
+To access the corpus, click [**here**](talian_form.html).
 
 ---
 
-### References
+<h3>References</h3>
 
 <div id="refs"></div>
 
