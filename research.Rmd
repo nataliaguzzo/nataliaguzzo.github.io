@@ -22,7 +22,7 @@ In collaboration with <a href="http://people.linguistics.mcgill.ca/~heather.goad
 
 - **Guzzo, Natália Brambatti**. under revision. Revisiting the acquisition of onset complexity: Affrication in Québec French.
 
-- **Guzzo, Natália Brambatti**, Heather Goad and Megan Deegan. to appear. Phonological systems in conflict: The acquisition of stress in bilingual French and English. *Proceedings of the 55th Meeting of the Chicago Linguistic Society 2019*.
+- **Guzzo, Natália Brambatti**, Heather Goad and Megan Deegan. 2020. Phonological systems in conflict: The acquisition of stress in bilingual French and English. *Proceedings of the 55th Meeting of the Chicago Linguistic Society 2019*.
 
 
 <br>
@@ -33,7 +33,7 @@ I investigate how language contact affects speakers' prosodic representations. S
 
 *Output:*
 
-- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact*. 
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. 2020. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact* 13(2): 389-427. 
 
 - **Guzzo, Natália Brambatti**. (2018). Language contact determines prosodic representation and variation. 92nd Annual Meeting of the Linguistic Society of America (LSA), Salt Lake City (UT), USA, Jan 4-8. [[poster](materials/lsa2018.pdf)]
 
@@ -59,7 +59,7 @@ In both joint and single-authored research, I investigate how prosodic cues (suc
 
 *Output:*
 
-- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. accepted. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition*.
+- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. 2020. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition* (available online). [[paper](https://doi.org/10.1017/S0272263120000285)]
 
 - **Guzzo, Natália Brambatti** and Heather Goad. 2017. Overriding default interpretations through prosody: Depictive predicates in Brazilian Portuguese. *Proceedings of the 91st Annual Meeting of the Linguistic Society of America*. [[paper](http://dx.doi.org/10.3765/plsa.v2i0.4077)]
 
@@ -94,7 +94,7 @@ I have also investigated some topics in L2 syntax.
 
 - Slabakova, Roumyana, Lydia White and **Natália Brambatti Guzzo**. 2017. Pronoun interpretation in the second language: Effects of computational complexity. *Frontiers in Psychology* 8: 1–12. [[paper](https://doi.org/10.3389/fpsyg.2017.01236)]
 
-- Xia, Vera Yunxiao, Lydia White and **Natália Brambatti Guzzo**. accepted. Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. *Second Language Research*.
+- Xia, Vera Yunxiao, Lydia White and **Natália Brambatti Guzzo**. 2020. Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. *Second Language Research* (available online). [[paper](https://doi.org/10.1177/0267658320958742)]
 
 <br>
 

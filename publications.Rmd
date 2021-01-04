@@ -43,44 +43,7 @@ output: html_document
 
 ---
 
-### Recent and upcoming conference presentations
 
-<!-- <div align = "justify"> -->
-
-- Goad, Heather, Lydia White, Guilherme D. Garcia, **Natália Brambatti Guzzo**, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. 2018. Effects of prosody on L2 interpretation of Italian pronouns. Second Language Research Forum (SLRF), Université du Québec à Montréal, Montreal, Canada, Oct 26-28. [talk]
-
-- **Guzzo, Natália Brambatti**. 2018. Native and non-native patterns in conflict: Lexicon vs. grammar in loanword adaptation in Brazilian Portuguese. 2018 Annual Meeting on Phonology (AMP 2018), University of California San Diego, San Diego (CA), USA, Oct 5-7. [[poster](materials/AMP2018_Guzzo.pdf)]
-
-- Goad, Heather, Lydia White, Guilherme D. Garcia, **Natália Brambatti Guzzo**, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. 2018. Pronoun interpretation in L2 Italian: Prosodic effects revisited. 8th Generative Approaches to Language Acquisition North America (GALANA), Indiana University, Bloomington (IN), USA, Sep 27-30. [talk]
-
-- **Guzzo, Natália Brambatti**. 2018. Diminutive structures in a variety of Brazilian Portuguese: A case of prosodic transfer. Symposium on Second Language Acquisition in Honour of Lydia White, McGill University, Montreal, Canada, Aug 31-Sep 1. [talk]
-
-- Goad, Heather, Lydia White, **Natália Brambatti Guzzo**, Guilherme D. Garcia, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. (2018). How prosody affects L2 processing: Pronoun interpretation in L2 Italian. 2nd International Symposium on Bilingual and L2 Processing in Adults and Children (ISBPAC), Technische Universität Braunschweig, Braunschweig, Germany, May 24-25. [poster]
-
-- Athanasopoulou, Angeliki, Irene Vogel and **Natália Brambatti Guzzo**. (2018). Variability and the alignment of pitch accents in Brazilian Portuguese. 48th Linguistic Symposium on Romance Languages (LSRL), York University, Toronto, Canada, Apr 26-28. [talk]
-
-- **Guzzo, Natália Brambatti**, Heather Goad and Guilherme D. Garcia. (2018). What motivates High Vowel Deletion in Québec French: Foot structure or tonal profile? 92nd Annual Meeting of the Linguistic Society of America (LSA), Salt Lake City (UT), USA, Jan 4-8. [talk, [slides](materials/LSA_GuzzoGoadGarcia.pdf)]
-
-- **Guzzo, Natália Brambatti**. (2018). Language contact determines prosodic representation and variation. 92nd Annual Meeting of the Linguistic Society of America (LSA), Salt Lake City (UT), USA, Jan 4-8. [[poster](materials/lsa2018.pdf)]
-
-- Goad, Heather, Lydia White, Guilherme D. Garcia, **Natália Brambatti Guzzo**, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. (2017). Pronoun interpretation in Italian: assessing the effects of prosody. 5th Experimental Psycholinguistics Conference, Maó (Menorca), Spain, Jun 28-30. [talk]
-
-- Goad, Heather, Lydia White, Guilherme D. Garcia, **Natália Brambatti Guzzo**, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. (2017). Effects of pause and stress on pronoun interpretation in L2 Italian. 11th International Symposium on Bilingualism, University of Limerick, Limerick, Ireland, Jun 11-15. [talk]
-
-- **Guzzo, Natália Brambatti**, Heather Goad and Guilherme D. Garcia. (2017). Accessing prosodic structure through indirect evidence: The L2 acquisition of high vowel deletion in Québec French. Annual Meeting of the Canadian Linguistic Association (CLA), Ryerson University, Toronto, Canada, May 27-29. [talk]
-
-- **Guzzo, Natália Brambatti**, Heather Goad and Guilherme D. Garcia. (2017). Learners can acquire structurally-conditioned variation: High vowel deletion in Québec French. 14th Generative Approaches to Second Language Acquisition conference (GASLA 14), University of Southampton, Southampton, UK, Apr 6-9. [talk]
-
-- Goad, Heather, Lydia White, Guilherme D. Garcia, **Natália Brambatti Guzzo**, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. (2017). Pronoun interpretation in L2 Italian: effects of pause and stress. 14th Generative Approaches to Second Language Acquisition conference (GASLA 14), University of Southampton, Southampton, UK, Apr 6-9. [talk]
-
-- **Guzzo, Natália Brambatti** and Heather Goad. (2017). Using acoustic cues to interpret ambiguous sentences: Depictive predicates in Brazilian Portuguese. The Ohio State University Congress on Hispanic and Lusophone Linguistics 2017 (OSUCHiLL), The Ohio State University, Columbus (OH), USA, Mar 31-Apr 1 2017. [talk]
-
-- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. (2017). Probing prosodic representations through vowel reduction in Brazilian Portuguese. The Ohio State University Congress on Hispanic and Lusophone Linguistics 2017 (OSUCHiLL), The Ohio State University, Columbus (OH), USA, Mar 31-Apr 1 2017. [talk]
-
-- **Guzzo, Natália Brambatti** and Heather Goad. (2017). Overriding default interpretations through prosody: Depictive predicates in Brazilian Portuguese. 91st Annual Meeting of the Linguistic Society of America (LSA), Austin (TX), USA, Jan 5-8. [talk, [slides](materials/Guzzo_GoadLSA2017.pps)]
- 
-<br>
-
-*(See older papers and presentations in my CV.)*
+*(See presentations and older papers and presentations CV.)*
 
 <!-- </div> -->
