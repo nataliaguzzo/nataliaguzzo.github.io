@@ -182,6 +182,32 @@ To access the corpus, click [**here**](talian_form.html).
 
 ---
 
+<h3>Publications</h3>
+
+- Guzzo, N. B. & **G. D. Garcia**. (2020). <a href = "https://guilhermegarcia.github.io/files/guzzo_garcia_jlc_2020.pdf" target = "_blank">Phonological variation and prosodic representation: clitics in Portuguese-Veneto contact</a>. *Journal of Language Contact*, 13(2):389--427.
+
+
+---
+
+<h3>How to cite the corpus</h3>
+
+**APA:**
+
+Garcia, G. D. and Guzzo, N. B. (2020). *Talian corpus: a corpus of Brazilian Veneto*. Available at `https://guilhermegarcia.github.io/talian.html` and `https://nataliaguzzo.github.io/talian.html`.
+
+**BibTeX:**
+
+```
+@manual{garcia_guzzo_2020_talian_corpus,
+	Author = {Garcia, Guilherme D. and Guzzo, Nat\'{a}lia Brambatti},
+	Note = {Available at \url{https://guilhermegarcia.github.io/talian.html} and \url{https://nataliaguzzo.github.io/talian.html}},
+	Title = {Talian corpus: a corpus of Brazilian Veneto},
+	Year = {2020}}
+```
+
+
+---
+
 <h3>References</h3>
 
 <div id="refs"></div>
