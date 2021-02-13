@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Talian</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
+
+  
+<meta name = "keywords" content = "linguistics, linguist, phonology, phonology-syntax, syntax-phonology, phonologist, portuguese, brazilian portuguese, language acquisition, vowels, language contact, bilingualism, veneto, language variation, clitics, compounds, linguística, fonologia, fonóloga, português, português brasileiro, fonologia-sintaxe, sintaxe-fonologia, vêneto, talian, variação linguística, aquisição da linguagem, bilinguismo, contato linguístico, clíticos, compostos, aquisição de segunda língua, natália guzzo, guzzo, natália brambatti"/>
+  
+<meta name = "robots" content = "index, follow"/>
+
+
+<script src="https://kit.fontawesome.com/817345f431.js" crossorigin="anonymous"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Natália Brambatti GUZZO</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="CV.html">CV</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="talian.html">Talian</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Talian</h1>
+
+</div>
+
+
+<style>
+.image {
+  border-radius: 50%;
+  <!-- margin: 0.5rem; -->
+  min-width: 50%;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.curve { 
+    width: 35%;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin: 1.5rem;
+    margin-right:1rem;
+    shape-outside:circle(50%);
+    -webkit-clip-path: circle(50%);
+}
+
+<!-- .container { -->
+<!--   position: relative; -->
+<!--   width: 100%; -->
+<!-- } -->
+
+<!-- .middle { -->
+<!--   transition: .5s ease; -->
+<!--   opacity: 0; -->
+<!--   position: absolute; -->
+<!--   top: 50%; -->
+<!--   left: 50%; -->
+<!--   transform: translate(-50%, -50%); -->
+<!--   -ms-transform: translate(-50%, -50%) -->
+<!-- } -->
+
+<!-- .container:hover .image { -->
+<!--   opacity: 0.3; -->
+<!-- } -->
+
+<!-- .container:hover .middle { -->
+<!--   opacity: 1; -->
+<!-- } -->
+
+<!-- .text { -->
+<!--   <!-- background-color: white; --> -->
+<!--   color: white; -->
+<!--   text-color: white; -->
+<!--   font-size: 16px; -->
+<!--   padding: 6px 6px; -->
+<!-- } -->
+</style>
+<div align = "justify">
+
+
+<hr />
+<div align="center">
+<p><i class="fas fa-home"></i> <a href="talian.html"><strong>Home</strong></a>   <i class="fas fa-comments"></i> <a href="talian_language.html"><strong>Language</strong></a>   <i class="fas fa-folder-open"></i> <strong>Corpus</strong></p>
+</div>
+<hr />
+<h3>
+Our Talian Corpus
+</h3>
+<div class="curve">
+<img src = "talian/corpus_image.png" class = "image" alt = "Antônio Prado, Rio Grande do Sul">
+</div>
+<p>Our corpus consists of internet texts from the IIA as well as excerpts from books written in Talian. Text processing is being done in R <span class="citation">(R Core Team, 2020)</span>, and optical character recognition (OCR) is being carried out using Google’s <a href = "https://github.com/tesseract-ocr/tesseract/" target = "_blank"><strong>Tesseract</strong></a> <span class="citation">(Smith, 2007)</span>. As a starting point, we used trained data from Italian in Tesseract, and later checked for potential mismatches. As of February 2021, the corpus contains 103,046 words and 8,589 sentences.</p>
+<h4>
+Stage 1: Fall 2020
+</h4>
+<ul>
+<li>Data collection, OCR, tokenization</li>
+<li>Initial coding</li>
+<li>Make initial version available</li>
+</ul>
+<h4>
+Stage 2: Spring 2021
+</h4>
+<ul>
+<li>Data collection, OCR, tokenization</li>
+<li>Phonetic transcription</li>
+<li>Syllabification</li>
+<li>Tagging (part of speech)</li>
+</ul>
+<p><font color = "gray"><em>Last updated: February 13, 2021</em></font></p>
+<hr />
+<h3>
+What the corpus looks like
+</h3>
+<p>The corpus currently has 16 variables/columns. In the table below, you can see a subset of such variables.</p>
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+sentence
+</th>
+<th style="text-align:left;">
+wd
+</th>
+<th style="text-align:right;">
+sLength
+</th>
+<th style="text-align:right;">
+freq
+</th>
+<th style="text-align:right;">
+logFreq
+</th>
+<th style="text-align:left;">
+author
+</th>
+<th style="text-align:left;">
+year
+</th>
+<th style="text-align:left;">
+sylls
+</th>
+<th style="text-align:left;">
+IPA
+</th>
+<th style="text-align:right;">
+nSyll
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Al Sol!
+</td>
+<td style="text-align:left;">
+al
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+264
+</td>
+<td style="text-align:right;">
+5.576
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+al
+</td>
+<td style="text-align:left;">
+al
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Al Sol!
+</td>
+<td style="text-align:left;">
+sol
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+195
+</td>
+<td style="text-align:right;">
+5.273
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+sol
+</td>
+<td style="text-align:left;">
+sol
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Al Sol!
+</td>
+<td style="text-align:left;">
+al
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+264
+</td>
+<td style="text-align:right;">
+5.576
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+al
+</td>
+<td style="text-align:left;">
+al
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Al Sol!
+</td>
+<td style="text-align:left;">
+sol
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+195
+</td>
+<td style="text-align:right;">
+5.273
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+sol
+</td>
+<td style="text-align:left;">
+sol
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Al Sol!
+</td>
+<td style="text-align:left;">
+al
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+264
+</td>
+<td style="text-align:right;">
+5.576
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+al
+</td>
+<td style="text-align:left;">
+al
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Al Sol!
+</td>
+<td style="text-align:left;">
+sol
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+195
+</td>
+<td style="text-align:right;">
+5.273
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+sol
+</td>
+<td style="text-align:left;">
+sol
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nanetto ga ciapà el so posto.
+</td>
+<td style="text-align:left;">
+nanetto
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+610
+</td>
+<td style="text-align:right;">
+6.413
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+na-ne-to
+</td>
+<td style="text-align:left;">
+na-ne-to
+</td>
+<td style="text-align:right;">
+3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nanetto ga ciapà el so posto.
+</td>
+<td style="text-align:left;">
+ga
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:right;">
+7.598
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+ga
+</td>
+<td style="text-align:left;">
+ga
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nanetto ga ciapà el so posto.
+</td>
+<td style="text-align:left;">
+ciapà
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+72
+</td>
+<td style="text-align:right;">
+4.277
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+cia-pà
+</td>
+<td style="text-align:left;">
+tʃa-pà
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nanetto ga ciapà el so posto.
+</td>
+<td style="text-align:left;">
+el
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+3928
+</td>
+<td style="text-align:right;">
+8.276
+</td>
+<td style="text-align:left;">
+Gardelin
+</td>
+<td style="text-align:left;">
+2010
+</td>
+<td style="text-align:left;">
+el
+</td>
+<td style="text-align:left;">
+el
+</td>
+<td style="text-align:right;">
+1
+</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>The corpus follows a <code>tidy data</code> approach <span class="citation">(Wickham &amp; others, 2014)</span>, so little (if any) data wrangling is needed to analyze the data.</p>
+<hr />
+<h3>
+<i class="fas fa-cloud-download-alt"></i> Download corpus
+</h3>
+<p>To access the corpus, click <a href="talian_form.html"><strong>here</strong></a>.</p>
+<hr />
+<h3>
+Publications
+</h3>
+<ul>
+<li>Guzzo, N. B. &amp; <strong>G. D. Garcia</strong>. (2020). <a href = "https://guilhermegarcia.github.io/files/guzzo_garcia_jlc_2020.pdf" target = "_blank">Phonological variation and prosodic representation: clitics in Portuguese-Veneto contact</a>. <em>Journal of Language Contact</em>, 13(2):389–427.</li>
+</ul>
+<hr />
+<h3>
+How to cite the corpus
+</h3>
+<p><strong>APA:</strong></p>
+<p>Garcia, G. D. and Guzzo, N. B. (2021). <em>Talian corpus: a corpus of Brazilian Veneto</em>. Available at <code>https://guilhermegarcia.github.io/talian.html</code> and <code>https://nataliaguzzo.github.io/talian.html</code>.</p>
+<p><strong>BibTeX:</strong></p>
+<pre><code>@manual{garcia_guzzo_2020_talian_corpus,
+    Author = {Garcia, Guilherme D. and Guzzo, Nat\&#39;{a}lia Brambatti},
+    Note = {Available at \url{https://guilhermegarcia.github.io/talian.html} and \url{https://nataliaguzzo.github.io/talian.html}},
+    Title = {Talian corpus: a corpus of Brazilian Veneto},
+    Year = {2020}}</code></pre>
+<hr />
+<h3>
+References
+</h3>
+<div id="refs">
+<div id="ref-r_language">
+<p>R Core Team. (2020). <em>R: A language and environment for statistical computing</em>. Vienna, Austria: R Foundation for Statistical Computing.</p>
+</div>
+<div id="ref-tesseract">
+<p>Smith, R. (2007). An overview of the tesseract OCR engine. <em>Ninth international conference on document analysis and recognition (ICDAR 2007)</em>, <em>2</em>, 629–633.</p>
+</div>
+<div id="ref-wickham2014tidy">
+<p>Wickham, H., &amp; others. (2014). Tidy data. <em>Journal of Statistical Software</em>, <em>59</em>(10), 1–23.</p>
+</div>
+</div>
+</div>
+</div>
+<hr />
+
+<p align = "center">
+<br>
+Copyright &copy; 2021 Natália Brambatti Guzzo
+</p>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131403771-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131403771-1');
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

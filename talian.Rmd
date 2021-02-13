@@ -66,24 +66,37 @@ output:
 </style>
 
 
+---
 
-<div align = "justify">
+<div align = "center">
 
+<i class="fas fa-home"></i> **Home** &emsp; <i class="fas fa-comments"></i> [**Language**](talian_language.html) &emsp; <i class="fas fa-folder"></i> [**Corpus**](talian_corpus.html)
 
-`Under construction.` Project by: <a href = "https://nataliaguzzo.github.io" target = "_blank">**Natália B. Guzzo**</a> and <a href="https://guilhermegarcia.github.io" target = "_blank">**Guilherme D. Garcia**</a>
-
-<div class = "curve"><img src = "talian/photos/AP/house3.jpg" class = "image" alt = "Antônio Prado, Rio Grande do Sul"></div>In the 19th century, Italian immigrants moved to North and South America. In Brazil, they first immigrated to the southeastern region, and subsequently to the southern region---especially to the southernmost state in the country, <a href = "https://en.wikipedia.org/wiki/Rio_Grande_do_Sul" target = "_blank">Rio Grande do Sul</a>. Many of these immigrants were speakers of <a href = "https://en.wikipedia.org/wiki/Venetian_language" target = "_blank">Veneto</a>, a Romance language spoken in northern Italy. As time went by, a dialect of Veneto, *Brazilian Veneto*, developed in the area(s) where the immigrants settled---we refer to this dialect as *Talian*. In total, there are approximately 500,000 speakers of Talian in Brazil---with varying degrees of proficiency.
-
-We are currently working on a written corpus of Talian, which will be made available here in the near future. Our project focuses on the Talian spoken in the *Italian Immigration Area* (IIA), the area of Rio Grande do Sul where Italian immigrants first settled. The picture shows a historic house in the IIA town of <a href = "https://en.wikipedia.org/wiki/Antônio_Prado" target = "_blank">**Antônio Prado**</a>, where we can find numerous speakers of Talian. 
-
+</div>
 
 ---
 
+<div align = "justify">
 
+**Project by:** <a href = "https://nataliaguzzo.github.io" target = "_blank">**Natália B. Guzzo**</a> and <a href="https://guilhermegarcia.github.io" target = "_blank">**Guilherme D. Garcia**</a> 
+
+
+*We are working on documenting Talian, an understudied variety of <a href = "https://en.wikipedia.org/wiki/Venetian_language" target = "_blank">Veneto</a> spoken in several areas of Brazil. Our work involves the development of a corpus of written materials in Talian as well as data collection through fieldwork. 
+*
+
+---
+
+<div class = "curve"><img src = "talian/photos/AP/house3.jpg" class = "image" alt = "Antônio Prado, Rio Grande do Sul"></div>In the 19th century, many Italians immigrated to North and South America. In Brazil, they first settled in the southeastern region, where many were employed in coffee farms. Later, other immigrants settled in the southern region (especially in the southernmost state of <a href = "https://en.wikipedia.org/wiki/Rio_Grande_do_Sul" target = "_blank">Rio Grande do Sul</a>), where they were offered land but faced harsh conditions to farm it. As time went by, a variety of Veneto, *Brazilian Veneto*, developed in the area(s) where the immigrants settled. Speakers refer to this variety as *Talian*. 
+
+Although Talian is spoken in several areas of Brazil, our main focus is on a region called Italian Immigration Area (IIA), the area of Rio Grande do Sul where Italian immigrants arrived first. The photo shown here was taken in the town of <a href = "https://en.wikipedia.org/wiki/Antônio_Prado" target = "_blank">**Antônio Prado**</a>. 
+
+---
 
 <h3>The Italian Immigration Area in Brazil</h3>
 
-The towns and cities in red have Talian as their co-official language, alongside (Brazilian) Portuguese. The gray circle is an approximation representing the Italian Immigration Area in the state of Rio Grande do Sul.
+In the map below, the towns and cities in red have Talian as their co-official language, alongside (Brazilian) Portuguese. They gray circle is an approximation representing the IIA.  
+
+</div>
 
 <div align = "center">
 
@@ -120,99 +133,30 @@ leaflet(data = iia, width = "80%", height = 600,
 
 ```
 
----
-
 </div>
 
-<h3>Our Talian Corpus</h3>
+---
 
+<div align = "justify">
 
+<h3>Acknowledgments</h3>
 
-```{r echo = FALSE, warning=FALSE, message=FALSE}
-library(kableExtra)
-library(knitr)
-require(tidyverse)
+Our project would not be possible without the help of the following people:
 
-load(url("http://guilhermegarcia.github.io/talian/corpus/talian.RData"))
+- Our language consultants, Maria Inês Chilanti and Lenise Baldin Cavazzola.
+- Our experiment participants.  
+- Our research assistants (all from McGill University), Émilie Dubé, Alexandra Lancaster, Ray Marks, Fabian McCarthy, Lamia Oudni, Carolyn Rathgeber, and Jovia Wong.
 
-```
-
-Our corpus consists of internet texts from the IIA as well as excerpts from books written in Talian. Text processing is being done in R [@r_language], and optical character recognition (OCR) is being carried out using Google's <a href = "https://github.com/tesseract-ocr/tesseract/" target = "_blank">**Tesseract**</a> [@tesseract]. As a starting point, we used trained data from Italian in Tesseract, and later checked for potential mismatches.
-
-<h4>Stage 1: Fall 2020</h4>
-
-- Data collection, OCR, tokenization
-    - ``r formatC(nrow(Talian), big.mark = ",")` words (in progress)`
-    - ``r formatC(length(levels(Talian$sentence)), big.mark = ",")` sentences (in progress)`
-- Initial coding
-- Make initial version available
-
-<h4>Stage 2: Spring 2021</h4>
-
-- Phonetic transcription
-- Syllabification
-- Tagging (part of speech)
-
-<font color = "gray">*Last updated: `r format(Sys.Date(), "%B %d, %Y")`*</font>
+We also thank Dr. Valdemir Guzzo (Natália's dad) for helping us find additional corpus materials as well as more information on the history of the IIA.
 
 ---
 
-<h3>What the corpus looks like</h3>
+<h3>Funding</h3>
 
-The corpus currently has `r ncol(Talian)` variables/columns. In the table below, you can see a subset of such variables.
-
-```{r kable, echo = FALSE, warning=FALSE, message=FALSE}
-set.seed(5)
-kable(Talian %>% slice(1:10) %>% 
-          select(sentence, wd, sLength, freq, logFreq, author, year, sylls, IPA, nSyll),
-      row.names = FALSE, digits = 3) %>%
-    kable_styling(full_width = F)
-
-```
-<br>
-
-The corpus follows a `tidy data` approach [@wickham2014tidy], so little (if any) data wrangling is needed to analyze the data.
-
-
----
-
-<h3><i class="fas fa-cloud-download-alt"></i>&emsp;Download corpus</h3>
-
-To access the corpus, click [**here**](talian_form.html).
-
----
-
-<h3>Publications</h3>
-
-- Guzzo, N. B. & **G. D. Garcia**. (2020). <a href = "https://guilhermegarcia.github.io/files/guzzo_garcia_jlc_2020.pdf" target = "_blank">Phonological variation and prosodic representation: clitics in Portuguese-Veneto contact</a>. *Journal of Language Contact*, 13(2):389--427.
-
-
----
-
-<h3>How to cite the corpus</h3>
-
-**APA:**
-
-Garcia, G. D. and Guzzo, N. B. (2020). *Talian corpus: a corpus of Brazilian Veneto*. Available at `https://guilhermegarcia.github.io/talian.html` and `https://nataliaguzzo.github.io/talian.html`.
-
-**BibTeX:**
-
-```
-@manual{garcia_guzzo_2020_talian_corpus,
-	Author = {Garcia, Guilherme D. and Guzzo, Nat\'{a}lia Brambatti},
-	Note = {Available at \url{https://guilhermegarcia.github.io/talian.html} and \url{https://nataliaguzzo.github.io/talian.html}},
-	Title = {Talian corpus: a corpus of Brazilian Veneto},
-	Year = {2020}}
-```
-
-
----
-
-<h3>References</h3>
-
-<div id="refs"></div>
+This project has been awarded a *Jovem Talento* grant (2021--2022) by Brazil's federal funding agency <a href = "http://capes.gov.br" target = "_blank">**CAPES**</a> (Coordination for the Improvement of Higher Education).
 
 </div>
 
 
 ---
+
