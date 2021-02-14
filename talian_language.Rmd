@@ -76,9 +76,11 @@ blockquote {
 
 <div align = "justify">
 
-<div class = "curve"><img src = "talian/photos/saoDomingos.jpg" class = "image" title = "São Domingos, Rio Grande do Sul, circa 1940"></div>In total, there are approximately 500,000 speakers of Talian in Brazil, with varying degrees of proficiency. Talian is a Romance language, and it has some aspects in common with other languages from the same family, such as:
+<div class = "curve"><img src = "talian/photos/saoDomingos.jpg" class = "image" title = "São Domingos, Rio Grande do Sul, circa 1940"></div>In total, there are approximately 500,000 speakers of Talian in Brazil, with varying degrees of proficiency. The photo shows Talian speakers in São Domingos (a district of Sananduva, Rio Grande do Sul), circa 1940. 
 
-- seven vowels in stressed position (<img src="talian/vowels.png" height ="22">), like Italian and Portuguese;
+Talian is a Romance language, and it has some aspects in common with other languages from the same family, such as:
+
+- seven vowels in stressed position (<img src="talian/vowels.png" height ="21">), like Italian and Portuguese;
 - a (relatively) rich agreement system;
 - (preverbal) object clitics, like Italian, Spanish and French;
 - the past tense is formed by auxiliary verb + past participle, like Italian and French.
@@ -94,7 +96,7 @@ Below you can listen to the fable *The north wind and the sun*, recorded by a sp
 **El Vento del Norte e el Sol**    
 
 El Vento del Norte e el Sol i zera drio discùter qual zera el pi forte,    
-quando un viaiante el ze rivà vestío con na capa grossa.    
+quando un viaiante el ze rivà vestio con na capa grossa.    
 I ga dessidio che’l primo que podesse far el viaiante tirar zo la capa    
 dovea esser considerà el pi forte de luri due.    
 Lora el Vento del Norte el ga sufià el màssimo che’l podea,    
