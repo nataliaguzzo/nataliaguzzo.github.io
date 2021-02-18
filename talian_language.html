@@ -13,6 +13,7 @@
 
 <title>Talian</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -22,6 +23,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
 
   
@@ -31,6 +34,15 @@
 
 
 <script src="https://kit.fontawesome.com/817345f431.js" crossorigin="anonymous"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -59,6 +71,29 @@ h6 {
 }
 .table th:not([align]) {
   text-align: left;
+}
+</style>
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
 
@@ -362,7 +397,7 @@ The language
 <img src = "talian/photos/saoDomingos.jpg" class = "image" title = "São Domingos, Rio Grande do Sul, circa 1940">
 </div>
 <p>In total, there are approximately 500,000 speakers of Talian in Brazil, with varying degrees of proficiency. The photo shows Talian speakers in São Domingos (a district of Sananduva, Rio Grande do Sul), circa 1940.</p>
-<p>Talian is a Romance language, and it has some aspects in common with other languages from the same family, such as:</p>
+<p>Talian is a Veneto-based Romance language, and it has some aspects in common with other languages from the same family, such as:</p>
 <ul>
 <li>seven vowels in stressed position (<img src="talian/vowels.png" height ="21">), like Italian and Portuguese;</li>
 <li>a (relatively) rich agreement system;</li>
@@ -370,6 +405,62 @@ The language
 <li>the past tense is formed by auxiliary verb + past participle, like Italian and French.</li>
 </ul>
 <p>Talian’s lexicon has incorporated several words from Brazilian Portuguese: <em>zacaré</em> (from <em>jacaré</em> ‘alligator’), <em>sorasco</em> (from <em>churrasco</em> ‘barbecue’), <em>sinela</em> (from <em>chinelo</em> ‘sandal’).</p>
+<p>Because Italian immigrants came from different regions in Italy, very few communities in the IIA spoke a single language or dialect—see table below <span class="citation">(Frosi &amp; Mioranza, 2009, p. 47)</span>. The contact between the various languages spoken by immigrants, the predominance of Veneto dialects among such languages, and the scarce contact with Portuguese favored the development of a Veneto-based dialect in the area.</p>
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Region of origin
+</th>
+<th style="text-align:right;">
+%
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Veneto
+</td>
+<td style="text-align:right;">
+54.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lombardia
+</td>
+<td style="text-align:right;">
+33.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Trentino-Alto Adige
+</td>
+<td style="text-align:right;">
+7.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Friuli Venezia-Giulia
+</td>
+<td style="text-align:right;">
+4.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Others
+</td>
+<td style="text-align:right;">
+1.5
+</td>
+</tr>
+</tbody>
+</table>
+<hr />
 <p>Below you can listen to the fable <em>The north wind and the sun</em>, recorded by a speaker of Talian.</p>
 <div align="center">
 <blockquote>
@@ -388,6 +479,15 @@ che’l Sol el zera el pi forte de luri due.
 </blockquote>
 <audio controls src="talian/audio/fable.wav">
 </audio>
+</div>
+<hr />
+<h3>
+References
+</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-frosi2009" class="csl-entry">
+Frosi, V. M., &amp; Mioranza, C. (2009). <em>Imigração italiana no nordeste do <span>R</span>io <span>G</span>rande do <span>S</span>ul</em> (2nd ed.). Caxias do Sul: EDUCS.
+</div>
 </div>
 </div>
 <hr />
@@ -415,7 +515,7 @@ Copyright &copy; 2021 Natália Brambatti Guzzo
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  3 JAN 2021 19:46
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  15 FEB 2021 13:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -518,7 +518,7 @@ Overfull \hbox (12.9033pt too wide) in paragraph at lines 149--153
  []
 
 
-Overfull \hbox (12.9033pt too wide) in paragraph at lines 159--163
+Overfull \hbox (12.9033pt too wide) in paragraph at lines 154--158
 [][] 
  []
 
@@ -532,29 +532,29 @@ Overfull \hbox (12.9033pt too wide) in paragraph at lines 169--173
 [][] 
  []
 
+
+Overfull \hbox (12.9033pt too wide) in paragraph at lines 174--178
+[][] 
+ []
+
 [1
 
 ]
-Invalid UTF-8 byte or sequence at line 313 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 313 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 318 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 318 replaced by U+FFFD.
  [2]
-Invalid UTF-8 byte or sequence at line 371 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 371 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 371 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 379 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 379 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 376 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 376 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 376 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 384 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 384 replaced by U+FFFD.
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 393--396
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 398--401
 [] 
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 397--400
-[][] 
- []
-
-
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 407--410
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 402--405
 [][] 
  []
 
@@ -584,7 +584,7 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 432--435
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 436--439
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 437--440
 [][] 
  []
 
@@ -598,13 +598,13 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 446--449
 [][] 
  []
 
-[3]
+
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 451--454
 [][] 
  []
 
-
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 455--458
+[3]
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 456--459
 [][] 
  []
 
@@ -668,12 +668,12 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 515--518
 [][] 
  []
 
-[4]
+
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 520--523
 [][] 
  []
 
-
+[4]
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 525--528
 [][] 
  []
@@ -743,87 +743,97 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 590--593
 [][] 
  []
 
-Invalid UTF-8 byte or sequence at line 651 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 651 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 657 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 657 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 657 replaced by U+FFFD.
-[5]
-Invalid UTF-8 byte or sequence at line 665 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 670 replaced by U+FFFD.
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 674--677
-[] 
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 595--598
+[][] 
  []
 
+Invalid UTF-8 byte or sequence at line 656 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 656 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 662 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 662 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 662 replaced by U+FFFD.
+[5]
+Invalid UTF-8 byte or sequence at line 670 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 675 replaced by U+FFFD.
 
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 679--682
-[][] 
- []
-
-
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 688--691
 [] 
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 692--695
-[][] 
- []
-
-Invalid UTF-8 byte or sequence at line 698 replaced by U+FFFD.
-
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 706--711
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 684--687
 [][] 
  []
 
 
-Overfull \hbox (4.36739pt too wide) in paragraph at lines 720--730
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 693--696
+[] 
+ []
+
+
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 697--700
+[][] 
+ []
+
+Invalid UTF-8 byte or sequence at line 703 replaced by U+FFFD.
+
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 711--716
 [][] 
  []
 
 
-Overfull \hbox (4.36739pt too wide) in paragraph at lines 732--738
+Overfull \hbox (4.36739pt too wide) in paragraph at lines 725--738
 [][] 
  []
 
 
-Overfull \hbox (4.36739pt too wide) in paragraph at lines 741--747
+Overfull \hbox (4.36739pt too wide) in paragraph at lines 740--746
 [][] 
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 808--812
+Overfull \hbox (4.36739pt too wide) in paragraph at lines 749--755
 [][] 
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 814--818
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 816--820
 [][] 
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 820--824
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 821--825
 [][] 
  []
 
 [6]
-Underfull \hbox (badness 1112) in paragraph at lines 860--861
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 827--831
+[][] 
+ []
+
+
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 833--837
+[][] 
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 873--874
 []\TU/lmr/m/n/10 Research Assistantship Grant, Programa Institucional de Bolsas de Iniciação Cientí­fica
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 881--898
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 894--912
 [][] 
  []
 
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1034.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1048.
  [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1034.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1048.
  (/Users/nataliaguzzo/Dropbox/nataliaguzzo.github.io/cv/.texpadtmp/guzzo-cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1034.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1034.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1048.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1048.
 Package rerunfilecheck Info: File `guzzo-cv.out' has not changed.
 (rerunfilecheck)             Checksum: 6AB29AD419C2686835BC3FC6E34E734D;687.
  ) 
