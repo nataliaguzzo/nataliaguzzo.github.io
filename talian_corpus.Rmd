@@ -64,13 +64,13 @@ output:
 <!--   padding: 6px 6px; -->
 <!-- } -->
 
-@media(prefers-color-scheme: dark){
+<!-- @media(prefers-color-scheme: dark){ -->
 
-img {
-   -webkit-filter: invert(80%);
-   filter: invert(80%);
-   }
-}
+<!-- img { -->
+<!--    -webkit-filter: invert(80%); -->
+<!--    filter: invert(80%); -->
+<!--    } -->
+<!-- } -->
 
 </style>
 
@@ -130,8 +130,8 @@ kable(Talian %>% slice(1:10) %>%
           select(sentence, wd, sLength, freq, logFreq, author, year, sylls, IPA, nSyll),
       row.names = FALSE, digits = 3) %>%
     kable_styling(full_width = F) %>% 
-    kable_styling(latex_options = "striped") %>% 
-    row_spec(0:10, color = "white", background = "#414141")
+    kable_styling(latex_options = "striped") #%>% 
+    # row_spec(0:10, color = "white", background = "#414141")
 ```
 <br>
 
@@ -161,7 +161,7 @@ Garcia, G. D., & Guzzo, N. B. (2021, April 12). Talian corpus: a written corpus 
 
 **BibTeX:**
 
-<pre class='code code-css'><label>TeX</label><code>
+```
 @misc{Garcia_Guzzo_2021,
   title={Talian corpus: a written corpus of Brazilian Veneto},
   url={osf.io/63nrx},
@@ -170,7 +170,7 @@ Garcia, G. D., & Guzzo, N. B. (2021, April 12). Talian corpus: a written corpus 
   author={Garcia, Guilherme D and Guzzo, Natália B},
   year={2021},
   month={Apr}}
-</code></pre>
+```
 
 ---
 
