@@ -18,7 +18,7 @@ output:
 
 blockquote {
     text-align:center;
-    color:#6e6e6e;
+    <!-- color:#6e6e6e; -->
     <!-- padding:10px 5px; -->
     <!-- border-left:3px solid #ccc; -->
     display:inline-block;
@@ -80,7 +80,7 @@ blockquote {
 
 Talian is a Veneto-based Romance language, and it has some aspects in common with other languages from the same family, such as:
 
-- seven vowels in stressed position (<img src="talian/vowels.png" height ="21">), like Italian and Portuguese;
+- seven vowels in stressed position, exactly like Italian and Portuguese;
 - a (relatively) rich agreement system;
 - (preverbal) object clitics, like Italian, Spanish and French;
 - the past tense is formed by auxiliary verb + past participle, like Italian and French.

@@ -13,6 +13,7 @@
 
 <title>Talian</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -20,8 +21,6 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
-<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
@@ -33,6 +32,15 @@
 
 
 <script src="https://kit.fontawesome.com/817345f431.js" crossorigin="anonymous"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -61,6 +69,29 @@ h6 {
 }
 .table th:not([align]) {
   text-align: left;
+}
+</style>
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
 
@@ -354,10 +385,17 @@ $(document).ready(function () {
 <!--   font-size: 16px; -->
 <!--   padding: 6px 6px; -->
 <!-- } -->
+
+@media(prefers-color-scheme: dark){
+
+img {
+   -webkit-filter: invert(80%);
+   filter: invert(80%);
+   }
+}
+
 </style>
-<div align = "justify">
-
-
+<div align="justify">
 <hr />
 <div align="center">
 <p><i class="fas fa-home"></i> <a href="talian.html"><strong>Home</strong></a>   <i class="fas fa-comments"></i> <a href="talian_language.html"><strong>Language</strong></a>   <i class="fas fa-folder-open"></i> <strong>Corpus</strong></p>
@@ -369,7 +407,7 @@ Our Talian Corpus
 <div class="curve">
 <img src = "talian/corpus_image.png" class = "image">
 </div>
-<p>Our corpus consists of internet texts from the IIA as well as excerpts from books written in Talian. Text processing is being done in R <span class="citation">(R Core Team, 2020)</span>, and optical character recognition (OCR) is being carried out using Google’s <a href = "https://github.com/tesseract-ocr/tesseract/" target = "_blank"><strong>Tesseract</strong></a> <span class="citation">(Smith, 2007)</span>. As a starting point, we used trained data from Italian in Tesseract, and later checked for potential mismatches. As of February 2021, the corpus contains 103,046 words and 8,589 sentences.</p>
+<p>Our corpus consists of internet texts from the IIA as well as excerpts from books written in Talian. Text processing is being done in R <span class="citation">(R Core Team, 2020)</span>, and optical character recognition (OCR) is being carried out using Google’s <a href = "https://github.com/tesseract-ocr/tesseract/" target = "_blank"><strong>Tesseract</strong></a> <span class="citation">(Smith, 2007)</span>. As a starting point, we used trained data from Italian in Tesseract, and later checked for potential mismatches. As of April 2021, the corpus contains <strong>103,046</strong> words and <strong>8,589</strong> sentences.</p>
 <h4>
 Stage 1: Fall 2020
 </h4>
@@ -379,373 +417,372 @@ Stage 1: Fall 2020
 <li>Make initial version available</li>
 </ul>
 <h4>
-Stage 2: Spring 2021
+Stage 2: 2021
 </h4>
 <ul>
 <li>Data collection, OCR, tokenization</li>
 <li>Phonetic transcription</li>
 <li>Syllabification</li>
-<li>Tagging (part of speech)</li>
 </ul>
-<p><font color = "gray"><em>Last updated: February 13, 2021</em></font></p>
+<p><font color = "gray"><em>Last updated: April 16, 2021</em></font></p>
 <hr />
 <h3>
 What the corpus looks like
 </h3>
 <p>The corpus currently has 16 variables/columns. In the table below, you can see a subset of such variables.</p>
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table table" style="width: auto !important; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
-<th style="text-align:left;">
+<th style="text-align:left;color: white !important;background-color: #414141 !important;">
 sentence
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;color: white !important;background-color: #414141 !important;">
 wd
 </th>
-<th style="text-align:right;">
+<th style="text-align:right;color: white !important;background-color: #414141 !important;">
 sLength
 </th>
-<th style="text-align:right;">
+<th style="text-align:right;color: white !important;background-color: #414141 !important;">
 freq
 </th>
-<th style="text-align:right;">
+<th style="text-align:right;color: white !important;background-color: #414141 !important;">
 logFreq
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;color: white !important;background-color: #414141 !important;">
 author
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;color: white !important;background-color: #414141 !important;">
 year
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;color: white !important;background-color: #414141 !important;">
 sylls
 </th>
-<th style="text-align:left;">
+<th style="text-align:left;color: white !important;background-color: #414141 !important;">
 IPA
 </th>
-<th style="text-align:right;">
+<th style="text-align:right;color: white !important;background-color: #414141 !important;">
 nSyll
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Al Sol!
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 al
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 2
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 264
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 5.576
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 al
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 al
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 1
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Al Sol!
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 sol
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 2
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 195
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 5.273
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 sol
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 sol
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 1
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Al Sol!
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 al
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 2
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 264
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 5.576
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 al
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 al
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 1
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Al Sol!
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 sol
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 2
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 195
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 5.273
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 sol
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 sol
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 1
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Al Sol!
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 al
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 2
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 264
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 5.576
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 al
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 al
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 1
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Al Sol!
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 sol
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 2
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 195
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 5.273
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 sol
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 sol
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 1
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Nanetto ga ciapà el so posto.
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 nanetto
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 6
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 610
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 6.413
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 na-ne-to
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 na-ne-to
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 3
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Nanetto ga ciapà el so posto.
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 ga
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 6
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 1995
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 7.598
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 ga
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 ga
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 1
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Nanetto ga ciapà el so posto.
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 ciapà
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 6
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 72
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 4.277
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 cia-pà
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 tʃa-pà
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 2
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Nanetto ga ciapà el so posto.
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 el
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 6
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 3928
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 8.276
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 Gardelin
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 2010
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 el
 </td>
-<td style="text-align:left;">
+<td style="text-align:left;color: white !important;background-color: #414141 !important;">
 el
 </td>
-<td style="text-align:right;">
+<td style="text-align:right;color: white !important;background-color: #414141 !important;">
 1
 </td>
 </tr>
@@ -757,7 +794,7 @@ el
 <h3>
 <i class="fas fa-cloud-download-alt"></i> Download corpus
 </h3>
-<p>To access the corpus, click <a href="talian_form.html"><strong>here</strong></a>.</p>
+<p>To access the corpus, click <a href = "https://osf.io/63nrx/" target = "_blank"><strong>here</strong></a>.</p>
 <hr />
 <h3>
 Publications
@@ -770,26 +807,31 @@ Publications
 How to cite the corpus
 </h3>
 <p><strong>APA:</strong></p>
-<p>Garcia, G. D. and Guzzo, N. B. (2021). <em>Talian corpus: a corpus of Brazilian Veneto</em>. Available at <code>https://guilhermegarcia.github.io/talian.html</code> and <code>https://nataliaguzzo.github.io/talian.html</code>.</p>
+<p>Garcia, G. D., &amp; Guzzo, N. B. (2021, April 12). Talian corpus: a written corpus of Brazilian Veneto. <code>https://doi.org/10.17605/OSF.IO/63NRX</code>. Available at <code>https://guilhermegarcia.github.io/talian.html</code> and <code>https://nataliaguzzo.github.io/talian.html</code>.</p>
 <p><strong>BibTeX:</strong></p>
-<pre><code>@manual{garcia_guzzo_2020_talian_corpus,
-    Author = {Garcia, Guilherme D. and Guzzo, Nat\&#39;{a}lia Brambatti},
-    Note = {Available at \url{https://guilhermegarcia.github.io/talian.html} and \url{https://nataliaguzzo.github.io/talian.html}},
-    Title = {Talian corpus: a corpus of Brazilian Veneto},
-    Year = {2020}}</code></pre>
+<pre class='code code-css'><label>TeX</label><code>
+@misc{Garcia_Guzzo_2021,
+  title={Talian corpus: a written corpus of Brazilian Veneto},
+  url={osf.io/63nrx},
+  DOI={10.17605/OSF.IO/63NRX},
+  publisher={OSF},
+  author={Garcia, Guilherme D and Guzzo, Natália B},
+  year={2021},
+  month={Apr}}
+</code></pre>
 <hr />
 <h3>
 References
 </h3>
-<div id="refs">
-<div id="ref-r_language">
-<p>R Core Team. (2020). <em>R: A language and environment for statistical computing</em>. Vienna, Austria: R Foundation for Statistical Computing.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-r_language" class="csl-entry">
+R Core Team. (2020). <em>R: A language and environment for statistical computing</em>. Vienna, Austria: R Foundation for Statistical Computing.
 </div>
-<div id="ref-tesseract">
-<p>Smith, R. (2007). An overview of the tesseract OCR engine. <em>Ninth international conference on document analysis and recognition (ICDAR 2007)</em>, <em>2</em>, 629–633.</p>
+<div id="ref-tesseract" class="csl-entry">
+Smith, R. (2007). An overview of the tesseract <span>OCR</span> engine. <em>Ninth international conference on document analysis and recognition (<span>ICDAR</span> 2007)</em>, <em>2</em>, 629–633.
 </div>
-<div id="ref-wickham2014tidy">
-<p>Wickham, H., &amp; others. (2014). Tidy data. <em>Journal of Statistical Software</em>, <em>59</em>(10), 1–23.</p>
+<div id="ref-wickham2014tidy" class="csl-entry">
+Wickham, H., &amp; others. (2014). Tidy data. <em>Journal of Statistical Software</em>, <em>59</em>(10), 1–23.
 </div>
 </div>
 </div>
@@ -819,7 +861,7 @@ Copyright &copy; 2021 Natália Brambatti Guzzo
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

@@ -13,6 +13,7 @@
 
 <title>Talian</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -22,16 +23,16 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
-<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
 <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
 <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
+<script src="site_libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
 <script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
-<script src="site_libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.0.4.1/leaflet-providers-plugin.js"></script>
 <meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
 
   
@@ -41,6 +42,15 @@
 
 
 <script src="https://kit.fontawesome.com/817345f431.js" crossorigin="anonymous"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -71,6 +81,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -371,7 +382,6 @@ $(document).ready(function () {
 <div align="justify">
 <p><strong>Project by:</strong> <a href = "https://nataliaguzzo.github.io" target = "_blank"><strong>Natália B. Guzzo</strong></a> and <a href="https://guilhermegarcia.github.io" target = "_blank"><strong>Guilherme D. Garcia</strong></a></p>
 <p><em>We are working on documenting Talian, an understudied variety of <a href = "https://en.wikipedia.org/wiki/Venetian_language" target = "_blank">Veneto</a> spoken in several areas of Brazil. Our work involves the development of a corpus of written materials in Talian as well as data collection through fieldwork. </em></p>
-<hr />
 <div class="curve">
 <img src = "talian/photos/AP/house3.jpg" class = "image" title = "Antônio Prado, Rio Grande do Sul">
 </div>
@@ -384,8 +394,8 @@ The Italian Immigration Area in Brazil
 <p>In the map below, the towns and cities in red have Talian as their co-official language, alongside (Brazilian) Portuguese. They gray circle is an approximation representing the IIA.</p>
 </div>
 <div align="center">
-<div id="htmlwidget-5a876cec634dd28e782d" style="width:80%;height:600px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-5a876cec634dd28e782d">{"x":{"options":{"minZoom":3,"maxZoom":10,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.Mapnik",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircles","args":[-28.95,-51.54,55000,null,null,{"interactive":true,"className":"","stroke":true,"color":"Black","weight":5,"opacity":0.5,"fill":true,"fillColor":"Black","fillOpacity":0.2},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]},{"method":"addCircleMarkers","args":[[-28.8567806,-29.1654014,-28.5865661,-29.1684796,-28.8807515,-29.030129,-28.5417413,-29.5196814,-26.9027688,-29.0283514,-28.9884663,-28.5966772,-28.7120266],[-51.2801355,-51.5197627,-52.2031474,-51.1793861,-51.6987798,-51.1833349,-51.6910921,-53.5804505,-52.9071258,-51.3075981,-51.4086514,-51.7851426,-51.9343269],[9.55810574328497,11.6532872274174,7.8336002236611,13.5080012179127,7.86172707782398,10.2085796864975,7.36897040219479,7.55485852104068,8.36053938137086,7.84893372636407,8.18423477409482,8.90340751993226,9.77007043909578],null,null,{"interactive":true,"className":"","stroke":false,"color":"FireBrick","weight":5,"opacity":0.5,"fill":true,"fillColor":"FireBrick","fillOpacity":0.5},null,null,null,null,["Antônio Prado, Rio Grande do Sul (Pop:  14,159)","Bento Gonçalves, Rio Grande do Sul (Pop: 115,069)","Camargo, Rio Grande do Sul (Pop:   2,524)","Caxias do Sul, Rio Grande do Sul (Pop: 735,276)","Fagundes Varela, Rio Grande do Sul (Pop:   2,596)","Flores da Cunha, Rio Grande do Sul (Pop:  27,135)","Guabiju, Rio Grande do Sul (Pop:   1,586)","Ivorá, Rio Grande do Sul (Pop:   1,910)","Nova Erechim, Santa Catarina (Pop:   4,275)","Nova Pádua, Rio Grande do Sul (Pop:   2,563)","Nova Roma do Sul, Rio Grande do Sul (Pop:   3,584)","Paraí, Rio Grande do Sul (Pop:   7,357)","Serafina Corrêa, Rio Grande do Sul (Pop:  17,502)"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-29.5196814,-26.9027688],"lng":[-53.5804505,-51.1793861]},"setView":[[-28.9,-51.542461],6,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-22bd90f58355ca16db95" style="width:80%;height:600px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-22bd90f58355ca16db95">{"x":{"options":{"minZoom":3,"maxZoom":10,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":true},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.Mapnik",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircles","args":[-28.95,-51.54,55000,null,null,{"interactive":true,"className":"","stroke":true,"color":"Black","weight":5,"opacity":0.5,"fill":true,"fillColor":"Black","fillOpacity":0.2},null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]},{"method":"addCircleMarkers","args":[[-28.8567806,-29.1654014,-28.5865661,-29.1684796,-28.8807515,-29.030129,-28.5417413,-29.5196814,-26.9027688,-29.0283514,-28.9884663,-28.5966772,-28.7120266],[-51.2801355,-51.5197627,-52.2031474,-51.1793861,-51.6987798,-51.1833349,-51.6910921,-53.5804505,-52.9071258,-51.3075981,-51.4086514,-51.7851426,-51.9343269],[9.55810574328497,11.6532872274174,7.8336002236611,13.5080012179127,7.86172707782398,10.2085796864975,7.36897040219479,7.55485852104068,8.36053938137086,7.84893372636407,8.18423477409482,8.90340751993226,9.77007043909578],null,null,{"interactive":true,"className":"","stroke":false,"color":"FireBrick","weight":5,"opacity":0.5,"fill":true,"fillColor":"FireBrick","fillOpacity":0.5},null,null,null,null,["Antônio Prado, Rio Grande do Sul (Pop:  14,159)","Bento Gonçalves, Rio Grande do Sul (Pop: 115,069)","Camargo, Rio Grande do Sul (Pop:   2,524)","Caxias do Sul, Rio Grande do Sul (Pop: 735,276)","Fagundes Varela, Rio Grande do Sul (Pop:   2,596)","Flores da Cunha, Rio Grande do Sul (Pop:  27,135)","Guabiju, Rio Grande do Sul (Pop:   1,586)","Ivorá, Rio Grande do Sul (Pop:   1,910)","Nova Erechim, Santa Catarina (Pop:   4,275)","Nova Pádua, Rio Grande do Sul (Pop:   2,563)","Nova Roma do Sul, Rio Grande do Sul (Pop:   3,584)","Paraí, Rio Grande do Sul (Pop:   7,357)","Serafina Corrêa, Rio Grande do Sul (Pop:  17,502)"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-29.5196814,-26.9027688],"lng":[-53.5804505,-51.1793861]},"setView":[[-28.9,-51.542461],6,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 <hr />
 <div align="justify">
@@ -397,7 +407,7 @@ Acknowledgments
 <li>Our language consultants, Maria Inês Chilanti and Lenise Baldin Cavazzola.</li>
 <li>Our experiment participants.<br />
 </li>
-<li>Our research assistants (all from McGill University), Émilie Dubé, Alexandra Lancaster, Ray Marks, Fabian McCarthy, Lamia Oudni, Carolyn Rathgeber, and Jovia Wong.</li>
+<li>Our research assistants: Émilie Dubé, Alexandra Lancaster, Ray Marks, Fabian McCarthy, Lamia Oudni, Carolyn Rathgeber, and Jovia Wong (McGill); and Jenna Gramlich (Ball State)</li>
 </ul>
 <p>We also thank Dr. Valdemir Guzzo (Natália’s dad) for helping us find additional corpus materials as well as more information on the history of the IIA.</p>
 <hr />
@@ -431,7 +441,7 @@ Copyright &copy; 2021 Natália Brambatti Guzzo
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
