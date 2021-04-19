@@ -98,6 +98,7 @@ library(knitr)
 require(tidyverse)
 
 load("talian/corpus/Talian.RData")
+# Talian = Talian %>% unnest(cols = c(data))
 
 ```
 
@@ -122,12 +123,13 @@ load("talian/corpus/Talian.RData")
 
 <h3>What the corpus looks like</h3>
 
-The corpus currently has `r ncol(Talian)` variables/columns. In the table below, you can see a subset of such variables.
+The corpus currently has `r ncol(Talian)` variables/columns. In the table below, you can see a subset of the columns/variables in the corpus.
 
 ```{r kable, echo = FALSE, warning=FALSE, message=FALSE}
 set.seed(5)
-kable(Talian %>% slice(1:10) %>% 
-          select(sentence, wd, sLength, freq, logFreq, author, year, sylls, IPA, nSyll),
+kable(Talian %>% 
+          select(sentence, wd, sLength, freq, IPA, nSyl, stress) %>% 
+          head(n = 10) %>% droplevels(),
       row.names = FALSE, digits = 3) %>%
     kable_styling(full_width = F) %>% 
     kable_styling(latex_options = "striped") #%>% 
@@ -142,7 +144,7 @@ The corpus follows a `tidy data` approach [@wickham2014tidy], so little (if any)
 
 <h3><i class="fas fa-cloud-download-alt"></i>&emsp;Download corpus</h3>
 
-To access the corpus, click <a href = "https://osf.io/63nrx/" target = "_blank">**here**</a>.
+To access the corpus, click <a href = "https://osf.io/63nrx/" target = "_blank">**here**</a>. I highly recommend that you load `tidyverse` before loading the corpus itself.
 
 ---
 
@@ -161,7 +163,7 @@ Garcia, G. D., & Guzzo, N. B. (2021, April 12). Talian corpus: a written corpus 
 
 **BibTeX:**
 
-```
+<pre class='code code-css'><label>TeX</label><code>
 @misc{Garcia_Guzzo_2021,
   title={Talian corpus: a written corpus of Brazilian Veneto},
   url={osf.io/63nrx},
@@ -170,7 +172,7 @@ Garcia, G. D., & Guzzo, N. B. (2021, April 12). Talian corpus: a written corpus 
   author={Garcia, Guilherme D and Guzzo, Natália B},
   year={2021},
   month={Apr}}
-```
+</code></pre>
 
 ---
 
