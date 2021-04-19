@@ -144,7 +144,7 @@ The corpus follows a `tidy data` approach [@wickham2014tidy], so little (if any)
 
 <h3><i class="fas fa-cloud-download-alt"></i>&emsp;Download corpus</h3>
 
-To access the corpus, click <a href = "https://osf.io/63nrx/" target = "_blank">**here**</a>. I highly recommend that you load `tidyverse` before loading the corpus itself.
+To access the corpus, click <a href = "https://osf.io/63nrx/" target = "_blank">**here**</a>. We highly recommend that you load `tidyverse` *before* loading the corpus itself.
 
 ---
 
