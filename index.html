@@ -13,6 +13,7 @@
 
 <title>Welcome</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -20,7 +21,7 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
+<meta name = "description" content = "I'm a linguist who does research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
 
   
 <meta name = "keywords" content = "linguistics, linguist, phonology, phonology-syntax, syntax-phonology, phonologist, portuguese, brazilian portuguese, language acquisition, vowels, language contact, bilingualism, veneto, language variation, clitics, compounds, linguística, fonologia, fonóloga, português, português brasileiro, fonologia-sintaxe, sintaxe-fonologia, vêneto, talian, variação linguística, aquisição da linguagem, bilinguismo, contato linguístico, clíticos, compostos, aquisição de segunda língua, natália guzzo, guzzo, natália brambatti"/>
@@ -29,6 +30,15 @@
 
 
 <script src="https://kit.fontawesome.com/817345f431.js" crossorigin="anonymous"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -59,6 +69,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -312,13 +323,12 @@ figure {
 <figure>
 <img src = "nbg.jpeg" width = "190px">
 </figure>
-<p>I am a linguist working primarily on phonology and its interfaces. I am affiliated with the Language Acquisition Group at McGill University, and I am part of the project ‘Phonological effects on grammatical representation and processing’ (PIs: Heather Goad and Lydia White). My PhD is from Universidade Federal do Rio Grande do Sul (UFRGS, Brazil).</p>
-<p>My research programme investigates issues at the phonology-syntax interface, such as (i) the ways in which the application of phonological processes is constrained by prosodic structure, (ii) the acquisition of prosodic structures, and (iii) how bilingualism, language contact and language variation affect speakers’ prosodic representations. My research focuses particularly on Romance languages.</p>
-<p>This term (Winter 2021), I’ll be teaching LING 2309 – <em>Phonetics</em> and LING 4421 – <em>Topics (Bilingualism)</em> at Saint Mary’s University.</p>
+<p>I am a linguist working primarily on phonology and its interfaces. I am affiliated with the Language Acquisition Group at McGill University. My PhD is from Universidade Federal do Rio Grande do Sul (UFRGS, Brazil).</p>
+<p>My research programme investigates issues at the phonology-syntax interface, such as (i) the ways in which the application of phonological processes is constrained by prosodic structure, (ii) the acquisition of prosodic structures, and (iii) how bilingualism, language contact and language variation affect speakers’ prosodic representations. My research focuses mostly on Romance languages, especially Brazilian Portuguese, Brazilian Veneto (Talian) and French.</p>
 <p>You can email me at <a href="mailto:natalia.brambattiguzzo@mcgill.ca" class="email">natalia.brambattiguzzo@mcgill.ca</a>.</p>
 <p><br></p>
 <div align="right">
-<p><font color = "gray">Last updated: January 2021</font></p>
+<p><font color = "gray">Last updated: May 2021</font></p>
 </div>
 
 <p align = "center">
@@ -344,7 +354,7 @@ Copyright &copy; 2021 Natália Brambatti Guzzo
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

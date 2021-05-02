@@ -9,6 +9,7 @@ output: html_document
 
 <!-- <div align = "justify"> -->
 
+
 <br>
 
 
@@ -20,7 +21,7 @@ In collaboration with <a href="http://people.linguistics.mcgill.ca/~heather.goad
 
 *Output:*
 
-- **Guzzo, Natália Brambatti**. under revision. Revisiting the acquisition of onset complexity: Affrication in Québec French.
+- **Guzzo, Natália Brambatti**. accepted. Revisiting the acquisition of onset complexity: Affrication in Québec French. *Journal of Child Language*. [[paper](https://doi.org/10.31219/osf.io/m7xys)]
 
 - **Guzzo, Natália Brambatti**, Heather Goad and Megan Deegan. 2020. Phonological systems in conflict: The acquisition of stress in bilingual French and English. *Proceedings of the 55th Meeting of the Chicago Linguistic Society 2019*.
 
@@ -29,21 +30,23 @@ In collaboration with <a href="http://people.linguistics.mcgill.ca/~heather.goad
 
 #### *Prosodic representations in a situation of language contact*
 
-I investigate how language contact affects speakers' prosodic representations. Specifically, I examine prosodic representations in Portuguese-Veneto contact in a region of southern Brazil known as the Italian Immigration Area (IIA). **See more abut this project [here](talian.html).** 
+I investigate how language contact affects speakers' prosodic representations. Specifically, I examine prosodic representations in Portuguese-Veneto contact in a region of southern Brazil known as the Italian Immigration Area (IIA). **See more about this project [here](talian.html).** 
 
 *Output:*
 
-- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. 2020. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact* 13(2): 389-427. 
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. 2020. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact* 13(2): 389-427. [[paper](https://doi.org/10.1163/19552629-bja10021)]
 
 - **Guzzo, Natália Brambatti**. (2018). Language contact determines prosodic representation and variation. 92nd Annual Meeting of the Linguistic Society of America (LSA), Salt Lake City (UT), USA, Jan 4-8. [[poster](materials/lsa2018.pdf)]
 
 <br>
 
-#### *Indirect evidence for prosodic constituency*
+#### *Indirect/subtle evidence for prosodic constituency*
 
-In collaboration with Heather Goad and <a href="https://guilhermegarcia.github.io" target="_blank">Guilherme D. Garcia</a> (Ball State), I am investigating whether prosodic constituents can be identified based on indirect phonological evidence. We focus on word-internal constituency in Québec French (QF), a language for which the existence of foot structure is disputed, since it lacks the typical acoustic signatures of stress. We are testing whether foot structure in QF can be identified on the basis of weakening segmental processes such as variable high vowel deletion. Our hypothesis is that, if deletion is sensitive to rhythm, it should be preferred on weak positions within the (iambic) foot. We are currently testing native speakers' and L2 learners' preferences with regard to patterns of high vowel deletion in real and nonce QF words.
+I have investigated whether prosodic constituents can be identified based on indirect phonological evidence or subtle phonological phenomena. With Heather Goad and <a href="https://guilhermegarcia.github.io" target="_blank">Guilherme Garcia</a>, I have probed whether foot structure in Québec French can be identified on the basis of weakening segmental processes such as variable high vowel deletion. With Guilherme Garcia, I have examined vowel reduction in neoclassical elements in Brazilian Portuguese as a way to determine their prosodic representation.
 
 *Output:*
+
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted with minor revisions . Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. *Glossa: a journal of general linguistics*.
 
 - **Guzzo, Natália Brambatti**, Heather Goad and Guilherme D. Garcia. 2018. What motivates high vowel deletion in Québec French: Foot structure or tonal profile? *Proceedings of the 92nd Annual Meeting of the Linguistic Society of America*. [[paper](https://doi.org/10.3765/plsa.v3i1.4306)]
 
@@ -59,7 +62,7 @@ In both joint and single-authored research, I investigate how prosodic cues (suc
 
 *Output:*
 
-- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. 2020. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition* (available online). [[paper](https://doi.org/10.1017/S0272263120000285)]
+- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. 2021. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition* 43: 83--108. [[paper](https://doi.org/10.1017/S0272263120000285)]
 
 - **Guzzo, Natália Brambatti** and Heather Goad. 2017. Overriding default interpretations through prosody: Depictive predicates in Brazilian Portuguese. *Proceedings of the 91st Annual Meeting of the Linguistic Society of America*. [[paper](http://dx.doi.org/10.3765/plsa.v2i0.4077)]
 

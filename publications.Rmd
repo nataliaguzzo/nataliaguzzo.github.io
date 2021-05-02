@@ -9,13 +9,17 @@ output: html_document
 
 <!-- <div align = "justify"> -->
 
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted with minor revisions . Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. *Glossa: a journal of general linguistics*.
+
+- **Guzzo, Natália Brambatti**. accepted. Revisiting the acquisition of onset complexity: Affrication in Québec French. *Journal of Child Language*. [[paper](https://doi.org/10.31219/osf.io/m7xys)]
+
+- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. 2021. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition* 43: 83--108. [[paper](https://doi.org/10.1017/S0272263120000285)]
+
 - **Guzzo, Natália Brambatti** and Guilherme D. Garcia. 2020. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact* 13(2): 389–427. [[paper](https://doi.org/10.1163/19552629-bja10021)]
 
 - **Guzzo, Natália Brambatti**, Heather Goad and Megan Deegan. 2020. Phonological systems in conflict: The acquisition of stress in bilingual French-English. *Proceedings of the 55th Annual Meeting of the Chicago Linguistic Society (CLS 55)*. 
 
-- Xia, Vera Yunxiao, Lydia White and **Natália Brambatti Guzzo**. 2020 Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. *Second Language Research* (available online).[[paper](https://doi.org/10.1177/0267658320958742)]
-
-- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. 2020 Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition* (available online). [[paper](https://doi.org/10.1017/S0272263120000285)]
+- Xia, Vera Yunxiao, Lydia White and **Natália Brambatti Guzzo**. 2020. Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. *Second Language Research* (available online).[[paper](https://doi.org/10.1177/0267658320958742)]
 
 - **Guzzo, Natália Brambatti**. 2019. Native and non-native patterns in conflict: Lexicon vs. grammar in loanword adaptation in Brazilian Portuguese. *Supplemental Proceedings of the Annual Meeting on Phonology (AMP) 2018*. [[paper](https://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/4488)]
 

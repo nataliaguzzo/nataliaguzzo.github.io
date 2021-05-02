@@ -13,6 +13,7 @@
 
 <title>Publications</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -20,7 +21,7 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<meta name = "description" content = "I'm a lecturer in the Department of Linguistics at McGill University. I do research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
+<meta name = "description" content = "I'm a linguist who does research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
 
   
 <meta name = "keywords" content = "linguistics, linguist, phonology, phonology-syntax, syntax-phonology, phonologist, portuguese, brazilian portuguese, language acquisition, vowels, language contact, bilingualism, veneto, language variation, clitics, compounds, linguística, fonologia, fonóloga, português, português brasileiro, fonologia-sintaxe, sintaxe-fonologia, vêneto, talian, variação linguística, aquisição da linguagem, bilinguismo, contato linguístico, clíticos, compostos, aquisição de segunda língua, natália guzzo, guzzo, natália brambatti"/>
@@ -29,6 +30,15 @@
 
 
 <script src="https://kit.fontawesome.com/817345f431.js" crossorigin="anonymous"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -59,6 +69,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -301,10 +312,12 @@ $(document).ready(function () {
 <h3>Papers</h3>
 <!-- <div align = "justify"> -->
 <ul>
+<li><p><strong>Guzzo, Natália Brambatti</strong> and Guilherme D. Garcia. accepted with minor revisions . Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. <em>Glossa: a journal of general linguistics</em>.</p></li>
+<li><p><strong>Guzzo, Natália Brambatti</strong>. accepted. Revisiting the acquisition of onset complexity: Affrication in Québec French. <em>Journal of Child Language</em>. [<a href="https://doi.org/10.31219/osf.io/m7xys">paper</a>]</p></li>
+<li><p>Goad, Heather, <strong>Natália Brambatti Guzzo</strong> and Lydia White. 2021. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. <em>Studies in Second Language Acquisition</em> 43: 83–108. [<a href="https://doi.org/10.1017/S0272263120000285">paper</a>]</p></li>
 <li><p><strong>Guzzo, Natália Brambatti</strong> and Guilherme D. Garcia. 2020. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. <em>Journal of Language Contact</em> 13(2): 389–427. [<a href="https://doi.org/10.1163/19552629-bja10021">paper</a>]</p></li>
 <li><p><strong>Guzzo, Natália Brambatti</strong>, Heather Goad and Megan Deegan. 2020. Phonological systems in conflict: The acquisition of stress in bilingual French-English. <em>Proceedings of the 55th Annual Meeting of the Chicago Linguistic Society (CLS 55)</em>.</p></li>
-<li><p>Xia, Vera Yunxiao, Lydia White and <strong>Natália Brambatti Guzzo</strong>. 2020 Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. <em>Second Language Research</em> (available online).[<a href="https://doi.org/10.1177/0267658320958742">paper</a>]</p></li>
-<li><p>Goad, Heather, <strong>Natália Brambatti Guzzo</strong> and Lydia White. 2020 Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. <em>Studies in Second Language Acquisition</em> (available online). [<a href="https://doi.org/10.1017/S0272263120000285">paper</a>]</p></li>
+<li><p>Xia, Vera Yunxiao, Lydia White and <strong>Natália Brambatti Guzzo</strong>. 2020. Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. <em>Second Language Research</em> (available online).[<a href="https://doi.org/10.1177/0267658320958742">paper</a>]</p></li>
 <li><p><strong>Guzzo, Natália Brambatti</strong>. 2019. Native and non-native patterns in conflict: Lexicon vs. grammar in loanword adaptation in Brazilian Portuguese. <em>Supplemental Proceedings of the Annual Meeting on Phonology (AMP) 2018</em>. [<a href="https://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/4488">paper</a>]</p></li>
 <li><p><strong>Guzzo, Natália Brambatti</strong>. 2018. The prosodic representation of composite structures in Brazilian Portuguese. <em>Journal of Linguistics</em> 54(4): 683–720. [<a href="http://dx.doi.org/10.1017/S0022226718000099">paper</a>]</p></li>
 <li><p><strong>Guzzo, Natália Brambatti</strong>, Heather Goad and Guilherme D. Garcia. 2018. What motivates high vowel deletion in Québec French: Foot structure or tonal profile? <em>Proceedings of the 92nd Annual Meeting of the Linguistic Society of America</em>. [<a href="https://doi.org/10.3765/plsa.v3i1.4306">paper</a>]</p></li>
@@ -346,7 +359,7 @@ Copyright &copy; 2021 Natália Brambatti Guzzo
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
