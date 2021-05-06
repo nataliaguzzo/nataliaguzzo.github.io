@@ -46,7 +46,7 @@ I have investigated whether prosodic constituents can be identified based on ind
 
 *Output:*
 
-- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted with minor revisions . Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. *Glossa: a journal of general linguistics*.
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted. Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. *Glossa: a journal of general linguistics*.
 
 - **Guzzo, Natália Brambatti**, Heather Goad and Guilherme D. Garcia. 2018. What motivates high vowel deletion in Québec French: Foot structure or tonal profile? *Proceedings of the 92nd Annual Meeting of the Linguistic Society of America*. [[paper](https://doi.org/10.3765/plsa.v3i1.4306)]
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  30 APR 2021 17:27
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  6 MAY 2021 12:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -575,6 +575,11 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 388--391
  []
 
 
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 393--396
+[][] 
+ []
+
+[3]
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 398--401
 [][] 
  []
@@ -584,7 +589,7 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 403--406
 [][] 
  []
 
-[3]
+
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 408--411
 [][] 
  []
@@ -600,7 +605,7 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 418--421
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 423--426
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 422--425
 [][] 
  []
 
@@ -620,7 +625,7 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 437--440
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 442--445
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 441--444
 [][] 
  []
 
@@ -649,12 +654,12 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 466--469
 [][] 
  []
 
-
+[4]
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 471--474
 [][] 
  []
 
-[4]
+
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 476--479
 [][] 
  []
@@ -719,12 +724,12 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 536--539
 [][] 
  []
 
-
+[5]
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 541--544
 [][] 
  []
 
-[5]
+
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 546--549
 [][] 
  []
@@ -759,56 +764,56 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 576--579
 [][] 
  []
 
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 643 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 643 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 643 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 651 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 656 replaced by U+FFFD.
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 581--584
-[][] 
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 660--663
+[] 
  []
 
-Invalid UTF-8 byte or sequence at line 642 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 642 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 648 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 648 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 648 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 656 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 661 replaced by U+FFFD.
 
 Overfull \hbox (7.21283pt too wide) in paragraph at lines 665--668
-[] 
- []
-
-
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 670--673
 [][] 
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 679--682
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 674--677
 [] 
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 683--686
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 678--681
 [][] 
  []
 
-Invalid UTF-8 byte or sequence at line 689 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 684 replaced by U+FFFD.
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 697--702
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 692--697
 [][] 
  []
 
 [6]
-Overfull \hbox (4.36739pt too wide) in paragraph at lines 711--724
+Overfull \hbox (4.36739pt too wide) in paragraph at lines 706--719
 [][] 
  []
 
 
-Overfull \hbox (4.36739pt too wide) in paragraph at lines 726--732
+Overfull \hbox (4.36739pt too wide) in paragraph at lines 721--727
 [][] 
  []
 
 
-Overfull \hbox (4.36739pt too wide) in paragraph at lines 735--741
+Overfull \hbox (4.36739pt too wide) in paragraph at lines 730--736
+[][] 
+ []
+
+
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 797--801
 [][] 
  []
 
@@ -818,43 +823,38 @@ Overfull \hbox (7.21283pt too wide) in paragraph at lines 802--806
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 807--811
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 808--812
 [][] 
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 813--817
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 814--818
 [][] 
  []
 
 
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 819--823
-[][] 
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 859--860
+Underfull \hbox (badness 1112) in paragraph at lines 854--855
 []\TU/lmr/m/n/10 Research Assistantship Grant, Programa Institucional de Bolsas de Iniciação Cientí­fica
  []
 
 [7]
-Overfull \hbox (7.21283pt too wide) in paragraph at lines 880--900
+Overfull \hbox (7.21283pt too wide) in paragraph at lines 875--895
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1036.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1031.
 [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1036.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1031.
  (/Users/nataliaguzzo/Dropbox/nataliaguzzo.github.io/cv/.texpadtmp/guzzo-cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1036.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1036.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1031.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1031.
 Package rerunfilecheck Info: File `guzzo-cv.out' has not changed.
 (rerunfilecheck)             Checksum: 0F38D70184AF58E329C9DEBD0439A92C;682.
  ) 
 Here is how much of TeX's memory you used:
  16191 strings out of 479418
  290166 string characters out of 5884586
- 599273 words of memory out of 5000000
+ 600273 words of memory out of 5000000
  33517 multiletter control sequences out of 15000+600000
  532826 words of font info for 41 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191

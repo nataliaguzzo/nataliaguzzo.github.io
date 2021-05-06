@@ -9,7 +9,7 @@ output: html_document
 
 <!-- <div align = "justify"> -->
 
-- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted with minor revisions . Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. *Glossa: a journal of general linguistics*.
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted. Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. *Glossa: a journal of general linguistics*.
 
 - **Guzzo, Natália Brambatti**. accepted. Revisiting the acquisition of onset complexity: Affrication in Québec French. *Journal of Child Language*. [[paper](https://doi.org/10.31219/osf.io/m7xys)]
 
