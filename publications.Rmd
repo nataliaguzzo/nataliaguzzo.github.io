@@ -48,6 +48,6 @@ output: html_document
 ---
 
 
-*(See presentations and older papers and presentations in my CV.)*
+*(See presentations and older papers in my CV.)*
 
 <!-- </div> -->
