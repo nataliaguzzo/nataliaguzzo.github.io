@@ -21,7 +21,7 @@ In collaboration with <a href="http://people.linguistics.mcgill.ca/~heather.goad
 
 *Output:*
 
-- **Guzzo, Natália Brambatti**. accepted. Revisiting the acquisition of onset complexity: Affrication in Québec French. *Journal of Child Language*. [[paper](https://doi.org/10.31219/osf.io/m7xys)]
+- **Guzzo, Natália Brambatti**. 2021 Revisiting the acquisition of onset complexity: Affrication in Québec French. *Journal of Child Language* (available online). [[paper](https://doi.org/10.31219/osf.io/m7xys)]
 
 - **Guzzo, Natália Brambatti**, Heather Goad and Megan Deegan. 2020. Phonological systems in conflict: The acquisition of stress in bilingual French and English. *Proceedings of the 55th Meeting of the Chicago Linguistic Society 2019*.
 
@@ -46,7 +46,7 @@ I have investigated whether prosodic constituents can be identified based on ind
 
 *Output:*
 
-- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. accepted. Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. *Glossa: a journal of general linguistics*.
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. 2021 Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. *Glossa: a journal of general linguistics* 6(1): 74. 1--26. [[paper](https://doi. org/10.5334/gjgl.1413)]
 
 - **Guzzo, Natália Brambatti**, Heather Goad and Guilherme D. Garcia. 2018. What motivates high vowel deletion in Québec French: Foot structure or tonal profile? *Proceedings of the 92nd Annual Meeting of the Linguistic Society of America*. [[paper](https://doi.org/10.3765/plsa.v3i1.4306)]
 
