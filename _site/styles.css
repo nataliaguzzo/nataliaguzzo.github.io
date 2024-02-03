@@ -1,0 +1,31 @@
+/* css styles */
+
+.main-figure {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 0px;
+    width: 30%;
+    float: right;
+    border-radius: 50%;
+}
+
+body {
+  text-align: justify;
+}
+
+.html-widget {
+  margin: auto;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+blockquote {
+  margin: auto;
+  text-align: center;
+  border-left: 0;
+}

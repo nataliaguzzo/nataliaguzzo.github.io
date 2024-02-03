@@ -1,0 +1,89 @@
+---
+title: "Language"
+bibliography: talian/ref_talian.bib
+---
+
+![](figures/saoDomingos.jpg){.main-figure title="São Domingos, Rio Grande do Sul, circa 1940"}In total, there are approximately 500,000 speakers of Talian in Brazil, with varying degrees of proficiency. The photo shows Talian speakers in São Domingos (a district of Sananduva, Rio Grande do Sul), circa 1940. 
+
+Talian is a Veneto-based Romance language, and it has some aspects in common with other languages from the same family, such as:
+
+- seven vowels in stressed position, exactly like Italian and Portuguese;
+- a (relatively) rich agreement system;
+- (preverbal) object clitics, like Italian, Spanish and French;
+- the past tense is formed by auxiliary verb + past participle, like Italian and French.
+
+Talian's lexicon has incorporated several words from Brazilian Portuguese: *zacaré* (from *jacaré* 'alligator'), *sorasco* (from *churrasco* 'barbecue'), *sinela* (from *chinelo* 'sandal').
+
+Because Italian immigrants came from different regions in Italy, very few communities in the IIA spoke a single language or dialect---see table below [@frosi2009, p. 47]. The contact between the various languages spoken by immigrants, the predominance of Veneto dialects among such languages, and the scarce contact with Portuguese favored the development of a Veneto-based dialect in the area.
+
+
+<!-- | Region  | %  | -->
+<!-- |--------|--------| -->
+<!-- | Veneto  | 54   | -->
+<!-- | Lombardia   | 33   | -->
+<!-- | Trentino-Alto Adige | 7   | -->
+<!-- | Friuli Venezia-Giulia | 4.5 | -->
+<!-- | Others | 1.5 | -->
+<!-- : Region of origin {tbl-colwidths="[50,50]"} -->
+
+```{r}
+#| out-width: 50%
+#| echo: false
+#| warning: false
+#| message: false
+library(tidyverse)
+library(kableExtra)
+varieties = read_csv("talian/varieties.csv")
+
+kable(varieties, format = "html",
+      # table.attr = "style='width:30%;'",
+      row.names = FALSE) |>
+  kable_minimal()
+  # kable_styling(full_width = F)
+
+
+html_tag_audio <- function(file, type = c("wav")) {
+  type <- match.arg(type)
+  htmltools::tags$audio(
+    controls = "",
+    style = "margin: 0 auto; display: block;",
+    htmltools::tags$source(
+      src = file,
+      type = glue::glue("audio/{type}", type = type)
+    )
+  )
+}
+```
+
+<br>
+
+
+
+<blockquote>
+**El Vento del Norte e el Sol**    
+
+El Vento del Norte e el Sol i zera drio discùter qual zera el pi forte,    
+quando un viaiante el ze rivà vestio con na capa grossa.    
+I ga dessidio che’l primo que podesse far el viaiante tirar zo la capa    
+dovea esser considerà el pi forte de luri due.    
+Lora el Vento del Norte el ga sufià el màssimo che’l podea,    
+ma de pi che’l sufiea de pi el viaiante se enrolea ntela so capa;    
+e par fin el Vento del Norte el ga desistio.    
+Lora el Sol el ga slusà ben caldo,    
+e el viaiante suito el ga tirà zo la so capa.    
+E così el Vento del Norte el ga tocà acetar    
+che’l Sol el zera el pi forte de luri due.
+</blockquote>    
+
+
+<br>
+
+::: {style="text-align: center"}
+```{r}
+#| echo: false
+html_tag_audio("talian/audio/fable.wav", type = "wav")
+```
+:::
+
+
+***

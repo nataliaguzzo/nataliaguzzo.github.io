@@ -1,0 +1,61 @@
+---
+title: "Publications"
+sidebar: false
+---
+
+### Articles, chapters, and conference proceedings
+
+
+- White, Lydia, Heather Goad, Liz Smeets, Guilherme D. Garcia, **Natália Brambatti Guzzo**, and Jiajia Su. accepted. Pronoun interpretation in L2 Italian: Exploring the effects of prosody. *Linguistic Approaches to Bilingualism*.
+
+- **Guzzo, Natália Brambatti**. accepted. Prosodically-conditioned variation: Rhotics in Brazilian Veneto. In Rajiv Rao (Ed.). *The phonetics and phonology of heritage languages*. Cambridge: CUP. [[preprint](https://www.dropbox.com/s/leriaorlcjr7nve/Guzzo_rhotics_CUP_heritage.pdf?raw=1)]
+
+- Garcia, Guilherme D. and **Natália Brambatti Guzzo**. 2023 A corpus-based approach to map target vowel asymmetry in Brazilian Veneto metaphony. *Italian Journal of Linguistics* 35(1): 115--138. [[paper](https://www.dropbox.com/s/rhc6f4y36utgdmv/Garcia%20-%20Guzzo%202023.pdf?raw=1)]
+
+- **Guzzo, Natália Brambatti**. 2022. Brazilian Veneto (Talian). *Journal of the International Phonetic Association -- Illustrations of the IPA*.  Available online on FirstView. [[paper](https://doi.org/10.1017/S002510032200010X)]
+
+- Garcia, Guilherme D. and **Natália Brambatti Guzzo**. 2022. Lexical access in Portuguese stress. *Journal of Portuguese Linguistics* 21(7): 1--24. [[paper](https://doi.org/10.16995/jpl.8188)] 
+
+- **Guzzo, Natália Brambatti**. 2022. Revisiting the acquisition of onset complexity: Affrication in Québec French. *Journal of Child Language* 49: 774--798.   [[paper](https://doi.org/10.1017/S0305000921000374)]
+
+- Xia, Vera Yunxiao, Lydia White and **Natália Brambatti Guzzo**. 2022. Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. *Second Language Research* 38(2): 347--372. [[paper](https://doi.org/10.1177/0267658320958742)]
+
+- Goad, Heather and **Natália Brambatti Guzzo**. 2022. Regularly inflected forms can be prosodically ambiguous in English. *Proceedings of the 2021 Annual Conference of the Canadian Linguistic Association*. [[paper](https://cla-acl.ca/pdfs/actes-2021/Goad_and_Guzzo-Regularly_inflected_forms_can_be_prosodically_ambiguous_in_English.pdf)]
+
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. 2021 Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. *Glossa: a journal of general linguistics* 6(1): 74. 1--26. [[paper](https://doi. org/10.5334/gjgl.1413)]
+
+- Goad, Heather, **Natália Brambatti Guzzo** and Lydia White. 2021. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. *Studies in Second Language Acquisition* 43: 83--108. [[paper](https://doi.org/10.1017/S0272263120000285)]
+
+- **Guzzo, Natália Brambatti** and Guilherme D. Garcia. 2020. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. *Journal of Language Contact* 13(2): 389–427. [[paper](https://doi.org/10.1163/19552629-bja10021)]
+
+- **Guzzo, Natália Brambatti**, Heather Goad and Megan Deegan. 2020. Phonological systems in conflict: The acquisition of stress in bilingual French-English. *Proceedings of the 55th Annual Meeting of the Chicago Linguistic Society (CLS 55)*. [[paper](https://www.dropbox.com/s/lo7eh5l7onmruy1/Guzzo_Goad_Deegan.pdf?raw=1)]
+
+- **Guzzo, Natália Brambatti**. 2019. Native and non-native patterns in conflict: Lexicon vs. grammar in loanword adaptation in Brazilian Portuguese. *Supplemental Proceedings of the Annual Meeting on Phonology (AMP) 2018*. [[paper](https://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/4488)]
+
+- **Guzzo, Natália Brambatti**. 2018. The prosodic representation of composite structures in Brazilian Portuguese. *Journal of Linguistics* 54(4): 683–720. [[paper](http://dx.doi.org/10.1017/S0022226718000099)]
+
+- **Guzzo, Natália Brambatti**, Heather Goad and Guilherme D. Garcia. 2018. What motivates high vowel deletion in Québec French: Foot structure or tonal profile? *Proceedings of the 92nd Annual Meeting of the Linguistic Society of America*. [[paper](https://doi.org/10.3765/plsa.v3i1.4306)]
+
+- Vogel, Irene, Angeliki Athanasopoulou and **Natália Brambatti Guzzo**. 2018. Timing properties of (Brazilian) Portuguese and (European) Spanish. In Lori Repetti and Francisco Ordóñez (Eds.) *Romance Languages and Linguistic Theory 14. Selected papers from the 46th Linguistic Symposium on Romance Languages (LSRL)*, pp. 325–340. Amsterdam: John Benjamins. [[link](https://benjamins.com/catalog/rllt.14)]
+
+- **Guzzo, Natália Brambatti**. 2017. Recursion in Brazilian Portuguese complex compounds. In Ruth Lopes, Juanito Ornelas de Avelar and Sonia Cyrino (Eds.) *Romance Languages and Linguistic Theory 12. Selected papers from the 45th Linguistic Symposium on Romance Languages (LSRL)*, pp. 97–110. Amsterdam: John Benjamins. [[link](https://benjamins.com/catalog/rllt.12)]
+
+- Slabakova, Roumyana, Lydia White and **Natália Brambatti Guzzo**. 2017. Pronoun interpretation in the second language: Effects of computational complexity. *Frontiers in Psychology* 8: 1–12. [[paper](https://doi.org/10.3389/fpsyg.2017.01236)]
+
+- **Guzzo, Natália Brambatti** and Heather Goad. 2017. Overriding default interpretations through prosody: Depictive predicates in Brazilian Portuguese. *Proceedings of the 91st Annual Meeting of the Linguistic Society of America*. [[paper](http://dx.doi.org/10.3765/plsa.v2i0.4077)]
+
+- Garcia, Guilherme D., Heather Goad and **Natália Brambatti Guzzo**. 2017. Footing is not always about stress: Formalizing variable high vowel deletion in Québec French. *Proceedings of 2016 Annual Meeting on Phonology (AMP)*. [[paper](http://dx.doi.org/10.3765/amp.v4i0.3991)]
+
+- Garcia, Guilherme D., Heather Goad and **Natália Brambatti Guzzo**. 2017. L2 acquisition of high vowel deletion in Québec French. *Proceedings of the 41st Boston University Conference on Language Development (BUCLD)*. [[paper](http://www.lingref.com/bucld/41/BUCLD41-22.pdf)]
+
+- White, Lydia, Heather Goad, Jiajia Su, Liz Smeets, Marzieh Mortazavinia, Guilherme D. Garcia and **Natália Brambatti Guzzo**. 2017. Prosodic effects on pronoun interpretation in Italian. *Proceedings of the 41st Boston University Conference on Language Development (BUCLD)*. [[paper](http://www.lingref.com/bucld/41/BUCLD41-60.pdf)]
+
+- Garcia, Guilherme D. and **Natália Brambatti Guzzo**. 2017. The acquisition of English stress by Québec francophones. In Mehmet Yavas, Margaret Kehoe and Walcir Cardoso (Eds.) *Romance-Germanic Bilingual Phonology*, pp. 200–221. Sheffield: Equinox. [[link](https://www.equinoxpub.com/home/romance-germanic-bilingual-phonology-mehmet-yavas-margaret-kehoe-walcir-cardoso/)]
+
+
+
+
+*(See presentations and older papers in [my CV](cv.html))*
+
+
+***
