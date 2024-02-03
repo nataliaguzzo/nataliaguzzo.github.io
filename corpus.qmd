@@ -1,0 +1,83 @@
+---
+title: "Corpus"
+bibliography: talian/ref_talian.bib
+---
+
+```{r echo = FALSE, warning=FALSE, message=FALSE}
+library(kableExtra)
+library(knitr)
+require(tidyverse)
+
+load("talian/talian.RData")
+
+```
+
+![](figures/corpus_image.png){.main-figure}Our corpus consists of internet texts from the IIA as well as excerpts from books written in Talian. Text processing is being done in R [@r_language], and optical character recognition (OCR) is being carried out using Google's <a href = "https://github.com/tesseract-ocr/tesseract/" target = "_blank">**Tesseract**</a> [@tesseract]. As a starting point, we used trained data from Italian in Tesseract, and later checked for potential mismatches. As of `r format(Sys.Date(), "%B %Y")`, the corpus contains **`r formatC(nrow(Talian), big.mark = ",")`** words and **`r formatC(length(levels(Talian$sentence)), big.mark = ",")`** sentences.
+
+
+<font color = "gray">*Last updated: `r format(Sys.Date(), "%B %d, %Y")`*</font>
+
+
+
+---
+
+### What the corpus looks like
+
+The corpus currently has `r ncol(Talian)` variables/columns. In the table below, you can see a subset of the columns/variables in the corpus.
+
+```{r kable, echo = FALSE, warning=FALSE, message=FALSE}
+set.seed(5)
+kable(Talian %>% 
+          select(sentence, wd, sLength, freq, IPA, nSyl, stress) %>% 
+          head(n = 10) %>% droplevels(),
+      row.names = FALSE, digits = 3) %>%
+    kable_styling(full_width = F) %>% 
+    kable_styling(latex_options = "striped") #%>% 
+    # row_spec(0:10, color = "white", background = "#414141")
+```
+<br>
+
+The corpus follows a `tidy data` approach [@wickham2014tidy], so little (if any) data wrangling is needed to analyze the data.
+
+
+---
+
+### {{<fa database size="xs">}} Download corpus
+
+To access the corpus, click <a href = "https://osf.io/63nrx/" target = "_blank">**here**</a>. We highly recommend that you load `tidyverse` *before* loading the corpus itself.
+
+---
+
+### Publications and presentations
+
+
+- Garcia, G. D. & N. B. Guzzo. (2023). <a href = "https://gdgarcia.ca/files/AbralinEmCena17_garcia_guzzo.pdf" target = "_blank">Talian Corpus: Um corpus de dados escritos to talian (vêneto brasileiro).</a> Presentation at Abralin em Cena 17, June 27 2023 [in Portuguese]. 
+
+- Guzzo, N. B. & G. D. Garcia. (2020). <a href = "https://guilhermegarcia.github.io/files/guzzo_garcia_jlc_2020.pdf" target = "_blank">Phonological variation and prosodic representation: clitics in Portuguese-Veneto contact</a>. *Journal of Language Contact*, 13(2):389--427.
+
+
+---
+
+### How to cite the corpus
+
+**APA:**
+
+:::{style="text-align: left"}
+Garcia, G. D., & Guzzo, N. B. (2021, April 12). Talian corpus: a written corpus of Brazilian Veneto. `https://doi.org/10.17605/OSF.IO/63NRX`. Available at `https://nataliaguzzo.github.io/talian`.
+
+:::
+
+**BibTeX:**
+
+<pre class='code code-css'><label>TeX</label><code>
+@misc{Garcia_Guzzo_2021,
+  title={Talian corpus: a written corpus of Brazilian Veneto},
+  url={osf.io/63nrx},
+  DOI={10.17605/OSF.IO/63NRX},
+  publisher={OSF},
+  author={Garcia, Guilherme D and Guzzo, Natália B},
+  year={2021},
+  month={Apr}}
+</code></pre>
+
+***

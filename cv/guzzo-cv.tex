@@ -1,0 +1,1144 @@
+\documentclass[letterpaper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{booktabs}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** 
+\usepackage{fullpage}
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}	%custom \section
+
+\usepackage[utf8]{inputenc}
+%\pagenumbering{arabic}
+
+
+
+\usepackage{geometry}
+
+\geometry{top=2.5cm, bottom=2.5cm, left=2cm, right=2cm}
+
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[R]{}
+\fancyhead[LO,RE]{}
+\fancyfoot{}
+\fancyfoot[R]{\textsc{N. B. Guzzo} $|$ \thepage}
+\fancyfoot[LO,RE]{}
+%\fancyfoot[LO,CE]{Chapter \thechapter}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{links}{RGB}{228,87,52}
+\hypersetup{colorlinks,breaklinks,urlcolor=links, linkcolor=links}
+
+
+
+\newcommand{\tab}{\hspace*{2em}}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol KozioÅ‚ for ShareLaTeX use
+%\setmainfont[
+%SmallCapsFont = Fontin-SmallCaps.otf,
+%BoldFont = Fontin-Bold.otf,
+%ItalicFont = Fontin-Italic.otf
+%]
+%{Fontin.otf}
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\thispagestyle{empty}
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm 
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Nat\'alia Brambatti G\textsc{uzzo}} \\ (Updated on \today)
+	\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Contact Information}
+
+\begin{tabular}{p{4cm}l}
+%   \textsc{Professional Address:}   & Program in Linguistics, Saint Mary's University \\
+%        &   923 Robie Street, Halifax, NS, Canada B3H 3C3 \\
+   %\textsc{Phone:}     & (782) 321-9080\\
+    \textsc{E-mail:}     & \href{mailto:nataliaguzzo@me.com}{nataliaguzzo@me.com} \\ %| \href{mailto:natalia.guzzo@smu.ca}{natalia.guzzo@smu.ca}\\
+     \textsc{Webpage:}     & \href{https://nataliaguzzo.github.io}{nataliaguzzo.github.io}\\
+   \textsc{Citizenship:}   & Brazilian, Canadian\\
+\end{tabular}
+
+
+
+
+\vspace{0.3cm}
+
+\section{Academic Positions}
+
+\begin{tabular}{p{1.6cm}p{15.4cm}}
+2023-  & \textbf{Laboratoire des neurosciences de la parole et de l'audition, CERVO, Universit\'e Laval}\\
+& Professionnelle de recherche ($\approx$ lab coordinator)
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{15.4cm}}
+2023-  & \textbf{D\'epartement de langues, linguistique et traduction \& \'Ecole de langues, Universit\'e Laval}\\
+& Charg\'ee de cours (lecturer)
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{14.4cm}}
+2021-2023  & \textbf{Program in Linguistics, Saint Mary's University}\\
+& Assistant Professor (limited-term appointment; 2021-2022 and 2022-2023)\\
+& Instructor (Winter 2021)		 
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{14.4cm}}
+2015-2020  & \textbf{Department of Linguistics, McGill University}\\
+& Lecturer (2018-2020)\\
+		& Postdoctoral Researcher (2018-2019)\\
+		& Postdoctoral Research Assistant (2015-2017) 
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{14.4cm}}
+2017     & \textbf{D\'epartement de linguistique, Universit\'e du Qu\'ebec \`{a} Montr\'eal}\\
+		& Charg\'ee de cours (lecturer)           
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{14.4cm}}
+2010            & \textbf{Centro de Ci\^encias Humanas e Comunica\c{c}\~ao, Universidade de Caxias do Sul}\\
+& Lecturer               
+\end{tabular}
+
+\vspace{0.3cm}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{p{1.6cm}p{14.6cm}}	
+ 2011-2015 & \textbf{PhD in Linguistics} (\emph{Letras} -- Language Studies, Linguistic Theory and Analysis)\\
+    &   Universidade Federal do Rio Grande do Sul (UFRGS)\\
+    &   Title: A prosodiza\c{c}\~ao de cl\'iticos e compostos em portugu\^es brasileiro\\
+    &   (The prosodic representation of clitics and compounds in Brazilian Portuguese)\\ %\href{https://nataliaguzzo.files.wordpress.com/2014/11/nataliabguzzotese.pdf}{link}\\
+    &   Supervisor: Elisa Battisti
+    \end{tabular}
+
+
+%\begin{tabular}{p{1.6cm}p{14.6cm}}
+%2015    & Preparation of Examiners for the Speaking Part of the \emph{Certificado de ProficiÃªncia em LÃ­ngua Portuguesa para Estrangeiros} (Celpe-Bras, Portuguese Proficiency Test) (20h, UFRGS)
+%\end{tabular}
+
+%\begin{tabular}{p{1.6cm}p{14.6cm}}
+%2015   & Teaching Seminar - Portuguese as a Second Language (30h, UFRGS)
+%\end{tabular}    
+
+ \begin{tabular}{p{1.6cm}p{14.6cm}}	   
+2014 & Graduate Research Trainee (4 months), McGill University\\
+    & Supervisor: Heather Goad
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{14.6cm}}	 
+2013 & Visiting scholar (12 months), University of Delaware\\
+    & Supervisor: Irene Vogel 
+    \end{tabular}
+    
+\begin{tabular}{p{1.6cm}p{14.6cm}}	
+2008-2010 & \textbf{MA in Language, Culture and Regionality}, Universidade de Caxias do Sul (UCS)\\
+    & Title: A eleva\c{c}\~ao da vogal m\'edia anterior \'atona em Flores da Cunha (RS)\\
+    & (Raising of the mid front vowel in the speech of Flores da Cunha (RS))\\ %\href{https://nataliaguzzo.files.wordpress.com/2014/11/dissertac3a7ao_nataliabguzzo.pdf}{link}\\
+    & Supervisor: Elisa Battisti
+    \end{tabular}
+ 
+ \begin{tabular}{p{1.6cm}p{14.6cm}}	  
+2004-2008 & \textbf{Licenciatura em Letras} (Portuguese and English -- languages and literature)\\ 
+    & Universidade de Caxias do Sul (UCS)\\
+    & \textit{magna cum laude}
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{14.6cm}}	
+
+2007 & Visiting student (4 months), Pittsburg State University
+\end{tabular}
+
+\vspace{0.3cm}
+
+
+
+
+\section{Journal Articles}
+
+\hangindent1cm White, Lydia, Heather Goad, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo}, Liz Smeets, and Jiajia Su. \emph{accepted}. Pronoun interpretation in L2 Italian: Exploring the effects of prosody. \textbf{\emph{Linguistic Approaches to Bilingualism}}.
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}. 2023. Brazilian Veneto (Talian). \textbf{\emph{Journal of the International Phonetic Association} -- Illustrations of the IPA} 53(3): 1167--1181. doi: \href{https://doi.org/10.1017/S002510032200010X}{10.1017/S002510032200010X}
+
+\hangindent1cm Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. 2023. A corpus-based approach to map target vowel asymmetry in Brazilian Veneto metaphony. \textbf{\emph{Italian Journal of Linguistics}} 35(1): 115--138.
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}. 2022. Revisiting the acquisition of onset complexity: Affrication in Qu\'ebec French. \textbf{\emph{Journal of Child Language}} 49: 774--798. doi: \href{https://doi.org/10.1017/S0305000921000374}{10.1017/S0305000921000374}
+
+\hangindent1cm Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. 2022. Lexical access in Portuguese stress. \textbf{\emph{Journal of Portuguese Linguistics}} 21(7): 1--24. doi: \href{https://doi.org/10.16995/jpl.8188}{10.16995/jpl.8188}
+
+\hangindent1cm Xia, Vera Yunxiao, Lydia White and \textbf{Nat\'alia Brambatti Guzzo}. 2022. Intervention in relative clauses: Effects of relativized minimality on L2 representation and processing. \textbf{\emph{Second Language Research}} 38(2): 347--372. doi: \href{https://doi.org/10.1177/0267658320958742}{10.1177/0267658320958742}
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. 2021. Gradience in prosodic representation: vowel reduction and neoclassical elements in Brazilian Portuguese. \textbf{\emph{Glossa: a journal of general linguistics}} 6(1): 74. 1--26. doi: \href{https://doi. org/10.5334/gjgl.1413}{10.5334/gjgl.1413}
+
+\hangindent1cm Goad, Heather, \textbf{Nat\'alia Brambatti Guzzo} and Lydia White. 2021. Parsing ambiguous relative clauses in L2 English: Learner sensitivity to prosodic cues. \textbf{\emph{Studies in Second Language Acquisition}} 43: 83--108. doi: \href{https://doi.org/10.1017/S0272263120000285}{10.1017/S0272263120000285}
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. 2020. Phonological variation and prosodic representation: Clitics in Portuguese-Veneto contact. \textbf{\emph{Journal of Language Contact}} 13(2): 389--427. doi: \href{https://doi.org/10.1163/19552629-bja10021}{10.1163/19552629-bja10021}
+
+
+%\begin{tabular}{p{1.6cm}p{14.6cm}}	
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}. 2018. The prosodic representation of composite structures in Brazilian Portuguese. \textbf{\emph{Journal of Linguistics}} 54(4): 683--720. doi: \href{https://doi.org/10.1017/S0022226718000099}{10.1017/S0022226718000099}
+%\end{tabular}
+
+
+%\begin{tabular}{p{1.6cm}p{14.6cm}}	
+\hangindent1cm Slabakova, Roumyana, Lydia White and \textbf{Nat\'alia Brambatti Guzzo}. 2017. Pronoun interpretation in the second language: Effects of computational complexity. \textbf{\emph{Frontiers in Psychology}} 8: 1--12. doi: \href{https://doi.org/10.3389/fpsyg.2017.01236}{10.3389/fpsyg.2017.01236}
+%\end{tabular}
+
+
+\vspace{0.3cm}
+
+
+
+%\section*{Manuscripts in Progress}
+%
+%
+%\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}, Heather Goad and Guilherme Garcia. \emph{in prep}. The structural conditioning of high vowel deletion in Qu\'ebec French. To be submitted in March 2024. 
+%
+%
+%\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti} and Chau Tran. \emph{in prep}. The use of prosodic cues in the interpretation of ambiguous relative clauses in English by Vietnamese speakers. To be submitted in February 2024.
+%
+%
+%\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}. \emph{submitted}. Plural alternations and consonant syllabification in Brazilian Veneto. Submitted to \textbf{\emph{Languages}} (invited contribution to the special volume on Phonetic and Phonological Complexity in Romance Languages, edited by Irene Vogel and Laura Spinu).
+%
+
+
+
+
+
+\vspace{0.3cm}
+
+\section*{Chapters in Edited Volumes}
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}. \emph{in press}. Prosodically-conditioned variation: Rhotics in Brazilian Veneto. In Rajiv Rao (Ed.). \textbf{\emph{The Phonetics and Phonology of Heritage Languages}}. Cambridge: CUP.
+
+\hangindent1cm Vogel, Irene, Angeliki Athanasopoulou and \textbf{Nat\'alia Brambatti Guzzo}. 2018. Timing properties of (Brazilian) Portuguese and (European) Spanish. In Lori Repetti and Francisco Ord\'o\~nez (Eds.) \textbf{\textit{Romance Languages and Linguistic Theory 14. Selected papers from the 46th Linguistic Symposium on Romance Languages (LSRL)}}, pp. 325--340. Amsterdam: John Benjamins. doi: \href{https://doi.org/10.1075/rllt.14.19vog}{10.1075/rllt.14.19vog}
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}. 2017. Recursion in Brazilian Portuguese complex compounds. In Ruth Lopes, Juanito Ornelas de Avelar and Sonia Cyrino (Eds.) \textbf{\textit{Romance Languages and Linguistic Theory 12. Selected papers from the 45th Linguistic Symposium on Romance Languages (LSRL)}}, pp. 97--110. Amsterdam: John Benjamins. doi: \href{https://doi.org/10.1075/rllt.12.07guz}{10.1075/rllt.12.07guz}
+
+\hangindent1cm Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. 2017. The acquisition of English stress by Qu\'ebec francophones. In Mehmet Yava\c{s}, Margaret Kehoe and Walcir Cardoso (Eds.). \textbf{\textit{Romance-Germanic Bilingual Phonology}}, pp. 200-221. Sheffield: Equinox.
+
+
+
+
+\vspace{0.3cm}
+
+\section*{Conference Proceedings}
+
+\hangindent1cm Xia, Vera Yunxiao, Lydia White and \textbf{Nat\'alia Brambatti Guzzo}. \emph{to appear}. Relativized Minimality in L2 Revisited: (Non-)Effects of L1 and Tense on the Processing of Object Relative Clauses. \textbf{\emph{Proceedings of the 48th Boston University Conference on Language Development (BUCLD)}}.
+
+\hangindent1cm Goad, Heather and \textbf{Nat\'alia Brambatti Guzzo}. 2022. Regularly inflected forms can be prosodically ambiguous in English. \textbf{\emph{Proceedings of the 2021 Annual Conference of the Canadian Linguistic Association}}.
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}, Heather Goad and Megan Deegan. 2020. Phonological systems in conflict: The acquisition of stress in bilingual French-English. In \"Omer Eren, Asimina Giannoula, Sam Gray, Chi-Dat Lam (Daniel), Aurora Martinez Del Rio (Eds.). \textbf{\emph{Proceedings of the 55th Annual Meeting of the Chicago Linguistic Society (CLS 55)}}.
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}. 2019. Native and non-native patterns in conflict: Lexicon vs. grammar in loanword adaptation in Brazilian Portuguese. In Katherine Hout, Anna Mai, Adam McCollum,	 Sharon Rose and Matthew Zaslansky (Eds.). \textbf{\emph{Supplemental Proceedings of the Annual Meeting on Phonology (AMP) 2018}}.
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}, Heather Goad and Guilherme D. Garcia. 2018. What motivates high vowel deletion in Qu\'ebec French: Foot structure or tonal profile? \textbf{\textit{Proceedings of the 92nd Annual Meeting of the Linguistic Society of America}}.
+
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti} and Heather Goad. 2017. Overriding default interpretations through prosody: Depictive predicates in Brazilian Portuguese. \textbf{\textit{Proceedings of the 91st Annual Meeting of the Linguistic Society of America}}.
+ %\end{tabular}
+
+%\begin{tabular}{p{1.6cm}p{14.6cm}}	
+\hangindent1cm Garcia, Guilherme D., Heather Goad and \textbf{Nat\'alia Brambatti Guzzo}. 2017. Footing is not always about stress: Formalizing variable high vowel deletion in Qu\'ebec French. In Karen Jesney, Charlie O'Hara, Caitlin Smith and Rachel Walker (Eds.). \textbf{\textit{Proceedings of the Annual Meeting on Phonology (AMP) 2016}}.
+ %\end{tabular}
+
+%\begin{tabular}{p{1.6cm}p{14.6cm}}	
+\hangindent1cm Garcia, Guilherme D., Heather Goad and \textbf{Nat\'alia Brambatti Guzzo}. 2017. L2 acquisition of high vowel deletion in Qu\'ebec French. \textbf{\textit{Proceedings of the 41st Boston University Conference on Language Development (BUCLD)}}.
+ %\end{tabular}
+ 
+%\begin{tabular}{p{1.6cm}p{14.6cm}}	
+\hangindent1cm White, Lydia, Heather Goad, Jiajia Su, Liz Smeets, Marzieh Mortazavinia, Guilherme D. Garcia and \textbf{Nat\'alia Brambatti Guzzo}. 2017. Prosodic effects on pronoun interpretation in Italian. \textbf{\textit{Proceedings of the 41st Boston University Conference on Language Development (BUCLD)}}.
+ %\end{tabular}
+ 
+ %\begin{tabular}{p{1.6cm}p{14.6cm}}	
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}. 2014. Palatalization of alveolar stops by Portuguese L2ers. \textbf{\textit{Proceedings of the International Symposium on the Acquisition of Second Language Speech (New Sounds 2013)}}, pp. 216--228, Montreal, Canada. %\href{http://doe.concordia.ca/copal/documents/17_BrambattiGuzzo_Vol5.pdf}{(link)}
+ %\end{tabular}
+
+
+\vspace{0.3cm}
+
+\section*{Older papers}
+
+	
+\hangindent1cm \textbf{Guzzo, Nat\'alia Brambatti}. 2012. Eleva\c{c}\~ao de /e/ e apagamento voc\'alico: o comportamento dos cl\'i­ticos (Raising of /e/ and vowel deletion: the behaviour of clitics), \textbf{\emph{Cadernos do IL}} 44: 185--202.  
+ 
+\hangindent1cm Battisti, Elisa and \textbf{Nat\'alia Brambatti Guzzo}. 2012. O apagamento vari\'avel de vogais em posi\c{c}\~oes \'atonas no portugu\^es brasileiro: o caso de Flores da Cunha (RS) (Variable deletion of vowels in unstressed positions in Brazilian Portuguese: the case of Flores da Cunha (RS)), \textbf{\emph{Letras \& Letras}} 28: 233--252.  
+ 
+\hangindent1cm Battisti, Elisa and \textbf{Nat\'alia Brambatti Guzzo}. 2012. Varia\c{c}\~ao lingu\'istica, pr\'aticas sociais e identidade em Flores da Cunha (RS) (Language variation, social practices and identity in Flores da Cunha (RS)), \textbf{\emph{Todas as Letras}} 14: 167--175. 
+
+\hangindent1cm Battisti, Elisa and \textbf{Nat\'alia Brambatti Guzzo}. 2009. Palataliza\c{c}\~ao das oclusivas alveolares: o caso de Chapec\'o (SC) (Palatalization of alveolar stops in Portuguese: the case of Chapec\'o (SC)). In Leda Bisol and Gisela Collischonn (Eds.) \textbf{\textit{Portugu\^es do sul do Brasil: varia\c{c}\~ao fonol\'ogica}} (Southern Brazilian Portuguese: phonological variation), pp. 114-140. Porto Alegre: EDIPUCRS.
+
+
+  
+\vspace{0.3cm}
+ 
+\section{Presentations}
+ 
+\subsection*{Conference Presentations}
+
+%\begin{tabular}{p{1.6cm}p{14.6cm}}
+%& *\emph{Equal contribution}
+%\end{tabular}
+
+%\begin{tabular}{p{1.6cm}p{14.6cm}}
+%& *\emph{Equal contribution}
+%\end{tabular}
+\begin{tabular}{p{1cm}p{16cm}}
+2024 & White, Lydia, Heather Goad, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo} and Jiajia Su. Pronoun interpretation in English: When native speaker performance is unexpected. Generative Approaches to Second Language Acquisition (GASLA) 17, University of Illinois at Urbana-Champaign, USA, May 2-4. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2024 & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. Effects of allophony and the representation of English loanwords in Brazilian Portuguese. 21st Old World Conference in Phonology (OCP), Universit\"at Leipzig, Leipzig, Germany, February 14-16. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2024 & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. Marginal representations in loanword adaptation: Affrication in Brazilian Portuguese English. North East Linguistics Society 54 (NELS), MIT, Cambridge, USA, January 26-28. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2023 & Xia, Vera Yunxiao, Lydia White and \textbf{Nat\'alia Brambatti Guzzo}. Relativized minimality in L2 revisited: Effects of L1 and tense on processing of object relative clauses. 43rd Boston University Conference on Language Development (BUCLD), Boston University, Boston, USA, Nov 2-5. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2023 & Xia, Vera Yunxiao, \textbf{Nat\'alia Brambatti Guzzo} and Lydia White. Relativized minimality in L2 revisited: (non)-effects of L1 and tense on processing of object relative clauses. 32nd Conference of the European Second Language Association (EuroSLA), University of Birmingham, Birmingham, UK, Aug 20-Sep 2. [poster]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2023 & \textbf{Guzzo, Nat\'alia Brambatti}. Plural alternations and consonant syllabification in Brazilian Veneto. Phonetics and Phonology in Europe 2023 (PaPE), Radboud University, Nijmegen, The Netherlands, June 2-4. [poster]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2023 & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. Lexical stress in language contact: the interplay of acoustic correlates. Phonetics and Phonology in Europe 2023 (PaPE), Radboud University, Nijmegen, The Netherlands, June 2-4. [poster]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2023 & \textbf{Guzzo, Nat\'alia Brambatti}. Consonant syllabification may vary: Plural alternations in Brazilian Veneto. Fringe Meeting (`Moraic vs. X-Slot Syllabification: the Debate') at The 30th Manchester Phonology Meeting (mfm), University of Manchester, Manchester, UK, May 24. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2023 & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. Cue interaction and the representation of stress in language contact. The 30th Manchester Phonology Meeting (mfm), University of Manchester, Manchester, UK, May 25-27. [poster]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2022 & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. Effects from the heritage language on the dominant language: Stress in Veneto-Portuguese contact. The 44th Meeting of the Atlantic Provinces Linguistic Association (APLA), Saint Mary's University, Halifax, Canada, November 4-5. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2022 & White, Lydia, Heather Goad, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo}, Liz Smeets, and Jiajia Su. Pronoun interpretation in L2 English and L1 Italian: effects of stress. 15th Generative Approaches to Language Acquisition (GALA), Goethe University Frankfurt, Frankfurt, Germany, September 15-17. [talk]
+\end{tabular}
+
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2022 & White, Lydia, Heather Goad, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo}, Liz Smeets, and Jiajia Su. Effects of stress on pronoun interpretation in L2 English. 31st Conference of the European Second Language Association (EuroSLA), University of Fribourg, Fribourg, Switzerland, August 24-27. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2022 & White, Lydia, Heather Goad, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo}, and Jiajia Su. Determining prosodic effects in L2 grammars:  effectiveness of different methodologies. Generative Approaches to Second Language Acquisition, Norwegian University of Science and Technology (NTNU), Trondheim, Norway, May 12-14. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2021 & Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. Using corpus data to map phonological patterns in Brazilian Veneto. Societas Linguistica Europaea 2021 (SLE), Athens, Greece, Aug 31-Sep 3. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2021 & Goad, Heather and \textbf{Nat\'alia Brambatti Guzzo}. Regularly inflected forms can be prosodically ambiguous in English. 2021 Conference of the Canadian Linguistic Association (CLA), virtual, June 4-7. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2021 & \textbf{Guzzo, Nat\'alia Brambatti} and Avery Franken. Examining contact effects in a written corpus: Subjects in Brazilian Veneto. The 57th Meeting of the Chicago Linguistic Society (CLS), University of Chicago, Chicago (IL), USA, May 6-8. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2021 & Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. Target vowel asymmetry in Brazilian Veneto metaphony. 51st Linguistic Symposium on Romance Languages (LSRL), University of Illinois - Urbana Champaign, USA, Apr 29-May 1. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2021 & \textbf{Guzzo, Nat\'alia Brambatti} and Avery Franken. Structure preservation and contact effects: Subjects in Brazilian Veneto. 51st Linguistic Symposium on Romance Languages (LSRL), University of Illinois - Urbana Champaign, USA, Apr 29-May 1. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2021 & \textbf{Guzzo, Nat\'alia Brambatti}. The acquisition of complexity: Affrication versus branching onsets in Qu\'ebec French. 95th Annual Meeting of the Linguistic Society of America (LSA), Jan 7-10. [poster]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2020 & Goad, Heather and \textbf{Nat\'alia Brambatti Guzzo}. Prosodic structure affects processing: The case of English past inflection. LabPhon 17, University of British Columbia, Vancouver, Canada, July 6-8. [poster]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2019 & Goad, Heather, \textbf{Nat\'alia Brambatti Guzzo} and Lydia White. Crosslinguistic variation in relative clause attachment: A prosodic perspective. 29th conference of the European Second Language Association (EuroSLA), Lund University, Lund, Sweden, Aug 28-31. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2019 & \textbf{Guzzo, Nat\'alia Brambatti}, Heather Goad and Megan Deegan. Stress systems can blend: Evidence from bilingual acquisition of French and English. 2019 Conference of the Canadian Linguistic Association (CLA), University of British Columbia, Vancouver, Canada, June 1-3. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2019 & Goad, Heather, \textbf{Nat\'alia Brambatti Guzzo} and Lydia White. Crosslinguistic variation in relative clause attachment: Implications of a prosodic perspective for second language acquisition. Parameters Workshop in Honour of Lisa Travis, McGill University, Montreal, Canada, May 17-18. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2019 & \textbf{Guzzo, Nat\'alia Brambatti}, Heather Goad and Megan Deegan. Phonological systems in conflict: The acquisition of stress in bilingual French-English. The 55th Meeting of the Chicago Linguistic Society (CLS), University of Chicago, Chicago (IL), USA, May 16-18. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2018 & Goad, Heather, Lydia White, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo}, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. Effects of prosody on L2 interpretation of Italian pronouns. Second Language Research Forum (SLRF), Universit\'e du Qu\'ebec \`{a} Montr\'eal, Montreal, Canada, Oct 26-28. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2018 & \textbf{Guzzo, Nat\'alia Brambatti}. Native and non-native patterns in conflict: Lexicon vs. grammar in loanword adaptation in Brazilian Portuguese. 2018 Annual Meeting on Phonology (AMP), University of California San Diego, San Diego, USA, Oct 5-7. [poster]	
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2018 & Goad, Heather, Lydia White, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo}, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. Pronoun interpretation in L2 Italian: Prosodic effects revisited. 8th Generative Approaches to Language Acquisition North America (GALANA), Indiana University, Bloomington, USA, Sep 27-30. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2018 & \textbf{Guzzo, Nat\'alia Brambatti}. Diminutive  structures  in  a variety  of  Brazilian  Portuguese:  A  case  of  prosodic  transfer. Symposium on Second Language Acquisition in Honour of Lydia White, McGill University, Montreal, Canada, Aug 31-Sep 1. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2018 & Goad, Heather, Lydia White, \textbf{Nat\'alia Brambatti Guzzo}, Guilherme D. Garcia, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. How prosody affects L2 processing: Pronoun interpretation in L2 Italian. 2nd International Symposium on Bilingual and L2 Processing in Adults and Children (ISBPAC), Technische Universit\"{a}t Braunschweig, Braunschweig, Germany, May 24-25. [poster]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2018 & Athanasopoulou, Angeliki, Irene Vogel and \textbf{Nat\'alia Brambatti Guzzo}. Variability and the alignment of pitch accents in Brazilian Portuguese. 48th Linguistic Symposium on Romance Languages (LSRL), York University, Toronto, Canada, Apr 26-28. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2018 & \textbf{Guzzo, Nat\'alia Brambatti}, Heather Goad and Guilherme D. Garcia. What motivates high vowel deletion in Qu\'ebec French: Foot structure or tonal profile? 92nd Annual Meeting of the Linguistic Society of America (LSA), Salt Lake City, USA, Jan 4-8. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2018 & \textbf{Guzzo, Nat\'alia Brambatti}. Language contact determines prosodic representation and variation. 92nd Annual Meeting of the Linguistic Society of America (LSA), Salt Lake City, USA, Jan 4-8. [poster]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2017 & Goad, Heather, Lydia White, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo}, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. Pronoun interpretation in Italian: assessing the effects of prosody. 5th Experimental Psycholinguistics Conference, Ma\'o (Menorca), Spain, Jun 28-30. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2017 & Goad, Heather, Lydia White, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo}, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. Effects of pause and stress on pronoun interpretation in L2 Italian. 11th International Symposium on Bilingualism, University of Limerick, Limerick, Ireland, Jun 11-15. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2017 & \textbf{Guzzo, Nat\'alia Brambatti}, Heather Goad and Guilherme D. Garcia. Accessing prosodic structure through indirect evidence: The L2 acquisition of high vowel deletion in Qu\'ebec French. Annual Meeting of the Canadian Linguistic Association (CLA), Ryerson University, Toronto, Canada, May 27-29. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2017 & \textbf{Guzzo, Nat\'alia Brambatti}, Heather Goad and Guilherme D. Garcia. Learners can acquire structurally-conditioned variation: High vowel deletion in Qu\'ebec French. 14th Generative Approaches to Second Language Acquisition conference (GASLA), University of Southampton, Southampton, UK, Apr 6-9. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2017 & Goad, Heather, Lydia White, Guilherme D. Garcia, \textbf{Nat\'alia Brambatti Guzzo}, Marzieh Mortazavinia, Liz Smeets and Jiajia Su. Pronoun interpretation in L2 Italian: effects of pause and stress. 14th Generative Approaches to Second Language Acquisition conference (GASLA), University of Southampton, Southampton, UK, Apr 6-9. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2017 & \textbf{Guzzo, Nat\'alia Brambatti} and Heather Goad. Using acoustic cues to interpret ambiguous sentences: Depictive predicates in Brazilian Portuguese. The 20th Ohio State University Congress on Hispanic and Lusophone Linguistics 2017 (OSUCHiLL), The Ohio State University, Columbus, USA, Mar 31-Apr 1. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2017 & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. Probing prosodic representations through vowel reduction in Brazilian Portuguese. The 20th Ohio State University Congress on Hispanic and Lusophone Linguistics 2017 (OSUCHiLL), The Ohio State University, Columbus, USA, Mar 31-Apr 1. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2017 & \textbf{Guzzo, Nat\'alia Brambatti} and Heather Goad. Overriding default interpretations through prosody: Depictive predicates in Brazilian Portuguese. 91st Annual Meeting of the Linguistic Society of America (LSA), Austin, USA, Jan 5-8. [talk]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2016 & Garcia, Guilherme D., Heather Goad and \textbf{Nat\'alia Brambatti Guzzo}. L2 Acquisition of High Vowel Deletion in Qu\'ebec French. 41st Boston University Conference on Language Development (BUCLD), Boston University, Boston, USA, Nov 4-6. [poster]%\href{https://nataliaguzzo.files.wordpress.com/2014/11/bu_hvd_poster.pdf}{poster}]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2016 & White, Lydia, Heather Goad, Jiajia Su, Liz Smeets, Marzieh Mortazavinia, Guilherme D. Garcia and \textbf{Nat\'alia Brambatti Guzzo}. Prosodic Effects on Pronoun Interpretation in Italian. 41st Boston University Conference on Language Development (BUCLD), Boston University, Boston, USA, Nov 4-6. [poster]%\href{https://nataliaguzzo.files.wordpress.com/2014/11/bu_poster.pdf}{poster}]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}
+2016 & Garcia, Guilherme D., Heather Goad and \textbf{Nat\'alia Brambatti Guzzo}. Footing is not always about stress: Formalizing variable high vowel deletion in Qu\'ebec French. Annual Meeting on Phonology (AMP) 2016, University of Southern California, Los Angeles, USA, Oct 21-23. [talk] %\href{https://nataliaguzzo.files.wordpress.com/2014/11/amp.pdf}{slides}]
+\end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2016 & Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. Acquisition of word-level prominence in L2 English by Canadian French speakers. {15th Conference on Laboratory Phonology (LabPhon)}, Cornell University, Ithaca, USA, Jul 13-16. [poster]%\href{http://www.guilherme.ca/uploads/6/3/0/1/63013285/labphon15_garcia_guzzo_.pdf}{poster}]
+ \end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2016 & \textbf{Guzzo, Nat\'alia Brambatti}, Heather Goad and Guilherme D. Garcia. High vowel deletion in Qu\'ebec French: Evidence for vestigial iambs. 24th Manchester Phonology Meeting (mfm), Manchester, UK, May 26-28. [talk] %\href{https://nataliaguzzo.files.wordpress.com/2014/11/mfm24_guzzo_goad_garcia.pdf}{slides}]
+ \end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2016 & Athanasopoulou, Angeliki, \textbf{Nat\'alia Brambatti Guzzo} and Irene Vogel. Using Prominence to Assess Linguistic Timing Across Languages. {9th North American Phonology Conference (NAPhC9)}, Concordia University, Montreal, Canada, May 7-8. [poster]
+ \end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2016 & Athanasopoulou, Angeliki, \textbf{Nat\'alia Brambatti Guzzo} and Irene Vogel. Timing Properties of (Brazilian) Portuguese and (European) Spanish. {46th Linguistic Symposium on Romance Languages (LSRL)}, Stony Brook University, Stony Brook, USA, Mar 31-Apr 3. [talk]
+ \end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2015 & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. When phonological variation tells us about prosody. {44th New Ways of Analyzing Variation (NWAV)}, University of Toronto/York University, Toronto, Canada, Oct 22-25. [poster]%\href{https://nataliaguzzo.files.wordpress.com/2014/11/nwav44_se.pdf}{poster}]
+ \end{tabular}
+
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2015   & \textbf{Guzzo, Nat\'alia Brambatti}. Recursion in Brazilian Portuguese complex compounds. {45th Linguistic Symposium on Romance Languages (LSRL)}, Universidade Estadual de Campinas, Campinas, Brazil, May 6-9. [talk] %\href{https://nataliaguzzo.files.wordpress.com/2015/11/lsrlnataliabguzzo.pdf}{slides}]
+ \end{tabular}
+ 
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2015   & \textbf{Guzzo, Nat\'alia Brambatti}. Prosodic recursion and the Composite Group: can they reconcile? {12th Old World Conference in Phonology (OCP)}, Universitat de Barcelona/Universitat Aut\'onoma de Barcelona, Barcelona, Spain, Jan 27-30. [poster]%\href{https://nataliaguzzo.files.wordpress.com/2014/11/posterocp.pdf}{poster}]
+ \end{tabular}
+ 
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2015   & Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. The prosodization of neoclassical elements in Brazilian Portuguese: evidence from vowel reduction.  {12th Old World Conference in Phonology (OCP)}, Universitat de Barcelona/Universitat Aut\'onoma de Barcelona, Barcelona, Spain, Jan 27-30. [poster]%\href{https://nataliaguzzo.files.wordpress.com/2014/11/ocp.pdf}{poster}]
+ \end{tabular}
+ 
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2014   & \textbf{Guzzo, Nat\'alia Brambatti}. The prosodization of noun-preposition-noun compounds in Brazilian Portuguese. 2014 Annual Meeting on Phonology (AMP), MIT, Cambridge, USA, Sep 19-21. [poster]%\href{https://nataliaguzzo.files.wordpress.com/2014/11/phonology2014natalia.pdf}{poster}]
+ \end{tabular}
+ 
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2014   & \textbf{Guzzo, Nat\'alia Brambatti}. O Grupo Composto na hierarquia pros\'odica: evid\^encia dos cl\'i­ticos do portugu\^es brasileiro. [The Composite Group in the prosodic hierarchy: evidence from Brazilian Portuguese clitics.] {XXIX Encontro Nacional da ANPOLL}, Universidade Federal de Santa Catarina (UFSC), Florian\'opolis, Brazil, Jun 9-11. [talk] %\href{https://nataliaguzzo.files.wordpress.com/2014/11/nataliaenanpoll.pdf}{slides in Portuguese}]
+ \end{tabular}
+ 
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2014   & \textbf{Guzzo, Nat\'alia Brambatti}. Prosodic dependence and recursion in Brazilian Portuguese. {88th Annual Meeting of the Linguistic Society of America (LSA)}, Minneapolis, USA, Jan 2-5. [poster]%\href{https://nataliaguzzo.files.wordpress.com/2014/11/poster_lsa.pdf}{poster}]
+ \end{tabular}
+ 
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2013 & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. Stress in Portuguese: Grid-Based vs. Foot-Based Analyses. {M@90 Workshop on Stress and Meter to celebrate Morris Halle's 90th birthday}, MIT, Cambridge, USA, Sep 20-21. [poster]%\href{https://nataliaguzzo.files.wordpress.com/2014/11/mit-poster.pdf}{poster}]
+ \end{tabular}
+ 
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2013   & \textbf{Guzzo, Nat\'alia Brambatti}. The production of palatalization of /t, d/ by learners of Brazilian Portuguese as L2. {International Symposium on the Acquisition of Second Language Speech (New Sounds 2013)}, Concordia University, Montreal, Canada, May 17-19. [poster]
+ \end{tabular}
+ 
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2012   & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. Prominence in sequences of clitics and its relation to stressed words. {UD Conference on Stress and Accent}, University of Delaware, Newark, USA, Nov 29-Dec 1. [poster]
+ \end{tabular}
+ 
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+ 2012   & Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. Considerations on Brazilian Portuguese stress assignment in derivations. {UD Conference on Stress and Accent}, University of Delaware, Newark, USA, Nov 29-Dec 1. [talk]
+ \end{tabular}
+ 
+% \begin{tabular}{p{1cm}p{16cm}}
+%2012    & Guzzo, Nat\'alia Brambatti. Os cl\'i­ticos do portugu\^es brasileiro como entidades morfossint\'aticas e fonol\'ogicas (Brazilian Portuguese clitics as morphosyntactic and phonological entities). {X C\'irculo de Estudos Lingu\'i­sticos do Sul (CELSUL)}, Universidade Estadual do Oeste do Paran\'a, Cascavel, Brazil, Oct 24-26. [talk]
+%\end{tabular}
+ 
+ 
+ %\begin{tabular}{p{1cm}p{16cm}}
+%2012    & Gutierres, Athany and Nat\'alia Brambatti Guzzo. A produ\c{c}\~ao vari\'avel de ep\^entese em coda final por aprendizes de ingl\^es como L2 (The variable production of epenthesis in final coda by English L2ers). {VII Semin\'ario Nacional sobre Linguagem e Ensino (SENALE)}, Universidade Cat\'olica de Pelotas, Pelotas, Brazil, Oct 3-5. [talk]
+%\end{tabular}
+ 
+ 
+% \begin{tabular}{p{1cm}p{16cm}}
+%2012    & Guzzo, Nat\'alia Brambatti. O status dos cl\'i­ticos: possibilidades de prosodiza\c{c}\~ao (The status of Brazilian Portuguese clitics: possibilities of prosodization). {Semin\'ario do Grupo de Estudos Lingu\'isticos de S\~ao Paulo}, Universidade de S\~ao Paulo, S\~ao Paulo, Brazil, July 4-6. [talk]
+%\end{tabular}
+ 
+ 
+% \begin{tabular}{p{1cm}p{16cm}}
+%2012    & Guzzo, Nat\'alia Brambatti. Eleva\c{c}\~ao de /e,o/ em cl\'iticos: ind\'i­cios sobre sua prosodiza\c{c}\~ao (Vowel raising in Brazilian Portuguese clitics: clues on their prosodization). {2\textsuperscript{o} Col\'oquio Internacional de Estudos Lingu\'isticos e Liter\'arios (CIELLI)}, Universidade Estadual de Maring\'a, Maring\'a, Brazil, June 13-15. [talk]
+%\end{tabular}
+ 
+ 
+ %\begin{tabular}{p{1cm}p{16cm}}
+%2012    & Guzzo, Nat\'alia Brambatti. Eleva\c{c}\~ao de /e/ e apagamento voc\'alico: o comportamento dos cl\'i­ticos (Vowel raising and vowel deletion: the behavior of Brazilian Portuguese clitics). \textit{IV Semin\'ario Internacional de Fonologia}, Pontif\'i­cia Universidade Cat\'olica do Rio Grande do Sul, Porto Alegre, Brazil, Apr 25-27. [talk]
+%\end{tabular}
+ 
+ 
+ %\begin{tabular}{p{1cm}p{16cm}}
+%2011    & Guzzo, Nat\'alia Brambatti. A eleva\c{c}\~ao de /e/ no portugu\^es falado em Flores da Cunha (RS) (Raising of /e/ in the Brazilian Portuguese variety spoken in Flores da Cunha-RS). {XIII Simp\'osio Nacional de Letras e Lingu\'istica e III Simp\'osio Internacional de Letras e Lingu\'i­stica}, Universidade Federal de Uberl\^andia, Uberl\^andia, Brazil, Nov 23-25. [talk]
+%\end{tabular}
+ 
+ 
+% \begin{tabular}{p{1cm}p{16cm}}
+%2011    & Battisti, Elisa and Nat\'alia Brambatti Guzzo. O apagamento de vogais seguidas de sibilantes no portugu\^es falado em Flores da Cunha (RS) (Deletion of vowels followed by sibilants in the Brazilian Portuguese variety of Flores da Cunha-RS). {III Simp\'osio sobre Vogais (SIS Vogais)}, UFRGS, Porto Alegre, Brazil, Nov 7-11. [talk]
+%\end{tabular}
+ 
+ 
+% \begin{tabular}{p{1cm}p{16cm}}
+%2011    & Guzzo, Nat\'alia Brambatti. A eleva\c{c}\~ao da vogal m\'edia anterior \'atona em comunidade de \'i­talo-descendentes (Raising of the mid front vowel in a Brazilian community of Italian descendants). {I Semin\'ario Internacional de L\'i­ngua, Literatura e Processos Culturais}, UCS, Caxias do Sul, Brazil, Oct 25-28. [talk]
+%\end{tabular}
+ 
+ 
+% \begin{tabular}{p{1cm}p{16cm}}
+%2011   & Guzzo, Nat\'alia Brambatti. Cl\'i­ticos e a eleva\c{c}\~ao da vogal m\'edia anterior \'atona (Clitics and mid vowel raising). {III Col\'oquio do Programa de P\'os-Gradua\c{c}\~ao em Letras - UFRGS}, UFRGS, Porto Alegre, Brazil, Apr 11-13. [poster]
+%\end{tabular}
+ 
+ 
+% \begin{tabular}{p{1cm}p{16cm}}
+%2010    & Guzzo, Nat\'alia Brambatti. A eleva\c{c}\~ao de /e/ em Flores da Cunha-RS (Raising of /e/ in Flores da Cunha-RS). {IX C\'i­rculo de Estudos Lingu\'i­sticos do Sul (CELSUL)}, Universidade do Sul de Santa Catarina, Palho\c{c}a, Brazil, Oct 20-22. [talk]
+%\end{tabular}
+ 
+ 
+% \begin{tabular}{p{1cm}p{16cm}}
+%2010    & Guzzo, Nat\'alia Brambatti. Varia\c{c}\~ao lingu\'i­stica e pr\'aticas sociais em Flores da Cunha (RS) (Language variation and social practices in Flores da Cunha-RS). {III Simp\'osio Internacional e XI F\'orum de Estudos \'Italo-Brasileiros}, UCS, Caxias do Sul, Brazil, June 13-15. [talk]
+%\end{tabular}
+ 
+% \begin{tabular}{p{1.6cm}p{14.6cm}}
+
+%2007    & Guzzo, Natália Brambatti and Elisa Battisti. A palatalizaÃ§Ã£o variável das oclusivas alveitares em ChapecÃ³ (SC) (Variable palatalization of alveolar stops in ChapecÃ³-SC). {Mostra Unisinos de IniciaÃ§Ã£o CientÃ­fica}, May 28-31, Universidade do Vale do Rio Sinos, SÃ£o Leopoldo (RS), Brazil. [talk]
+
+%\end{tabular}
+ 
+ %\begin{tabular}{p{1.6cm}p{14.6cm}}
+
+%2006    & Guzzo, Natália Brambatti and Elisa Battisti. Análise quantitativa no estudo da palatalizaÃ§Ã£o das oclusivas alveitares como prática social (Quantitative analysis in the study of palatalization of alveolar stops as a social practice). {58\textsuperscript{a} ReuniÃ£o Anual da Sociedade Brasileira para o Progresso da CiÃªncia}, July 16-21, Universidade Federal de Santa Catarina, FlorianÃ³polis (SC), Brazil. [poster]
+ 
+ %\end{tabular}
+ 
+\vspace{-0.2cm} 
+ 
+ \subsection*{Invited Presentations}
+% \begin{tabular}{p{1.6cm}p{14.6cm}}	
+ %2016 & Guzzo, Natália Brambatti. Disambiguating ambiguous predicates in Portuguese: The role of prosodic cues. Colloquium talk in the Department of Portuguese at the University of Macau, Macau, August 30.
+ 
+ %\end{tabular}
+ 
+ %\begin{tabular}{p{1.6cm}p{14.6cm}}	
+ %2016 & Guzzo, Natália Brambatti. Clitics in Brazilian Portuguese: How phonological variation informs prosodic representation. Colloquium talk in the Department of Spanish and Portuguese at the University of Toronto, Toronto, Canada, January 14.
+ 
+ %\end{tabular}
+
+
+ \begin{tabular}{p{1cm}p{16cm}}	
+ 2023 & \textbf{Guzzo, Nat\'alia Brambatti}. Fonologia do talian: invent\'ario segmental e estrutura pros\'odica [Talian phonology: Segmental inventory and prosodic structure]. Colloquium talk. Instituto de Letras, Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil, August 4th.
+ \end{tabular}
+
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2022 & \textbf{Guzzo, Nat\'alia Brambatti}. Rhotic variability in Brazilian Veneto: Transfer or prosodic conditioning?. Invited talk. III PHONOSHUTTLE OPO-LIS - Ponte a\'erea de Fonologia, Lisbon (virtual), November 25th.
+ \end{tabular}
+
+
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2021 & \textbf{Guzzo, Nat\'alia Brambatti}. Using written corpora to examine understudied languages: The case of Brazilian Veneto. Colloquium talk. Saint Mary's University, Halifax, NS, March 23rd.
+ \end{tabular}
+
+ 
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2016 & \textbf{Guzzo, Nat\'alia Brambatti}. A varia\c{c}\~ao lingu\'i­stica no mundo angl\'ofono. [Language variation in the anglophone world.] Colloquium talk to students in the undergraduate English programme, Universidade de Caxias do Sul, Caxias do Sul, Nov 29th.
+ \end{tabular}
+ 
+ 
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2015 & \textbf{Guzzo, Nat\'alia Brambatti}. Linguagem humana: caracter\'i­sticas, origem e evolu\c{c}\~ao. [Human language: characteristics, origins, and evolution.] Colloquium talk to Biology undergraduate students at Universidade de Caxias do Sul, Caxias do Sul, Brazil, June 1st.
+ \end{tabular}
+ 
+
+\vspace{-0.2cm}
+
+\subsection*{Other Presentations}
+
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2023 & Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. Talian Corpus: um corpus de dados escritos do talian (v\^eneto brasileiro). [Talian Corpus: a corpus of written texts in Talian (Brazilian Veneto).] \textit{ABRALIN Em Cena}, online, Jun 23. [talk]
+\end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2016 & Garcia, Guilherme D. and \textbf{Nat\'alia Brambatti Guzzo}. Second language acquisition of word-level prominence in English by Canadian French speakers. \textit{Montreal-Ottawa-Laval-Toronto Phonology Workshop (MOLT) 2016}, Carleton University, Ottawa,  Canada, Mar 18-20. [talk] %[\href{https://nataliaguzzo.files.wordpress.com/2014/11/garciaguzzo.pdf}{slides}]
+ \end{tabular}
+
+\begin{tabular}{p{1cm}p{16cm}}	
+ 2015 & \textbf{Guzzo, Nat\'alia Brambatti} and Guilherme D. Garcia. Frequency of vowel raising and clitic prosodization in Brazilian Portuguese. \textit{Montreal-Ottawa-Laval-Toronto Phonology Workshop (MOLT) 2015}, University of Toronto, Toronto,  Canada, Mar 13-15. [talk] %[\href{https://nataliaguzzo.files.wordpress.com/2014/11/molt2015.pdf}{slides}]
+ \end{tabular}
+ 
+ %\begin{tabular}{p{1.6cm}p{14.6cm}}
+ 
+ %2010   & Guzzo, Natália Brambatti. Pesquisa sociolinguÃ­stica variacionista (Sociolinguistic research). \textit{Seminar of Theses}, UCS, Caxias do Sul, Brazil, Nov 18.
+ 
+ %\end{tabular}
+ 
+ 
+  \vspace{0.3cm}
+ 
+ \section{Corpora}
+ 
+ \begin{tabular}{p{1cm}p{16cm}}
+
+2021	& \emph{Talian Corpus} (with Guilherme D. Garcia) \\
+		& corpus of words and sentences in Brazilian Veneto (Talian), available at \href{https://nataliaguzzo.github.io/talian}{nataliaguzzo.github.io/talian}
+\end{tabular}
+ 
+ 
+ \vspace{0.3cm}
+ 
+ 
+ 
+ \section{Grants and Awards}
+\begin{tabular}{p{1.6cm}p{15.2cm}}
+ 2023-2024   & Appui \`{a} la recherche, Facult\'e des lettres et des sciences humaines, Universit\'e Laval\\
+ & CAD\$8,000 (Co-PI with Guilherme D. Garcia)\\
+    & Duration: 8 mois
+  \end{tabular}
+
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}
+ 2022-2023   & New Faculty Grant, Saint Mary's University\\
+ & CAD\$1,852 \\
+    & Duration: 8 months
+  \end{tabular}
+
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}
+ 2022-2023   & SMUWorks, Saint Mary's University, Funds to hire UG research assistant\\
+ & CAD\$5,148 \\
+    & Duration: 8 months
+  \end{tabular}
+
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}
+ 2021-2022   & Jovem Talento (Young Talent), Coordena\c{c}\~ao de Aperfei\c{c}oamento de Pessoal de N\'ivel Superior (CAPES; Coordination for the Improvement of Higher Education), Brazilian Government\\
+ & Grant to be a visiting researcher at a Brazilian university\\
+ & $\approx$US\$30,000 [declined due to conflicting schedule issues related to the COVID-19 pandemic]\\
+    & Duration: 18 months
+  \end{tabular}
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}
+ 2011-2015   & PhD Student Fellowship, Conselho Nacional de Desenvolvimento Cient\'i­fico e Tecnol\'ogico (CNPq; National Council for Scientific and Technological Development), Brazilian Government\\
+ & $\approx$US\$36,000\\
+    & Duration: 36 months
+  \end{tabular}
+
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}
+ 2013   & Visiting PhD Student Fellowship, CNPq, Brazilian Government\\
+ & $\approx$US\$18,000\\
+    & Duration: 12 months
+  \end{tabular}
+
+
+\begin{tabular}{p{1.6cm}p{15.2cm}} 
+ 2006-2007   & Research Assistantship Grant, Programa Institucional de Bolsas de Inicia\c{c}\~ao Cient\'i­fica (PIBIC/CNPq), Brazilian Government\\
+ & $\approx$US\$3,600\\
+    & Duration: 12 months
+  \end{tabular}
+
+  
+\begin{tabular}{p{1.6cm}p{15.2cm}}
+ 2006   & Research Assistantship Grant, Bolsa de Inicia\c{c}\~ao Cient\'ifica (BIC/Funda\c{c}\~ao de Amparo \`{a} Pesquisa do Estado do Rio Grande do Sul), Rio Grande do Sul State Government\\
+ & $\approx$US\$1,500\\
+    & Duration: 6 months
+  \end{tabular}  
+
+
+\begin{tabular}{p{1.6cm}p{15.2cm}} 
+ 2005-2006   & Research Assistantship Grant, Bolsa de Inicia\c{c}\~ao Cient\'i­fica (BIC/Universidade de Caxias do Sul), University grant\\
+ & $\approx$US\$2,400\\
+    & Duration: 12 months
+  \end{tabular} 
+
+ \vspace{0.3cm}
+
+ 
+ 
+ 
+ \section{Teaching}
+
+\begin{tabular}{p{2.7cm}p{14.2cm}}
+
+Undergraduate & LNG-3100 -- \emph{Phonologie II} (Laval, Fall 2023)\\
+ling courses		& LING 44XX -- \emph{Topics in Ling Theory: Experimental Methods in Ling} (SMU, Winter 2023)\\				
+
+ & LING 2311 -- \emph{Modern English Language} (SMU, Fall 2022) \\
+			& LING 44XX -- \emph{Topics in Ling Theory: Lg Contact and Change} (SMU, Winter 2022)\\
+			& LING 45XX -- \emph{Topics in Applied Ling: Lg Acquisition} (SMU, Winter 2022) \\
+				& LING 1200 -- \emph{Introduction to Linguistics} (SMU, Winter 2022, Fall 2022, Winter 2023)\\
+				& LING 3350 -- \emph{Interdisciplinary Perspectives: Language and Cognition} (SMU, Fall 2021) \\
+				& LING 44XX -- \emph{Topics in Ling Theory: Bilingualism} (SMU, Winter 2021, Fall 2022)	\\
+			& LING 2309 -- \emph{Phonetics} (SMU, Winter 2021, Fall 2021, Fall 2022)	\\
+				& LING 330 -- \emph{Phonetics} (McGill, Fall 2020)\\	
+				& LING 355 -- \emph{Language Acquisition} (McGill, Winter 2020, Summer 2020) \\
+						& LING 350 -- \emph{Linguistic Aspects of Bilingualism} (McGill, Winter 2020) \\
+						& LING 210 -- \emph{Introduction to Speech Science} (McGill, Summer 2019) \\
+						& LING 410 -- \emph{Structure of a Specific Language} (McGill, Fall 2018) \\
+						& LIN 3345 -- \emph{Second Language Acquisition} (UQAM, Fall 2017) \\
+						& LET 3371 -- \emph{Conceitos B\'asicos de Lingu\'i­stica} (Basic Concepts in Linguistics; Universidade Federal do Rio Grande do Sul, Feb-July 2014)\\
+
+\end{tabular}
+
+
+
+\begin{tabular}{p{2.7cm}p{14.2cm}}
+
+Undergraduate	&	POR 1010 -- \emph{Portugais \'el\'ementaire I} (Laval, Fall 2023, Winter 2024) \\
+language courses & POR 1020 -- \emph{Portugais \'el\'ementaire II} (Laval, Winter 2024)\\
+						
+
+\end{tabular}
+
+
+
+\begin{tabular}{p{2.7cm}p{14.2cm}}
+
+Graduate course	&	PGE 4362 -- \emph{Fon\'etica e Fonologia do Ingl\^es} (Phonetics and Phonology of English; Universidade de Caxias do Sul, Oct-Dec 2010; course in Graduate Certificate Program) \\
+						
+
+\end{tabular}
+
+
+
+\begin{tabular}{p{2.7cm}p{14.2cm}}
+
+Invited lecture	&	\emph{Fonologia: T\'opicos Gerais em Fonologia e Introdu\c{c}\~ao \`{a} Fonologia do Portugu\^es Brasileiro} (General Topics in Phonology and Introduction to Brazilian Portuguese Phonology; Invited lecture to students in the Graduate Certificate Programme in Portuguese Grammar, Universidade de Caxias do Sul, Aug 8th 2015)
+						
+
+\end{tabular}
+
+ 
+ 
+% \begin{tabular}{p{1.6cm}p{14.6cm}}
+%2008-2010 & Portuguese to native speakers (in middle and high school)
+%\end{tabular}
+
+
+% \begin{tabular}{p{1.6cm}p{14.6cm}}
+%2008-2010 & English as a Foreign Language (in middle and high school; levels: A1 to B2)
+%\end{tabular}
+ 
+ 
+% \begin{tabular}{p{1.6cm}p{14.6cm}}
+%2005-2009 & Portuguese as a Foreign Language (at an exchange institute; levels: A1 to B2)
+%\end{tabular}
+
+
+\vspace{0.3cm}
+
+\section{Student Supervision}
+
+%\begin{tabular}{p{1.6cm}p{15.2cm}}	
+%2023- & Cunha, Vict\'oria Goulart. Fonologia das vogais m\'edias pr\^etonicas no portugu\^es de Porto Alegre. [Phonology of the mid vowels in the Portuguese variety spoken in Porto Alegre.]\\ 
+%    & MA thesis (UFRGS, co-supervision with Elisa Battisti)
+%\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}	
+2023- & Cunha, Vict\'oria Goulart. Title TBD. Area: Language variation and phonology. \\ 
+    & MA thesis (Universidade Federal do Rio Grande do Sul); co-supervised with Dr. Elisa Battisti
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}	
+2022-2023 & Tran, Chau. Transfer in Vietnamese-English bilingualism: Prosody effects in the interpretation of relative clauses. \\ 
+    & Honours thesis (Saint Mary's University)
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}	
+2021-2022 & Clayton, Amelia. Differential object marking in heritage Persian. \\ 
+    & Honours thesis (McGill University) \\
+    & Awarded the Cremona Memorial Prize in Linguistics
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}	
+2021 & Shore, Amy. Acquisition in situations of language contact. \\ 
+    & LING 489 -- Independent study (McGill University)
+\end{tabular}
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}	
+2020 & Franken, Avery. Subjects in Brazilian Veneto. \\ 
+    & LING 488 -- Independent study (McGill University)
+\end{tabular}
+
+
+\begin{tabular}{p{1.6cm}p{15.2cm}}
+ 2011 & Zobaran, Juliana Teixeira. Complex onsets (/sC/) produced by Brazilian learners of English at intermediate and advanced levels.\\ 
+    & Graduate Certificate Programme Thesis, Universidade de Caxias do Sul.
+\end{tabular}
+
+ 
+ \begin{tabular}{p{1.6cm}p{15.2cm}}
+2011    & Boschetti, Sabrina. Teaching the `th' sounds of English to Brazilian students: the importance of explicit instruction to pronunciation.\\
+    & Graduate Certificate Programme Thesis, Universidade de Caxias do Sul.
+\end{tabular}
+
+\vspace{0.3cm}
+
+ 
+ \section{Fieldwork}
+
+\begin{tabular}{p{2.6cm}p{13.6cm}}
+Summer 2019		& Brazilian Veneto (Talian)\\
+6 weeks				& Italian Immigration Area, Rio Grande do Sul, Brazil 
+ 
+\end{tabular}
+
+
+
+\vspace{0.3cm}
+ 
+
+%Section: Employment2
+\section{Research Assistantship}
+\begin{tabular}{p{1.6cm}p{15.2cm}}	
+ 2015-2017 & Postdoctoral Research Assistant to Heather Goad and Lydia White, McGill University\\
+ & Project name: Phonological effects on grammatical representation and processing
+    \end{tabular}
+    
+ 
+ \begin{tabular}{p{1.6cm}p{15.2cm}}
+2005-2007 & Research Assistant to Elisa Battisti, Universidade de Caxias do Sul\\
+    & Project name: Varia\c{c}\~ao lingu\'istica como pr\'atica social: a palataliza\c{c}\~ao das oclusivas alveolares em Ant\^onio Prado (RS) (Language variation as social practice: the palatalization of alveolar stops in Ant\^onio Prado (RS))  
+\end{tabular}
+
+\vspace{0.3cm}
+
+ 
+
+\section{Reviewing (journals, conferences)}
+
+\begin{tabular}{p{1cm}p{16cm}}
+2024	& {Speech Communication} \\
+		& {Generative Approaches to Second Language Acquisition 17}\\
+2023	& {Frontiers (in Language Sciences)}\\
+		& {Glossa}\\
+		& {Second Language Research} (2x)\\
+		& {59th Annual Meeting of the Chicago Linguistic Society} \\ 			
+2022	& {Glossa} \\
+		& {44th Meeting of the Atlantic Provinces Linguistic Association} \\
+		& {58th Annual Meeting of the Chicago Linguistic Society} \\
+2021	& {Second Language Research} (2x) \\
+		& {Languages} (2x) \\ 
+		& {57th Annual Meeting of the Chicago Linguistic Society}\\
+2020	& {Canadian Journal of Linguistics} \\
+		& {56th Annual Meeting of the Chicago Linguistic Society}\\
+		& {Generative Approaches to Language Acquisition -- North America 9} \\
+		& {Second Language Research Forum 2020} \\
+ 2019	& {Glossa}  \\
+        & {Journal of Portuguese Linguistics} \\
+        & {EntrePalavras} \\
+    	& {Second Language Research Forum 2019} \\
+    	& {55th Annual Meeting of the Chicago Linguistic Society} \\
+ 2017   & {Second Language Research Forum 2017} \\
+        & {XVIII Congreso Internacional de la Asociaci\'on de Ling\"u\'i­stica y Filolog\'i­a de la Am\'erica Latina} \\
+ 2015   & {Journal of Portuguese Linguistics} \\
+        & {Revista Letras} \\
+ 2014   & {Revista Virtual de Estudos da Linguagem} \\
+ 2013   & {New Sounds 2013} 
+  \end{tabular} 
+
+
+%\section{Memberships}
+%\begin{itemize}
+%\item Canadian Linguistic Association
+%\item Linguistic Society of America
+%\end{itemize}
+
+
+
+\vspace{0.3cm}
+
+
+
+
+
+\section{Additional Employment}
+
+\begin{tabular}{p{2.5cm}p{14.6cm}}
+2018-2019      & Portuguese-English translator\\
+                & Keleny, Montr\'eal
+\end{tabular}
+
+\begin{tabular}{p{2.5cm}p{14.6cm}}
+2008-2010       & Portuguese and English instructor\\
+                & Instituto de Educa\c{c}\~ao Cenecista Ant\^onio Prado, RS, Brazil (middle and high school)
+\end{tabular}
+
+\begin{tabular}{p{2.5cm}p{14.6cm}}
+2006-2008       & Instructor of English as a Second Language\\
+                & Wizard Idiomas, Ant\^onio Prado, RS, Brazil
+\end{tabular}
+
+
+\begin{tabular}{p{2.5cm}p{14.6cm}}
+2005-2009       & Instructor of Portuguese as a Second Language\\
+                & AFS Intercultural, Ant\^onio Prado, RS, Brazil
+\end{tabular}
+
+\begin{tabular}{p{2.5cm}p{14.6cm}}
+2005-2007 & Research assistant\\
+    & Centro de Ci\^encias Humanas e Comunica\c{c}\~ao, Universidade de Caxias do Sul 
+\end{tabular}
+
+\vspace{0.3cm}
+
+
+
+%\section{Non-academic Publications}
+%\subsection*{Books (novels)}
+%
+%\begin{tabular}{p{1cm}p{16cm}}
+% 2006   & Guzzo, Nat\'alia B. \emph{A Senha} (The password). Mystery novel, Caxias do Sul (Brazil): Maneco.\\
+%    & 2nd ed.: 2010\\
+%  \end{tabular} 
+%  
+% \begin{tabular}{p{1cm}p{16cm}}
+% 2003   & Guzzo, Nat\'alia B. \emph{Os Cinco Suspeitos} (Five Suspects). Mystery novel, Caxias do Sul (Brazil): Maneco.\\
+%    & 2nd ed.: 2004; 3rd ed.: 2007; 4th ed.: 2011\\
+%  \end{tabular}  
+%  
+  %** Participation in book fairs and literature festivals in southern Brazil (2003-2014) after the publication of these novels.
+  
+%\subsection*{Edited collection}
+  
+%\begin{tabular}{p{1.6cm}p{14.6cm}}
+ 
+ %in prep.   & Bilingual volume (Portuguese-Brazilian Venetian) of short stories (written by authors from the Italian Immigration Area in Southern Brazil).
+ 
+  %\end{tabular} 
+  
+%\subsection*{Magazine Publications}
+%
+%\begin{tabular}{p{1cm}p{16cm}}
+% 2009   & Guzzo, Nat\'alia Brambatti. Classroom materials and activities: critically thinking. \textit{APIRS (Association of English Instructors) Newsletter}, p. 8, Porto Alegre, Brazil.
+%  \end{tabular} 
+%
+%
+%\begin{tabular}{p{1cm}p{16cm}} 
+% 2008   & Guzzo, Nat\'alia Brambatti. A Song for the Children [short story]. \textit{Cow Creek Review}, pp. 44-52, Pittsburg (KS), USA.
+%  \end{tabular} 
+%
+%
+%\begin{tabular}{p{1cm}p{16cm}}
+% 2008   & Guzzo, Nat\'alia Brambatti. Coming Home [poem]. \textit{Cow Creek Review}, p. 101, Pittsburg (KS), USA.
+%  \end{tabular} 
+%
+%
+%\begin{tabular}{p{1cm}p{16cm}} 
+% 2008   & Guzzo, Nat\'alia Brambatti. My Father's Wallet [poem]. \textit{Cow Creek Review}, p. 102, Pittsburg (KS), USA.
+%  \end{tabular} 
+%
+%
+%\begin{tabular}{p{1cm}p{16cm}} 
+% 2008   & Guzzo, Nat\'alia Brambatti. A Fair in Antonio Prado, RS, Brazil [poem]. \textit{Cow Creek Review}, p. 103, Pittsburg (KS), USA.
+%  \end{tabular} 
+%
+%
+%\vspace{0.3cm}
+
+\section{Languages}
+
+Portuguese (native), English (near-native), French (advanced), Spanish (intermediate), Italian (intermediate), Veneto (heritage speaker, intermediate)
+
+%\begin{tabular}{p{16.4cm}}
+%Native: Portuguese\\
+%Near-Native: English\\
+%Advanced: French\\
+%High intermediate: Spanish\\
+%Intermediate: Italian\\
+%Heritage speaker: Venetian
+%\end{tabular}
+
+\vspace{0.3cm}
+
+\section{Computer Skills}
+
+\begin{tabular}{p{16.4cm}}
+Praat, \LaTeX, R, OpenSesame, MS Office, GoldVarb
+\end{tabular}
+
+
+
+
+
+
+%\newpage
+%\hypertarget{gmat}{\textsc{Gmat}\setmainfont{LMRoman10 Regular}\textregistered\setmainfont[SmallCapsFont=Fontin-SmallCaps]{Fontin-Regular}}
+
+%\XeTeXpdffile ''GMAT.pdf'' page 1 scaled 800
+
+\end{document}

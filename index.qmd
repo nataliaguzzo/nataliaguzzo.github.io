@@ -1,0 +1,15 @@
+---
+title: "Welcome {{< fa cat >}}"
+sidebar: false
+engine: knitr
+---
+
+![Natália B. Guzzo](figures/guzzo.jpeg){.main-figure title="In Cambridge MA, 2024"}I am a linguist. I examine the ways in which phonological representations are built. I investigate this issue from the perspective of natural language/probabilistic grammars, as well as from the perspective of language variation, language contact, and language acquisition.  I also investigate the relationship between phonetic and morphosyntactic data and phonological representations. In my work, I use experimental data as well as corpus data. My research focuses mostly on Romance languages, especially Brazilian Portuguese, Brazilian Veneto (Talian) and French, as well as on English.
+
+I am currently a lecturer in the École de langues at [Université Laval](https://www.ulaval.ca), in Québec City, Canada. I also work as lab coordinator at the [Speech and Hearing Neurosciences Laboratory](https://speechneurolab.ca/en/) (CERVO, Université Laval).  My PhD is from Universidade Federal do Rio Grande do Sul (UFRGS, Brazil).
+
+See [my CV](cv/guzzo-cv.pdf){target="_blank"} for contact information.
+
+<font color = "gray">Last updated: `r format(Sys.Date(), "%B %Y")`</font>
+
+***

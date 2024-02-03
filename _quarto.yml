@@ -1,0 +1,43 @@
+project:
+  type: website
+resources: 
+  - "CV/*.pdf"
+
+website:
+  title: "Natália Brambatti GUZZO"
+  body-header: |
+    <meta name = "description" content = "I'm a linguist who does research in phonology, phonology-syntax interface, language contact, language variation, and language acquisition."/>
+    <meta name = "keywords" content = "linguistics, linguist, phonology, phonology-syntax, syntax-phonology, phonologist, portuguese, brazilian portuguese, language acquisition, vowels, language contact, bilingualism, veneto, language variation, clitics, compounds, linguística, fonologia, fonóloga, português, português brasileiro, fonologia-sintaxe, sintaxe-fonologia, vêneto, talian, variação linguística, aquisição da linguagem, bilinguismo, contato linguístico, clíticos, compostos, aquisição de segunda língua, natália guzzo, guzzo, natália brambatti"/>
+    <meta name = "robots" content = "index, follow"/>
+  body-footer: "<p style='text-align: center'>Copyright © 2024 Natália Brambatti Guzzo</p>"
+  google-analytics: 
+    tracking-id: "G-NEVK03VJ8F"
+    anonymize-ip: true
+  sidebar:
+    contents:
+      - talian.qmd
+      - language.qmd
+      - corpus.qmd
+  navbar:
+    pinned: true
+    right:
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: publications.qmd
+        text: Publications
+      - href: research.qmd
+        text: Research
+      - text: "Talian"
+        menu:
+          - text: Project
+            href: talian.qmd
+          - text: Language
+            href: language.qmd
+          - text: Corpus
+            href: corpus.qmd
+format:
+  html:
+    theme: united
+    css: styles.css
