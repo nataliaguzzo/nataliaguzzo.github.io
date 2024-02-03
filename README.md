@@ -1,2 +1,0 @@
-
-# nataliaguzzo.github.io
