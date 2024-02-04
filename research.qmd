@@ -1,13 +1,14 @@
 ---
 title: "Research"
 sidebar: false
+lightbox: true
 ---
 
 ### Ongoing and past projects
 
 #### **1. Phonological representations**
 
-![](figures/bebi.jpeg){.main-figure title="Penelope being cute"}Most of my research focuses on how speakers build phonological representations, based on evidence from natural language grammars, experiments, phonetic data and corpus data. For example, in both collaborative and sole-authored work, I have investigated the effect of prosodic factors on the manifestation of rhotics in Brazilian Veneto, the patters of metaphony in Brazilian Veneto, the relationship between vowel reduction and phonological structure in Brazilian Portuguese, and the structural conditioning of high vowel deletion in Québec French.
+![Penelope being cute](figures/bebi.jpeg){.main-figure .lightbox lightbox-caption="Penelope being cute"}Most of my research focuses on how speakers build phonological representations, based on evidence from natural language grammars, experiments, phonetic data and corpus data. For example, in both collaborative and sole-authored work, I have investigated the effect of prosodic factors on the manifestation of rhotics in Brazilian Veneto, the patterns of metaphony in Brazilian Veneto, the relationship between vowel reduction and phonological structure in Brazilian Portuguese, and the structural conditioning of high vowel deletion in Québec French.
 <!-- I have investigated whether prosodic constituents can be identified based on indirect phonological evidence or subtle phonological phenomena, and whether prosodic constituency constrains (subtle) phonological variation. Recently, I have examined the realization of rhotic sounds in Brazilian Veneto (Talian), a language that has a single rhotic phoneme that seems to be manifested differently depending on position and stress. With <a href="https://guilhermegarcia.github.io" target="_blank">Guilherme Garcia</a>, I have examined vowel reduction in neoclassical elements in Brazilian Portuguese as a way to determine their prosodic representation. With <a href="http://people.linguistics.mcgill.ca/~heather.goad/" target="_blank">Heather Goad</a> and Guilherme Garcia, I have probed whether foot structure in Québec French can be identified on the basis of weakening segmental processes such as variable high vowel deletion.  -->
 
 *Output:*
@@ -60,7 +61,7 @@ I have also investigated how language contact affects speakers' phonological rep
 
 #### **4. Effects of prosody on sentence interpretation**
 
-![](figures/dengo.jpeg){.main-figure title="Peggy being cute"}In both joint and single-authored research, I have investigated how prosodic cues (such as pauses, changes in pitch, stress, and constituent size) impact native speakers' and second language learners' interpretations of ambiguous sentences. I have so far worked on ambiguous sentences involving depictive predicates in Brazilian Portuguese, relative clauses in English, and anaphoric pronouns in Italian.
+![Peggy being cute](figures/dengo.jpeg){.main-figure .lightbox lightbox-caption="Peggy being cute"}In both joint and single-authored research, I have investigated how prosodic cues (such as pauses, changes in pitch, stress, and constituent size) impact native speakers' and second language learners' interpretations of ambiguous sentences. I have so far worked on ambiguous sentences involving depictive predicates in Brazilian Portuguese, relative clauses in English, and anaphoric pronouns in Italian.
 
 *Output:*
 

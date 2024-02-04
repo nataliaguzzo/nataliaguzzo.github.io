@@ -1,7 +1,7 @@
 project:
   type: website
 resources: 
-  - "CV/*.pdf"
+  - "cv/*.pdf"
 
 website:
   title: "Natália Brambatti GUZZO"
