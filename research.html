@@ -38,6 +38,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -169,7 +172,7 @@ gtag('config', 'G-NEVK03VJ8F', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="ongoing-and-past-projects">Ongoing and past projects</h3>
 <section id="phonological-representations" class="level4">
 <h4 class="anchored" data-anchor-id="phonological-representations"><strong>1. Phonological representations</strong></h4>
-<p><img src="figures/bebi.jpeg" class="main-figure img-fluid" title="Penelope being cute">Most of my research focuses on how speakers build phonological representations, based on evidence from natural language grammars, experiments, phonetic data and corpus data. For example, in both collaborative and sole-authored work, I have investigated the effect of prosodic factors on the manifestation of rhotics in Brazilian Veneto, the patters of metaphony in Brazilian Veneto, the relationship between vowel reduction and phonological structure in Brazilian Portuguese, and the structural conditioning of high vowel deletion in Québec French. <!-- I have investigated whether prosodic constituents can be identified based on indirect phonological evidence or subtle phonological phenomena, and whether prosodic constituency constrains (subtle) phonological variation. Recently, I have examined the realization of rhotic sounds in Brazilian Veneto (Talian), a language that has a single rhotic phoneme that seems to be manifested differently depending on position and stress. With <a href="https://guilhermegarcia.github.io" target="_blank">Guilherme Garcia</a>, I have examined vowel reduction in neoclassical elements in Brazilian Portuguese as a way to determine their prosodic representation. With <a href="http://people.linguistics.mcgill.ca/~heather.goad/" target="_blank">Heather Goad</a> and Guilherme Garcia, I have probed whether foot structure in Québec French can be identified on the basis of weakening segmental processes such as variable high vowel deletion.  --></p>
+<p><a href="figures/bebi.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Penelope being cute"><img src="figures/bebi.jpeg" class="main-figure img-fluid" data-lightbox-caption="Penelope being cute. She's originally from Indiana, US." alt="Penelope being cute"></a>Most of my research focuses on how speakers build phonological representations, based on evidence from natural language grammars, experiments, phonetic data and corpus data. For example, in both collaborative and sole-authored work, I have investigated the effect of prosodic factors on the manifestation of rhotics in Brazilian Veneto, the patterns of metaphony in Brazilian Veneto, the relationship between vowel reduction and phonological structure in Brazilian Portuguese, and the structural conditioning of high vowel deletion in Québec French. <!-- I have investigated whether prosodic constituents can be identified based on indirect phonological evidence or subtle phonological phenomena, and whether prosodic constituency constrains (subtle) phonological variation. Recently, I have examined the realization of rhotic sounds in Brazilian Veneto (Talian), a language that has a single rhotic phoneme that seems to be manifested differently depending on position and stress. With <a href="https://guilhermegarcia.github.io" target="_blank">Guilherme Garcia</a>, I have examined vowel reduction in neoclassical elements in Brazilian Portuguese as a way to determine their prosodic representation. With <a href="http://people.linguistics.mcgill.ca/~heather.goad/" target="_blank">Heather Goad</a> and Guilherme Garcia, I have probed whether foot structure in Québec French can be identified on the basis of weakening segmental processes such as variable high vowel deletion.  --></p>
 <p><em>Output:</em></p>
 <ul>
 <li><p><strong>Guzzo, Natália Brambatti</strong>. submitted. Plural alternations and consonant syllabification in Brazilian Veneto.</p></li>
@@ -204,7 +207,7 @@ gtag('config', 'G-NEVK03VJ8F', { 'anonymize_ip': true});
 </section>
 <section id="effects-of-prosody-on-sentence-interpretation" class="level4">
 <h4 class="anchored" data-anchor-id="effects-of-prosody-on-sentence-interpretation"><strong>4. Effects of prosody on sentence interpretation</strong></h4>
-<p><img src="figures/dengo.jpeg" class="main-figure img-fluid" title="Peggy being cute">In both joint and single-authored research, I have investigated how prosodic cues (such as pauses, changes in pitch, stress, and constituent size) impact native speakers’ and second language learners’ interpretations of ambiguous sentences. I have so far worked on ambiguous sentences involving depictive predicates in Brazilian Portuguese, relative clauses in English, and anaphoric pronouns in Italian.</p>
+<p><a href="figures/dengo.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Peggy being cute"><img src="figures/dengo.jpeg" class="main-figure img-fluid" data-lightbox-caption="Peggy being cute. We adopted her in Halifax." alt="Peggy being cute"></a>In both joint and single-authored research, I have investigated how prosodic cues (such as pauses, changes in pitch, stress, and constituent size) impact native speakers’ and second language learners’ interpretations of ambiguous sentences. I have so far worked on ambiguous sentences involving depictive predicates in Brazilian Portuguese, relative clauses in English, and anaphoric pronouns in Italian.</p>
 <p><em>Output:</em></p>
 <ul>
 <li><p><strong>Guzzo, Natália</strong> and Chau Tran. in prep. The use of prosodic cues in the interpretation of ambiguous relative clauses in English by Vietnamese speakers.</p></li>
@@ -631,6 +634,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
